@@ -1,19 +1,22 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../../bower_components/iron-image/iron-image.html">
-<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html" />
+<link
+  rel="import"
+  href="../../bower_components/iron-flex-layout/iron-flex-layout.html"
+/>
 
-<link rel="import" href="../../bower_components/paper-button/paper-button.html">
+<link
+  rel="import"
+  href="../../bower_components/paper-button/paper-button.html"
+/>
 
-<link rel="import" href="../styles/shared-styles.html">
-<link rel="import" href="../behaviors/localize-behavior.html">
-<link rel="import" href="../behaviors/utils-behavior.html">
-
+<link rel="import" href="../styles/shared-styles.html" />
+<link rel="import" href="../behaviors/localize-behavior.html" />
+<link rel="import" href="../behaviors/utils-behavior.html" />
 
 <dom-module id="featured-people">
-
   <template>
-
     <style include="shared-styles">
       :host {
         display: block;
@@ -26,20 +29,20 @@
       }
 
       .people-wrapper {
-        @apply(--layout-horizontal);
-        @apply(--layout-wrap);
+        @apply (--layout-horizontal);
+        @apply (--layout-wrap);
         margin-top: 40px;
       }
 
       .person {
-        @apply(--layout-vertical);
-        @apply(--layout-center);
+        @apply (--layout-vertical);
+        @apply (--layout-center);
         color: var(--primary-text-color);
         width: 50%;
       }
 
       .photo {
-        @apply(--img-circle);
+        @apply (--img-circle);
         height: 70px;
         width: 70px;
       }
@@ -47,14 +50,14 @@
       .name {
         margin-top: 5px;
         padding: 0 16px;
-        line-height: .9;
+        line-height: 0.9;
       }
 
       .company {
         margin-top: 4px;
         padding: 0 16px;
         display: block;
-        font-size: .7em;
+        font-size: 0.7em;
         line-height: 1;
       }
 
@@ -62,7 +65,7 @@
         margin-top: 25px;
         display: block;
         color: inherit;
-        font-size: .9em;
+        font-size: 0.9em;
       }
 
       .company-logo {
@@ -85,15 +88,19 @@
         }
 
         .person {
-          @apply(--layout-flex);
+          @apply (--layout-flex);
         }
       }
     </style>
 
     <div class="container">
       <h4 class="heading">[[localize('featured-people-title')]]</h4>
-      <div class="people-wrapper">
-        <template is="dom-repeat" items="[[featuredPeople]]" as="person">
+      <div
+        class="people-wrapper"
+        style="display: flex; justify-content: center"
+      >
+        <h1>Coming soon!</h1>
+        <!-- <template is="dom-repeat" items="[[featuredPeople]]" as="person">
           <a href$="/speakers/[[person.id]]" class="person">
             <iron-image
               class="photo"
@@ -108,35 +115,30 @@
             <h4 class="name">[[person.name]]</h4>
             <span class="company">[[person.country]]</span>
           </a>
-        </template>
+        </template> -->
       </div>
-      <div>
+      <!-- <div>
         <a href="/speakers" class="block-link">
           <paper-button>[[localize('featured-people-view-all')]]</paper-button>
         </a>
-      </div>
+      </div> -->
     </div>
-
   </template>
 
   <script>
     (function () {
-      'use strict';
+      "use strict";
 
       Polymer({
+        is: "featured-people",
 
-        is: 'featured-people',
-
-        behaviors: [
-          HOVERBOARD.LocalizeBehavior,
-          HOVERBOARD.UtilsBehavior
-        ],
+        behaviors: [HOVERBOARD.LocalizeBehavior, HOVERBOARD.UtilsBehavior],
 
         properties: {
           people: {
             type: Array,
-            observer: '_peopleChanged'
-          }
+            observer: "_peopleChanged",
+          },
         },
 
         _peopleChanged: function () {
@@ -148,11 +150,8 @@
             }
           }
           this.featuredPeople = this._randomOrder(filteredPeople).slice(0, 4);
-        }
-
+        },
       });
-
-    }());
+    })();
   </script>
-
 </dom-module>

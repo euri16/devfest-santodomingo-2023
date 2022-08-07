@@ -12,8 +12,8 @@
   },
   "webapp": {
     "shortName": "DevFest",
-    "themeColor": "#ecc491",
-    "backgroundColor": "#ecc491"
+    "themeColor": "#673ab7",
+    "backgroundColor": "#673ab7"
   },
   "firebase": {
     "name": "devfest2018",
@@ -30,7 +30,7 @@
   },
   "dateFormat": {
     "locale": "fr-FR",
-    "blog": {"month": "short", "day": "numeric", "year": "numeric"}
+    "blog": { "month": "short", "day": "numeric", "year": "numeric" }
   },
   "languages": [
     {
@@ -44,11 +44,11 @@
   ],
   "description": "LE festival des développeurs organisé par des développeurs ! Tout sur le Mobile, IoT, Web et Cloud présenté par des experts du monde entier pour une des plus grandes conférences techniques.",
   "keywords": "event, gdg, gde, devfest, nantes, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "hashtag": "DevFestNantes",
+  "hashtag": "DevFestSantoDomingo2022",
   "disqusShortName": "devfest.gdgnantes",
   "tweetsSource": "https://tweeter-devfestnantes.herokuapp.com/favoritesjson.php?c=10&cache_interval=8000",
   "partnershipProposition": "partnership-proposition-url",
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLuZ_sYdawLiXyaSnyRinPKvPXQIsNaJFz",
+  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLokIBNX1GWGuLE8Jwxvv87TgXw7n_-Aaw",
   "enableSessionsRating": true,
   "codPath": "cod-path",
   "navigation": [
@@ -60,22 +60,22 @@
     {
       "route": "blog",
       "permalink": "/blog/",
-      "inMenu": true
+      "inMenu": false
     },
     {
       "route": "attending",
       "permalink": "/attending/",
-      "inMenu": true
+      "inMenu": false
     },
     {
       "route": "schedule",
       "permalink": "/schedule/",
-      "inMenu": true
+      "inMenu": false
     },
     {
       "route": "speakers",
       "permalink": "/speakers/",
-      "inMenu": true
+      "inMenu": false
     },
     {
       "route": "speaker",
@@ -90,7 +90,7 @@
     {
       "route": "faq",
       "permalink": "/faq/",
-      "inMenu": true
+      "inMenu": false
     }
   ],
   "social": [
@@ -175,12 +175,12 @@
   },
   "location": {
     "apiKey": "AIzaSyChcvE26qgZJs2j4UKC2Q621aJIh2L4hEY",
-    "name": "Cité des Congrès, Nantes",
-    "address": "5 rue de Valmy",
+    "name": "Santo Domingo, Distrito Nacional",
+    "address": "Av. Máximo Gómez 72, Santo Domingo 10100",
     "link": "http://www.lacite-nantes.fr/",
     "pointer": {
-      "latitude": 47.2129658,
-      "longitude": -1.5425652,
+      "latitude": 18.473685,
+      "longitude": -69.914115,
       "zoom": 5
     },
     "mapCenter": {
@@ -189,15 +189,15 @@
     },
     "mapAttending": {
       "title": "location-attending-title",
-      "name": "Cité des Congrès, Nantes",
-      "address": "5 rue de Valmy",
+      "name": "Santo Domingo, Distrito Nacional",
+      "address": "Av. Máximo Gómez 72, Santo Domingo 10100",
       "city": "location-city",
-      "latitude": 47.2129658,
-      "longitude": -1.532333,
+      "latitude": 18.473685,
+      "longitude": -69.914115,
       "zoom": 14,
       "pointer": {
-        "latitude": 47.2129658,
-        "longitude": -1.5425652,
+        "latitude": 18.473685,
+        "longitude": -69.914115,
         "zoom": 5
       }
     },
@@ -235,7 +235,7 @@
   },
   "hotelTitle": "hotel-title",
   "hotelText": "hotel-text",
-  "hotels" : [
+  "hotels": [
     {
       "name": "Hôtel Residhome",
       "adress": "3 allée Jacques Berque",
@@ -247,39 +247,39 @@
   ],
   "indoorMapTitle": "indoor-map-title",
   "transport": {
-      "title": "transport-attending-title",
-      "elements": [
-        {
-          "icon": "train",
-          "title": "train-title",
-          "text": "train-text"
-        },
-        {
-          "icon": "tram",
-          "title": "tram-title",
-          "text": "tram-text"
-        },
-        {
-          "icon": "car",
-          "title": "car-title",
-          "text": "car-text"
-        },
-        {
-          "icon": "flight",
-          "title": "flight-title",
-          "text": "flight-text"
-        },
-				{
-					"icon": "rocket",
-					"title": "rocket-title",
-					"text": "rocket-text"
-				}
-      ]
-    },
+    "title": "transport-attending-title",
+    "elements": [
+      {
+        "icon": "train",
+        "title": "train-title",
+        "text": "train-text"
+      },
+      {
+        "icon": "tram",
+        "title": "tram-title",
+        "text": "tram-text"
+      },
+      {
+        "icon": "car",
+        "title": "car-title",
+        "text": "car-text"
+      },
+      {
+        "icon": "flight",
+        "title": "flight-title",
+        "text": "flight-text"
+      },
+      {
+        "icon": "rocket",
+        "title": "rocket-title",
+        "text": "rocket-text"
+      }
+    ]
+  },
   "gallery": {
     "albumUrl": "https://www.flickr.com/photos/gdgnantes/albums/72157702575476534",
     "photos": {
-      "big": "/images/backgrounds/2018_1.jpg",
+      "big": "/images/backgrounds/big.jpg",
       "small": [
         "/images/backgrounds/2018_2.jpg",
         "/images/backgrounds/2018_3.jpg"
@@ -289,12 +289,12 @@
   "pages": {
     "home": {
       "headerSettings": {
-        "backgroundColor": "#C15017",
-        "backgroundImage": "/images/backgrounds/space_1.jpg",
+        "backgroundColor": "#673ab7",
+        "backgroundImage": "/images/backgrounds/bg-grupal.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "video": {
-          "title": "DevFest Nantes 2018",
+          "title": "DevFest Santo Domingo 2022",
           "youtubeId": "xcYWs4YEISU",
           "text": "play-icon"
         },
@@ -387,40 +387,58 @@
     }
   },
   "tickets": {
-    "url": "https://www.billetweb.fr/devfest-nantes-2018",
+    "url": "https://www.eventbrite.com/e/gdg-devfest-santo-domingo-2022-tickets-396256442687",
     "elements": [
       {
-        "name": "student-ticket",
-        "price": 20,
-        "currency": "€",
-        "starts": "student-ticket-starts",
-        "ends": "student-ticket-ends",
-        "info": "student-ticket-info",
-        "soldOut": true
+        "name": "Super Early Bird General",
+        "price": 25,
+        "currency": " USD",
+        "starts": "super-early-ticket-starts",
+        "ends": "early-ticket-starts",
+        "info": "early-ticket-info",
+        "soldOut": false
       },
       {
-        "name": "early-ticket",
-        "price": 70,
-        "currency": "€",
+        "name": "Early Bird General",
+        "price": 37.5,
+        "currency": " USD",
         "starts": "early-ticket-starts",
         "ends": "early-ticket-ends",
         "info": "early-ticket-info",
-        "soldOut": true
+        "soldOut": false
       },
       {
-        "name": "lazy-ticket",
-        "price": 90,
-        "currency": "€",
+        "name": "Early Bird VIP",
+        "price": 85,
+        "currency": " USD",
+        "starts": "super-early-ticket-starts",
+        "ends": "early-ticket-ends",
+        "info": "early-ticket-info",
+        "soldOut": false
+      },
+      {
+        "name": "Early Bird Estudiantes",
+        "price": 25,
+        "currency": " USD",
+        "starts": "student-ticket-starts",
+        "ends": "student-ticket-ends",
+        "info": "early-ticket-info",
+        "soldOut": false
+      },
+      {
+        "name": "Invita un amigo(3x2 General)",
+        "price": 100,
+        "currency": " USD",
         "starts": "lazy-ticket-starts",
         "ends": "lazy-ticket-ends",
         "info": "lazy-ticket-info",
-        "soldOut": true
+        "soldOut": false
       }
     ]
   },
   "statistics": [
     {
-      "counter": 1800,
+      "counter": 250,
       "caption": "attendees"
     },
     {
@@ -428,7 +446,7 @@
       "caption": "days"
     },
     {
-      "counter": 4,
+      "counter": 1,
       "caption": "tracks"
     },
     {

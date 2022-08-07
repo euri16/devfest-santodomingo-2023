@@ -3,9 +3,9 @@
     "title": "Core Team",
     "members": [
       {
-        "name": "Julien Landuré",
-        "aka": "Président",
-        "photoUrl": "/images/team/julien.png",
+        "name": "Eury Perez",
+        "aka": "Presidente",
+        "photoUrl": "/images/team/eury.jpeg",
         "socials": [
           {
             "icon": "gplus",
@@ -23,12 +23,12 @@
             "link": "https://github.com/jlandure"
           }
         ],
-        "title": "CTO Zenika Nantes"
+        "title": "X-Team Senior Dev"
       },
       {
-        "name": "Jean-François Garreau",
-        "aka": "Trésorier",
-        "photoUrl": "/images/team/jean-françois.png",
+        "name": "Alexander Vegaso",
+        "aka": "Co-organizador",
+        "photoUrl": "/images/team/vegaso.jpeg",
         "socials": [
           {
             "icon": "gplus",
@@ -54,9 +54,9 @@
         "title": "CTO Sfeir Nantes"
       },
       {
-        "name": "Benjamin Petetot",
-        "aka": "Responsable UX",
-        "photoUrl": "/images/team/benjamin.png",
+        "name": "Elaine Guzman",
+        "aka": "Co-organizadora",
+        "photoUrl": "/images/team/elaine.jpeg",
         "socials": [
           {
             "icon": "gplus",
@@ -77,9 +77,9 @@
         "title": "Tech Lead Zenika Nantes"
       },
       {
-        "name": "Xavier Marc",
-        "aka": "Chargé relation prestataires",
-        "photoUrl": "/images/team/xavier.png",
+        "name": "Pedro Sosa",
+        "aka": "Responsable técnico",
+        "photoUrl": "/images/team/pedro.jpg",
         "socials": [
           {
             "icon": "gplus",
@@ -102,7 +102,7 @@
             "link": "https://www.linkedin.com/in/xaviermarc"
           }
         ],
-        "title": "Tech Lead Sogeti"
+        "title": "CTO tuguru"
       },
       {
         "name": "Aymeric Fouchault",

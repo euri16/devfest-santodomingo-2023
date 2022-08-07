@@ -1,56 +1,14 @@
 [
   {
-    "youtubeId": "_CIY4Zr4PD8",
-    "title": "Keynote d'ouverture / Opening keynote",
-    "speakers": "Christian Heilmann",
-    "thumbnail": "/images/sessions/christian_heilmann.jpg"
+    "youtubeId": "HzSvgzQFbos",
+    "title": "Composing Cloud Infrastructures as k8 resources",
+    "speakers": "Shailyn Ortíz",
+    "thumbnail": "/images/sessions/shailyn.jpg"
   },
   {
-    "youtubeId": "JaHsrC7UNeM",
-    "title": "Look mum, no hands ! Mind control in JavaScript",
-    "speakers": "Charlie Gerard",
-    "thumbnail": "/images/sessions/charlie_gerard.jpg"
-  },
-  {
-    "youtubeId": "pi-ABBZ1AIw",
-    "title": "Istio, we have a problem! Understanding and fixing bugs with a service-mesh",
-    "speakers": "David Gageot",
-    "thumbnail": "/images/sessions/david_gageot.jpg"
-  },
-  {
-    "youtubeId": "HXlBZHUqjxw",
-    "title": "Ghost in the Machine",
-    "speakers": "Etienne Caron",
-    "thumbnail": "/images/sessions/etienne_caron.jpg"
-  },
-  {
-    "youtubeId": "QFRkDG74OFc",
-    "title": "Comment perdre sa surchage featurale",
-    "speakers": "Estelle Landry",
-    "thumbnail": "/images/sessions/estelle_landry.jpg"
-  },
-  {
-    "youtubeId": "g45PA50opKM",
-    "title": "Hello from the other side",
-    "speakers": "Ingrid Epure",
-    "thumbnail": "/images/sessions/ingrid_epure.jpg"
-  },
-  {
-    "youtubeId": "kJR74dG6_1U",
-    "title": "Au pays des Gophers à partir de 3 ans",
-    "speakers": "Nicolas Lepage",
-    "thumbnail": "/images/sessions/nicolas_lepage.jpg"
-  },
-  {
-    "youtubeId": "3eMSKHkXvww",
-    "title": "Shaving my head made me a better programmer",
-    "speakers": "Alex Qin",
-    "thumbnail": "/images/sessions/alex_qin.jpg"
-  },
-  {
-    "youtubeId": "2E2SzUYdlCc",
-    "title": "Où sont les femmes ?",
-    "speakers": "Cécilia Bossard & Sarah Haim-Lubczanski",
-    "thumbnail": "/images/sessions/cecilia_bossard_sarah_haim-lubczanski.jpg"
+    "youtubeId": "TC1tRiJ4Jhw",
+    "title": "Scaling With Flutter",
+    "speakers": "Noe Branagan",
+    "thumbnail": "/images/sessions/noe.jpg"
   }
 ]

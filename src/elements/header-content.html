@@ -1,35 +1,38 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link
+  rel="import"
+  href="../../bower_components/iron-flex-layout/iron-flex-layout.html"
+/>
 
-<link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html" />
 
-<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html" />
 
-<link rel="import" href="../../bower_components/neon-animation/neon-animated-pages.html">
+<link
+  rel="import"
+  href="../../bower_components/neon-animation/neon-animated-pages.html"
+/>
 
-<link rel="import" href="../styles/shared-styles.html">
-<link rel="import" href="../behaviors/localize-behavior.html">
-<link rel="import" href="animatable-content.html">
-
+<link rel="import" href="../styles/shared-styles.html" />
+<link rel="import" href="../behaviors/localize-behavior.html" />
+<link rel="import" href="animatable-content.html" />
 
 <dom-module id="header-content">
-
   <template>
-
     <style include="shared-styles">
       :host {
-        --paper-tabs-selection-bar-color: #FFFFFF;
+        --paper-tabs-selection-bar-color: #ffffff;
         --paper-tab-ink: rgba(255, 255, 255, 0.2);
         --paper-tab-content: {
           font-weight: 400 !important;
-        };
+        }
         --paper-tab: {
-          color: #FFFFFF;
+          color: #ffffff;
           font-weight: 400;
           text-transform: uppercase;
           flex: none;
-        };
+        }
         display: block;
         position: relative;
         overflow: hidden;
@@ -37,11 +40,11 @@
 
       app-toolbar {
         min-height: var(--min-header-height, 120px);
-        max-height: 360px;
+        /* max-height: 360px; */
       }
 
       .container {
-        @apply(--layout-vertical-reverse);
+        @apply (--layout-vertical-reverse);
         padding-top: 0;
         padding-bottom: 20px;
         position: relative;
@@ -50,7 +53,8 @@
         box-sizing: border-box;
       }
 
-      .container .page-citation, .page-author-citation {
+      .container .page-citation,
+      .page-author-citation {
         padding-right: 25%;
         width: 30%;
         text-align: right;
@@ -71,7 +75,7 @@
 
       .page-subtitle {
         font-size: 16px;
-      } 
+      }
 
       .page-citation {
         margin: auto 0 0 auto;
@@ -89,8 +93,8 @@
       }
 
       .logo {
-        width: 300px;
-        min-height: 80px;
+        width: 100%;
+        min-height: 100px;
       }
 
       .dates {
@@ -108,13 +112,13 @@
       }
 
       .action-buttons {
-        @apply(--layout-horizontal);
+        @apply (--layout-horizontal);
         margin-top: 40px;
       }
 
       .action-buttons paper-button {
-        @apply(--layout-horizontal);
-        @apply(--layout-center-justified);
+        @apply (--layout-horizontal);
+        @apply (--layout-center-justified);
       }
 
       paper-button {
@@ -128,8 +132,8 @@
       }
 
       .open-video {
-        @apply(--layout-horizontal);
-        @apply(--layout-center);
+        @apply (--layout-horizontal);
+        @apply (--layout-center);
         margin-top: 20px;
         cursor: pointer;
         font-size: 16px;
@@ -151,37 +155,58 @@
         }
 
         app-toolbar {
-          min-height: 360px;
+          /* min-height: 360px; */
         }
       }
-      
+
       @media (max-width: 1400px) {
-        .container .page-citation, .page-author-citation {
+        .container .page-citation,
+        .page-author-citation {
           padding-right: 15%;
           width: 40%;
         }
       }
-
     </style>
 
-    <app-toolbar>
+    <app-toolbar style="height: 100%; position: absolute; width: 100%">
       <neon-animated-pages attr-for-selected="name" selected="{{app.page}}">
         <animatable-content name="home">
           <div class="container" center-justified>
-            <div class="home-wrapper">
-              <iron-image class="logo" src="/images/logo-white.svg" sizing="contain"
-                          alt="DevFest Nantes 2018"></iron-image>
+            <div
+              class="home-wrapper"
+              style="
+                width: 100% !important;
+                max-width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              "
+            >
+              <iron-image
+                class="logo"
+                src="/images/DF22.png"
+                sizing="contain"
+                alt="DevFest Santo Domingo 2019"
+              ></iron-image>
               <h3 class="dates">{{localize('dates')}}</h3>
               <h2 class="motto">{{localize('motto')}}</h2>
-              
+
               <div class="action-buttons">
-                <a href="https://www.youtube.com/playlist?list=PLuZ_sYdawLiXyaSnyRinPKvPXQIsNaJFz" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.youtube.com/playlist?list=PLokIBNX1GWGuLE8Jwxvv87TgXw7n_-Aaw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <paper-button class="primary">
                     <iron-icon icon="video"></iron-icon>
                     [[localize('videos')]]
                   </paper-button>
                 </a>
-                <a href="https://www.flickr.com/photos/gdgnantes/albums/72157702575476534" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.flickr.com/photos/gdgnantes/albums/72157702575476534"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <paper-button class="primary">
                     <iron-icon icon="photo"></iron-icon>
                     [[localize('album-photo')]]
@@ -193,12 +218,28 @@
         </animatable-content>
         <animatable-content name="blog">
           <div class="container">
-            <h3 class="page-title" hidden$="{{app.headerSettings.title}}">{{localize('blog')}}</h3>
-            <h3 class="page-title" hidden$="{{!app.headerSettings.title}}">[[app.headerSettings.title]]</h3>
-            <div class="page-subtitle" hidden$="{{!app.headerSettings.subtitle}}">[[app.headerSettings.subtitle]]</div>
+            <h3 class="page-title" hidden$="{{app.headerSettings.title}}">
+              {{localize('blog')}}
+            </h3>
+            <h3 class="page-title" hidden$="{{!app.headerSettings.title}}">
+              [[app.headerSettings.title]]
+            </h3>
+            <div
+              class="page-subtitle"
+              hidden$="{{!app.headerSettings.subtitle}}"
+            >
+              [[app.headerSettings.subtitle]]
+            </div>
             <template is="dom-if" if="[[app.isDesktopSize]]">
-              <div class="page-author-citation" hidden$="{{app.headerSettings.title}}">{$ pages.blog.headerSettings.authorCitation $}</div>
-              <div class="page-citation" hidden$="{{app.headerSettings.title}}">{$ pages.blog.headerSettings.citation $}</div>
+              <div
+                class="page-author-citation"
+                hidden$="{{app.headerSettings.title}}"
+              >
+                {$ pages.blog.headerSettings.authorCitation $}
+              </div>
+              <div class="page-citation" hidden$="{{app.headerSettings.title}}">
+                {$ pages.blog.headerSettings.citation $}
+              </div>
             </template>
           </div>
         </animatable-content>
@@ -206,8 +247,12 @@
           <div class="container">
             <h3 class="page-title">{{localize('speaker')}}</h3>
             <template is="dom-if" if="[[app.isDesktopSize]]">
-              <div class="page-author-citation">{$ pages.speaker.headerSettings.authorCitation $}</div>
-              <div class="page-citation">{$ pages.speaker.headerSettings.citation $}</div>
+              <div class="page-author-citation">
+                {$ pages.speaker.headerSettings.authorCitation $}
+              </div>
+              <div class="page-citation">
+                {$ pages.speaker.headerSettings.citation $}
+              </div>
             </template>
           </div>
         </animatable-content>
@@ -215,8 +260,12 @@
           <div class="container">
             <h3 class="page-title">{{localize('speakers')}}</h3>
             <template is="dom-if" if="[[app.isDesktopSize]]">
-              <div class="page-author-citation">{$ pages.speakers.headerSettings.authorCitation $}</div>
-              <div class="page-citation">{$ pages.speakers.headerSettings.citation $}</div>
+              <div class="page-author-citation">
+                {$ pages.speakers.headerSettings.authorCitation $}
+              </div>
+              <div class="page-citation">
+                {$ pages.speakers.headerSettings.citation $}
+              </div>
             </template>
           </div>
         </animatable-content>
@@ -224,26 +273,38 @@
           <div class="container">
             <h3 class="page-title">{{localize('schedule')}}</h3>
             <template is="dom-if" if="[[app.isDesktopSize]]">
-              <div class="page-author-citation">{$ pages.schedule.headerSettings.authorCitation $}</div>
-              <div class="page-citation">{$ pages.schedule.headerSettings.citation $}</div>
+              <div class="page-author-citation">
+                {$ pages.schedule.headerSettings.authorCitation $}
+              </div>
+              <div class="page-citation">
+                {$ pages.schedule.headerSettings.citation $}
+              </div>
             </template>
           </div>
         </animatable-content>
-         <animatable-content name="attending">
+        <animatable-content name="attending">
           <div class="container">
             <h3 class="page-title">{{localize('attending')}}</h3>
             <template is="dom-if" if="[[app.isDesktopSize]]">
-              <div class="page-author-citation">{$ pages.attending.headerSettings.authorCitation $}</div>
-              <div class="page-citation">{$ pages.attending.headerSettings.citation $}</div>
+              <div class="page-author-citation">
+                {$ pages.attending.headerSettings.authorCitation $}
+              </div>
+              <div class="page-citation">
+                {$ pages.attending.headerSettings.citation $}
+              </div>
             </template>
           </div>
         </animatable-content>
         <animatable-content name="team">
-          <div class="container">
+          <div class="container" style="position: absolute; top: -400px">
             <h3 class="page-title">{{localize('team')}}</h3>
             <template is="dom-if" if="[[app.isDesktopSize]]">
-              <div class="page-author-citation">{$ pages.team.headerSettings.authorCitation $}</div>
-              <div class="page-citation">{$ pages.team.headerSettings.citation $}</div>
+              <div class="page-author-citation">
+                {$ pages.team.headerSettings.authorCitation $}
+              </div>
+              <div class="page-citation">
+                {$ pages.team.headerSettings.citation $}
+              </div>
             </template>
           </div>
         </animatable-content>
@@ -251,8 +312,12 @@
           <div class="container">
             <h3 class="page-title">{{localize('faq')}}</h3>
             <template is="dom-if" if="[[app.isDesktopSize]]">
-              <div class="page-author-citation">{$ pages.faq.headerSettings.authorCitation $}</div>
-              <div class="page-citation">{$ pages.faq.headerSettings.citation $}</div>
+              <div class="page-author-citation">
+                {$ pages.faq.headerSettings.authorCitation $}
+              </div>
+              <div class="page-citation">
+                {$ pages.faq.headerSettings.citation $}
+              </div>
             </template>
           </div>
         </animatable-content>
@@ -260,58 +325,62 @@
           <div class="container">
             <h3 class="page-title">{{localize('cod')}}</h3>
             <template is="dom-if" if="[[app.isDesktopSize]]">
-              <div class="page-author-citation">{$ pages.cod.headerSettings.authorCitation $}</div>
-              <div class="page-citation">{$ pages.cod.headerSettings.citation $}</div>
+              <div class="page-author-citation">
+                {$ pages.cod.headerSettings.authorCitation $}
+              </div>
+              <div class="page-citation">
+                {$ pages.cod.headerSettings.citation $}
+              </div>
             </template>
           </div>
         </animatable-content>
       </neon-animated-pages>
     </app-toolbar>
-
   </template>
 
   <script>
     (function () {
-      'use strict';
+      "use strict";
 
       Polymer({
+        is: "header-content",
 
-        is: 'header-content',
-
-        behaviors: [
-          HOVERBOARD.LocalizeBehavior
-        ],
+        behaviors: [HOVERBOARD.LocalizeBehavior],
 
         properties: {
           app: {
-            type: Object
+            type: Object,
           },
           schedule: Array,
           selectedDay: {
             type: Number,
             notify: true,
-            value: 0
-          }
+            value: 0,
+          },
         },
 
         _openVideo: function () {
-          HOVERBOARD.Elements.Template.openVideo('{$ pages.home.headerSettings.video.title $}',
-            '{$ pages.home.headerSettings.video.youtubeId $}', true);
-          HOVERBOARD.Analytics.trackEvent('video', 'watch', '{$ pages.home.headerSettings.video.title $}');
+          HOVERBOARD.Elements.Template.openVideo(
+            "{$ pages.home.headerSettings.video.title $}",
+            "{$ pages.home.headerSettings.video.youtubeId $}",
+            true
+          );
+          HOVERBOARD.Analytics.trackEvent(
+            "video",
+            "watch",
+            "{$ pages.home.headerSettings.video.title $}"
+          );
         },
 
         _scrollToTickets: function () {
-          HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'header');
+          HOVERBOARD.Analytics.trackEvent("ticket", "buy_click", "header");
           Polymer.AppLayout.scroll({
             top: HOVERBOARD.Elements.Tickets.getBoundingClientRect().top,
-            behavior: 'smooth',
-            target: HOVERBOARD.Elements.Scroller
+            behavior: "smooth",
+            target: HOVERBOARD.Elements.Scroller,
           });
-        }
-
+        },
       });
-
-    }());
+    })();
   </script>
-
 </dom-module>

@@ -1,41 +1,65 @@
-<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../bower_components/app-layout/app-layout.html">
-<link rel="import" href="../bower_components/app-layout/app-scroll-effects/effects/waterfall.html">
-<link rel="import" href="../bower_components/app-layout/app-scroll-effects/effects/parallax-background.html">
-<link rel="import" href="../bower_components/app-layout/app-scroll-effects/effects/blend-background.html">
-<link rel="import" href="../bower_components/app-route/app-location.html">
-<link rel="import" href="../bower_components/app-route/app-route.html">
+<link rel="import" href="../bower_components/app-layout/app-layout.html" />
+<link
+  rel="import"
+  href="../bower_components/app-layout/app-scroll-effects/effects/waterfall.html"
+/>
+<link
+  rel="import"
+  href="../bower_components/app-layout/app-scroll-effects/effects/parallax-background.html"
+/>
+<link
+  rel="import"
+  href="../bower_components/app-layout/app-scroll-effects/effects/blend-background.html"
+/>
+<link rel="import" href="../bower_components/app-route/app-location.html" />
+<link rel="import" href="../bower_components/app-route/app-route.html" />
 
-<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
-<link rel="import" href="../bower_components/iron-media-query/iron-media-query.html">
-<link rel="import" href="../bower_components/iron-pages/iron-pages.html">
-<link rel="import" href="../bower_components/iron-selector/iron-selector.html">
+<link
+  rel="import"
+  href="../bower_components/iron-flex-layout/iron-flex-layout.html"
+/>
+<link
+  rel="import"
+  href="../bower_components/iron-media-query/iron-media-query.html"
+/>
+<link rel="import" href="../bower_components/iron-pages/iron-pages.html" />
+<link
+  rel="import"
+  href="../bower_components/iron-selector/iron-selector.html"
+/>
 
-<link rel="import" href="../bower_components/polymerfire/polymerfire.html">
+<link rel="import" href="../bower_components/polymerfire/polymerfire.html" />
 
-<link rel="import" href="../bower_components/neon-animation/neon-animated-pages.html">
-<link rel="import" href="../bower_components/neon-animation/animations/fade-out-animation.html">
-<link rel="import" href="../bower_components/neon-animation/animations/scale-up-animation.html">
+<link
+  rel="import"
+  href="../bower_components/neon-animation/neon-animated-pages.html"
+/>
+<link
+  rel="import"
+  href="../bower_components/neon-animation/animations/fade-out-animation.html"
+/>
+<link
+  rel="import"
+  href="../bower_components/neon-animation/animations/scale-up-animation.html"
+/>
 
-<link rel="import" href="effects/fade-effect.html">
-<link rel="import" href="behaviors/utils-behavior.html">
-<link rel="import" href="behaviors/localize-behavior.html">
-<link rel="import" href="elements/app-data.html">
-<link rel="import" href="elements/drawer-block.html">
-<link rel="import" href="elements/toolbar-block.html">
-<link rel="import" href="elements/header-content.html">
-<link rel="import" href="elements/video-dialog.html">
-<link rel="import" href="elements/toast-element.html">
-<link rel="import" href="elements/info-dialog.html">
+<link rel="import" href="effects/fade-effect.html" />
+<link rel="import" href="behaviors/utils-behavior.html" />
+<link rel="import" href="behaviors/localize-behavior.html" />
+<link rel="import" href="elements/app-data.html" />
+<link rel="import" href="elements/drawer-block.html" />
+<link rel="import" href="elements/toolbar-block.html" />
+<link rel="import" href="elements/header-content.html" />
+<link rel="import" href="elements/video-dialog.html" />
+<link rel="import" href="elements/toast-element.html" />
+<link rel="import" href="elements/info-dialog.html" />
 
-<link rel="import" href="pages/home-page.html">
-
+<link rel="import" href="pages/home-page.html" />
 
 <dom-module id="hoverboard-app">
-
   <template>
-
     <style include="shared-styles">
       :host {
         --min-header-height: 120px;
@@ -44,7 +68,7 @@
       }
 
       app-drawer-layout {
-        @apply(--layout-fit);
+        @apply (--layout-fit);
       }
 
       app-drawer {
@@ -52,22 +76,28 @@
       }
 
       .image-overlay {
-        @apply(--layout-fit);
-        @apply(--opacity-animation);
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.7) 140%);
+        @apply (--layout-fit);
+        @apply (--opacity-animation);
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.4) 0%,
+          rgba(0, 0, 0, 0) 35%,
+          rgba(0, 0, 0, 0.7) 140%
+        );
         height: 100%;
       }
 
       app-header {
-        @apply(--layout-fixed-top);
+        height: 100vh;
+        @apply (--layout-fixed-top);
         --app-header-background-front-layer: {
           background-image: var(--header-background-image);
           background-position: 85% 50%;
           transition: background-image 0.5s;
-        };
+        }
         --app-header-background-rear-layer: {
           background-color: var(--header-background);
-        };
+        }
         background-color: var(--header-background);
         color: var(--header-color);
         transition-property: transform, background-color, color, height;
@@ -75,8 +105,9 @@
       }
 
       .image-overlay-wrapper {
-        @apply(--layout-fit);
-        opacity: 0;
+        @apply (--layout-fit);
+        /* opacity: 0; */
+        background: #00000080;
       }
 
       toolbar-block {
@@ -84,41 +115,50 @@
       }
 
       .main-content {
-        padding-top: calc(var(--min-header-height) + 64px);
+        /* padding-top: calc(var(--min-header-height) + 64px); */
+        padding-top: 100vh;
       }
 
       @media (min-width: 601px) {
         .main-content {
-          padding-top: 424px;
+          padding-top: 100vh;
         }
       }
     </style>
 
     <!-- Responsive handlers -->
-    <iron-media-query id="mq-phone"
-                      full
-                      query="(max-width:768px)"
-                      query-matches="{{app.isPhoneSize}}"></iron-media-query>
-    <iron-media-query id="mq-tablet"
-                      full
-                      query="(min-width:769px) and (max-width:959px)"
-                      query-matches="{{app.isTabletSize}}"></iron-media-query>
-    <iron-media-query id="mq-desktop"
-                      query="(min-width:960px)"
-                      query-matches="{{app.isDesktopSize}}"></iron-media-query>
+    <iron-media-query
+      id="mq-phone"
+      full
+      query="(max-width:768px)"
+      query-matches="{{app.isPhoneSize}}"
+    ></iron-media-query>
+    <iron-media-query
+      id="mq-tablet"
+      full
+      query="(min-width:769px) and (max-width:959px)"
+      query-matches="{{app.isTabletSize}}"
+    ></iron-media-query>
+    <iron-media-query
+      id="mq-desktop"
+      query="(min-width:960px)"
+      query-matches="{{app.isDesktopSize}}"
+    ></iron-media-query>
 
     <app-location route="{{route}}"></app-location>
     <app-route
       route="{{route}}"
       pattern="/:page"
       data="{{routeData}}"
-      tail="{{subRoute}}"></app-route>
+      tail="{{subRoute}}"
+    ></app-route>
 
     <firebase-app
       name="{$ firebase.name $}"
       auth-domain="{$ firebase.domain $}"
       database-url="{$ firebase.database $}"
-      api-key="{$ firebase.api $}">
+      api-key="{$ firebase.api $}"
+    >
     </firebase-app>
 
     <app-data
@@ -138,29 +178,29 @@
     ></firebase-auth>
 
     <app-drawer-layout id="drawerLayout" drawer-width="599px" force-narrow>
-
-      <app-drawer
-        id="drawer"
-        swipe-open="[[app.isPhoneSize]]">
+      <app-drawer id="drawer" swipe-open="[[app.isPhoneSize]]">
         <template is="dom-if" if="[[app.isPhoneSize]]">
-          <drawer-block
-            app={{app}}
-            drawer
-          ></drawer-block>
+          <drawer-block app="{{app}}" drawer></drawer-block>
         </template>
       </app-drawer>
 
-      <app-header id="header" effects="parallax-background blend-background fade-effect" condenses shadow reveals>
-        <div class="image-overlay-wrapper" show$="[[app.headerSettings.backgroundImage]]">
+      <app-header
+        id="header"
+        effects="parallax-background blend-background fade-effect"
+        condenses
+        shadow
+        reveals
+      >
+        <div
+          class="image-overlay-wrapper"
+          show$="[[app.headerSettings.backgroundImage]]"
+        >
           <div class="image-overlay" fade></div>
         </div>
-        <toolbar-block
-          app="{{app}}"
-          primary
-          sticky
-        ></toolbar-block>
+        <toolbar-block app="{{app}}" primary sticky></toolbar-block>
 
         <header-content
+          style="height: 100vh; width: 100%; position: absolute"
           app="{{app}}"
           selected-day="{{selectedDay}}"
           fade
@@ -168,58 +208,62 @@
       </app-header>
 
       <div class="main-content">
-        <neon-animated-pages selected="[[app.page]]"
-                             attr-for-selected="name"
-                             selected-attribute="selected">
+        <neon-animated-pages
+          selected="[[app.page]]"
+          attr-for-selected="name"
+          selected-attribute="selected"
+        >
+          <home-page
+            name="home"
+            app="{{app}}"
+            people="{{speakers}}"
+            posts="{{posts}}"
+            videos="{{videos}}"
+          ></home-page>
 
-          <home-page name="home"
-                     app="{{app}}"
-                     people="{{speakers}}"
-                     posts="{{posts}}"
-                     videos="{{videos}}"></home-page>
+          <blog-page
+            name="blog"
+            app="{{app}}"
+            route="{{subRoute}}"
+            posts="{{posts}}"
+          ></blog-page>
 
-          <blog-page name="blog"
-                     app="{{app}}"
-                     route="{{subRoute}}"
-                     posts="{{posts}}"></blog-page>
+          <!-- <speaker-page name="speaker" app="{{app}}"></speaker-page>
 
-          <speaker-page name="speaker"
-                     app="{{app}}"></speaker-page>
+          <speakers-page
+            name="speakers"
+            app="{{app}}"
+            route="{{subRoute}}"
+            speakers="{{speakers}}"
+          ></speakers-page> -->
 
-          <speakers-page name="speakers"
-                         app="{{app}}"
-                         route="{{subRoute}}"
-                         speakers="{{speakers}}"></speakers-page>
+          <!-- <schedule-page
+            name="schedule"
+            app="{{app}}"
+            route="{{subRoute}}"
+            schedule="{{schedule}}"
+            sessions="{{sessions}}"
+          ></schedule-page> -->
 
-          <schedule-page name="schedule"
-                         app="{{app}}"
-                         route="{{subRoute}}"
-                         schedule="{{schedule}}"
-                         sessions="{{sessions}}"></schedule-page>
+          <!-- <attending-page name="attending" app="{{app}}"></attending-page> -->
 
-          <attending-page name="attending"
-                         app="{{app}}"></attending-page>
+          <team-page name="team" app="{{app}}"></team-page>
 
-          <team-page name="team"
-                     app="{{app}}"></team-page>
+          <faq-page name="faq" app="{{app}}"></faq-page>
 
-          <faq-page name="faq"
-                     app="{{app}}"></faq-page>
-
-          <cod-page name="cod"
-                    app="{{app}}"></cod-page>
-
+          <cod-page name="cod" app="{{app}}"></cod-page>
         </neon-animated-pages>
       </div>
-
     </app-drawer-layout>
 
-    <video-dialog id="videoDialog"
-                  video-title="[[video.title]]"
-                  youtube-id="[[video.youtubeId]]"
-                  entry-animation="scale-up-animation"
-                  exit-animation="fade-out-animation"
-                  disable-controls="[[!video.disableControls]]"></video-dialog>
+    <video-dialog
+      id="videoDialog"
+      video-title="[[video.title]]"
+      youtube-id="[[video.youtubeId]]"
+      entry-animation="scale-up-animation"
+      exit-animation="fade-out-animation"
+      disable-controls="[[!video.disableControls]]"
+    ></video-dialog>
 
     <toast-element id="toast" app="{{app}}"></toast-element>
 
@@ -232,7 +276,6 @@
       with-backdrop
     >
     </info-dialog>
-
   </template>
 
   <script>
@@ -500,7 +543,5 @@
       });
 
     }());
-
   </script>
-
 </dom-module>
