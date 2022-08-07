@@ -15,7 +15,7 @@
 
         /* Primary colors */
         --dark-primary-color: #47362c;
-        --default-primary-color: #673ab7;
+        --default-primary-color: #4285f4;
         --light-primary-color: #ffe0b2;
         --text-primary-color: #ffffff; /* text / icons */
         /* #673ab7 */
@@ -33,6 +33,8 @@
 
         /* Other colors */
         --divider-color: #b6b6b6;
+        --eventbrite-primary: #ff8000;
+        --red: #ea4335;
 
         /* --- End of replace section --- */
 
@@ -324,6 +326,11 @@
 
       paper-button.primary {
         background: var(--default-primary-color);
+        color: var(--text-primary-color);
+      }
+
+      paper-button.eventbrite {
+        background: var(--eventbrite-primary);
         color: var(--text-primary-color);
       }
 

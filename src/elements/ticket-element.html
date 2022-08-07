@@ -77,9 +77,15 @@
         -webkit-font-smoothing: antialiased;
       }
 
-      .headline {
+      .h1 {
         margin: 0 30px;
         font-size: 50px;
+        line-height: 1;
+        color: #4285f4;
+      }
+
+      .h3 {margin: 0 30px 15px 30px;
+        font-size: 30px;
         line-height: 1;
       }
 
@@ -88,6 +94,7 @@
         background: linear-gradient(to right, transparent 15%, var(--primary-text-color) 50%, transparent 85%) no-repeat 0 50%;
         background-size: 100% 1px;
         text-align: center;
+        margin: 10px 0;
       }
 
       iron-icon {
@@ -112,8 +119,8 @@
         @apply(--layout-center-center);
         background-color: rgba(255, 255, 255, 0.9);
         border-radius: 3px;
-        color: var(--default-primary-color);
-        font-size: 24px;
+        color: var(--red);
+        font-size: 35px;
         font-weight: 400;
         text-transform: uppercase;
       }
@@ -121,25 +128,34 @@
       .overlay[hidden] {
         display: none;
       }
+
+      .red_bar {
+        width: 100%;
+        background: rgba(235, 67, 53, 0.67);
+        color: white;
+      }
     </style>
 
     <div class="punch"></div>
     <div class="inner">
       <div class="main">
-        <div class="headline">[[price]][[currency]]</div>
+        <div class="h3">[[name]]</div>
+        <div class="h1">[[price]][[currency]]</div>
         <div class="divider">
           <iron-icon icon="icons:star"></iron-icon>
         </div>
         <div class="dates">[[starts]] - [[ends]]</div>
-        <marked-element class="additional-info" markdown="[[info]]" hidden$="[[!info]]">
-          <div class="markdown-html"></div>
-        </marked-element>
       </div>
     </div>
     <div class="side">
       <div class="side-content">[[type]]</div>
     </div>
-    <div class="overlay" hidden$="{{!soldOut}}">[[soldOutText]]</div>
+    <div class="overlay" hidden$="{{!soldOut}}">
+      <div class="red_bar">[[soldOutText]]</div>
+    </div>
+    <div class="overlay" hidden$="{{!gone}}">
+      <div class="red_bar">[[goneText]]</div>
+    </div>
   </template>
 
   <script>
@@ -151,10 +167,12 @@
         is: 'ticket-element',
 
         properties: {
+          name: {
+            type: String
+          },
           type: {
             type: String
           },
-
           price: {
             type: Number
           },
@@ -181,6 +199,15 @@
           },
 
           soldOutText: {
+            type: String
+          },
+
+          gone: {
+            type: Boolean,
+            value: false
+          },
+
+          goneText: {
             type: String
           }
         }

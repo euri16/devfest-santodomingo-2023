@@ -1,6 +1,6 @@
 [
   {
-    "title": "platinium-partner",
+    "title": "platinum-partner",
     "logos": [
       {
         "name": "Google",
@@ -9,254 +9,34 @@
         "width": 250
       },
       {
-        "name": "SFEIR",
-        "url": "https://www.sfeir.com",
-        "logoUrl": "../images/logos/sfeir.png",
-        "width": 250
-      },
-      {
-        "name": "Creative",
-        "url": "http://www.groupe-creative.fr",
-        "logoUrl": "../images/logos/creative.png",
-        "width": 250
-      },
-      {
-        "name": "Groupe onepoint",
-        "url": "http://www.groupeonepoint.com",
-        "logoUrl": "../images/logos/onepoint.png",
-        "width": 250
-      },
-      {
-        "name": "Apside",
-        "url": "http://www.apside.com",
-        "logoUrl": "../images/logos/apside.png",
-        "width": 250
-      },
-      {
-        "name": "Zenika",
-        "url": "https://www.zenika.com",
-        "logoUrl": "../images/logos/zenika.png",
-        "width": 250
-      },
-      {
-        "name": "Conserto",
-        "url": "https://www.conserto.pro",
-        "logoUrl": "../images/logos/conserto.png",
-        "width": 250
-      },
-      {
-        "name": "Epitech",
-        "url": "http://www.epitech.eu",
-        "logoUrl": "../images/logos/epitech.jpg",
-        "width": 250
-      },
-      {
-        "name": "Talend",
-        "url": "http://fr.talend.com",
-        "logoUrl": "../images/logos/talend.png",
-        "width": 250
-      },
-      {
-        "name": "Capgemini",
-        "url": "https://www.fr.capgemini.com",
-        "logoUrl": "../images/logos/capgemini.png",
-        "width": 250
-      },
-      {
-        "name": "vpTech by vente-privee",
-        "url": "https://careers.vente-privee.com/en/vptech",
-        "logoUrl": "../images/logos/vente-privee.png",
-        "width": 250
-      },
-      {
-        "name": "Niji",
-        "url": "https://www.niji.fr",
-        "logoUrl": "../images/logos/niji.jpg",
-        "width": 250
-      },
-      {
-        "name": "Nantes Saint-Nazaire Développement",
-        "url": "https://www.nantes-saintnazaire.fr",
-        "logoUrl": "../images/logos/nantes-saintnazaire.jpg",
-        "width": 250
+        "name": "EvoPoint",
+        "url": "https://www.evopoint.do/",
+        "logoUrl": "../images/logos/evopoint.svg",
+        "width": 250,
+        "height": 75
       }
     ]
   },
   {
     "title": "after-partner",
     "logos": [
-      {
-        "name": "ADN Booster",
-        "url": "http://www.adnbooster.fr",
-        "logoUrl": "../images/logos/adn-booster.png",
-        "width": 250
-      },
-      {
-        "name": "Conserto",
-        "url": "https://www.conserto.pro",
-        "logoUrl": "../images/logos/conserto.png",
-        "width": 250
-      }
     ]
   },
   {
     "title": "gold-partner",
     "logos": [
       {
-        "name": "FaberNovel",
-        "url": "https://www.fabernovel.com",
-        "logoUrl": "../images/logos/fabernovel.png",
-        "width": 220
+        "name": "Smart Testing",
+        "url": "https://www.smarttestingrd.com/",
+        "logoUrl": "../images/logos/smart_testing.png",
+        "width": 250
       },
       {
-        "name": "VIF",
-        "url": "http://www.vif.fr",
-        "logoUrl": "../images/logos/vif.png",
-        "width": 220
-      },
-      {
-        "name": "Cat-Amania",
-        "url": "https://www.cat-amania.com",
-        "logoUrl": "../images/logos/catamania.png",
-        "width": 220
-      },
-      {
-        "name": "SERLI",
-        "url": "http://www.serli.com",
-        "logoUrl": "../images/logos/serli.png",
-        "width": 220
-      },
-      {
-        "name": "SII",
-        "url": "http://www.groupe-sii.com",
-        "logoUrl": "../images/logos/sii.png",
-        "width": 220
-      },
-      {
-        "name": "RCA",
-        "url": "https://rca.fr",
-        "logoUrl": "../images/logos/rca.png",
-        "width": 220
-      },
-      {
-        "name": "Néo-Soft",
-        "url": "http://www.neo-soft.fr",
-        "logoUrl": "../images/logos/neosoft.png",
-        "width": 220
-      },
-      {
-        "name": "PALO IT",
-        "url": "http://palo-it.com",
-        "logoUrl": "../images/logos/palo-it.png",
-        "width": 220
-      },
-      {
-        "name": "Bodet Software",
-        "url": "https://www.bodet-software.com/fr",
-        "logoUrl": "../images/logos/bodet.png",
-        "width": 220
-      },
-      {
-        "name": "DTA Ingénierie",
-        "url": "http://www.dta-ingenierie.fr",
-        "logoUrl": "../images/logos/dta.png",
-        "width": 220
-      },
-      {
-        "name": "ACII",
-        "url": "https://www.acii.fr",
-        "logoUrl": "../images/logos/acii.jpg",
-        "width": 220
-      },
-      {
-        "name": "Valeuriad",
-        "url": "http://www.valeuriad.fr",
-        "logoUrl": "../images/logos/valeuriad.png",
-        "width": 220
-      },
-      {
-        "name": "Maisons du monde",
-        "url": "https://www.maisonsdumonde.com",
-        "logoUrl": "../images/logos/maisons_du_monde.png",
-        "width": 220
-      },
-      {
-        "name": "U GIE-IRIS",
-        "url": "http://ugieiris.fr",
-        "logoUrl": "../images/logos/u-gie-iris.jpg",
-        "width": 220
-      },
-      {
-        "name": "LaFourchette",
-        "url": "https://www.lafourchette.com",
-        "logoUrl": "../images/logos/lafourchette.png",
-        "width": 220
-      },
-      {
-        "name": "Accenture",
-        "url": "https://www.accenture.com/fr-fr/new-applied-now",
-        "logoUrl": "../images/logos/accenture.svg",
-        "width": 220
-      },
-      {
-        "name": "Informatique Banque Populaire",
-        "url": "https://informatique.banquepopulaire.fr",
-        "logoUrl": "../images/logos/ibp.jpg",
-        "width": 220
-      },
-      {
-        "name": "ASI",
-        "url": "https://www.asi.fr",
-        "logoUrl": "../images/logos/asi.png",
-        "width": 220
-      },
-      {
-        "name": "Sogeti",
-        "url": "https://www.fr.sogeti.com",
-        "logoUrl": "../images/logos/sogeti.png",
-        "width": 220
-      },
-      {
-        "name": "AUSY",
-        "url": "https://www.ausy.fr/fr",
-        "logoUrl": "../images/logos/ausy.jpg",
-        "width": 220
-      },
-      {
-        "name": "Bouygues Telecom",
-        "url": "https://www.jobs.bouyguestelecom.fr",
-        "logoUrl": "../images/logos/bouyguestelecom.png",
-        "width": 220
-      },
-      {
-        "name": "Aspose",
-        "url": "https://www.aspose.com",
-        "logoUrl": "../images/logos/aspose.png",
-        "width": 220
-      },
-      {
-        "name": "Editions ENI",
-        "url": "https://www.eni-service.fr",
-        "logoUrl": "../images/logos/editions-eni.png",
-        "width": 220
-      },
-      {
-        "name": "MAIF",
-        "url": "https://maif.github.io",
-        "logoUrl": "../images/logos/maif.png",
-        "width": 220
-      },
-      {
-        "name": "TALENTSOFT",
-        "url": "http://www.talentsoft.fr",
-        "logoUrl": "../images/logos/talentsoft.jpg",
-        "width": 220
-      },
-      {
-        "name": "Ippon",
-        "url": "https://www.ippon.fr/",
-        "logoUrl": "../images/logos/ippon.png",
-        "width": 220
+        "name": "VirtualMind",
+        "url": "http://www.virtualmind.com",
+        "logoUrl": "../images/logos/virtualmind.png",
+        "width": 250,
+        "height": 75
       }
     ]
   },
@@ -264,40 +44,24 @@
     "title": "other-partner",
     "logos": [
       {
-        "name": "Luiza Laffitte",
-        "url": "http://www.luizalaffitte.com",
-        "logoUrl": "../images/logos/luiza_laffitte.png",
-        "width": 180
+        "name": "Oriontek",
+        "url": "https://www.oriontek.do/",
+        "logoUrl": "../images/logos/oriontek.jpg",
+        "width": 250
       },
       {
-        "name": "Mstream",
-        "url": "http://www.mstream.fr",
-        "logoUrl": "../images/logos/mstream.png",
-        "width": 180
+        "name": "STI Datos",
+        "url": "https://www.stidatos.com/",
+        "logoUrl": "../images/logos/sti_datos.png",
+        "width": 180,
+        "height": 80
       },
       {
-        "name": "Remy Chautard",
-        "url": "http://remy-chautard.com",
-        "logoUrl": "../images/logos/remy_chautard.png",
-        "width": 180
-      },
-      {
-        "name": "Choose Your Boss",
-        "url": "https://www.chooseyourboss.com/users/sign_up?event=devfest-nantes-2018",
-        "logoUrl": "../images/logos/cyb.png",
-        "width": 180
-      },
-      {
-        "name": "NantesTech",
-        "url": "http://www.nantestech.com",
-        "logoUrl": "../images/logos/nantestech.png",
-        "width": 180
-      },
-      {
-        "name": "Nantes Métropole",
-        "url": "http://www.nantesmetropole.fr",
-        "logoUrl": "../images/logos/nantesmetropole.png",
-        "width": 180
+        "name": "UNAPEC",
+        "url": "https://unapec.edu.do/",
+        "logoUrl": "../images/logos/unapec.png",
+        "width": 100,
+        "height": 150
       }
     ]
   }

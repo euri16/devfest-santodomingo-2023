@@ -279,10 +279,10 @@
   "gallery": {
     "albumUrl": "https://www.flickr.com/photos/gdgnantes/albums/72157702575476534",
     "photos": {
-      "big": "/images/backgrounds/big.jpg",
+      "big": "/images/backgrounds/staff_2021.jpg",
       "small": [
-        "/images/backgrounds/2018_2.jpg",
-        "/images/backgrounds/2018_3.jpg"
+        "/images/backgrounds/pedro_adriana.jpg",
+        "/images/backgrounds/charla2.png"
       ]
     }
   },
@@ -290,7 +290,7 @@
     "home": {
       "headerSettings": {
         "backgroundColor": "#673ab7",
-        "backgroundImage": "/images/backgrounds/bg-grupal.jpg",
+        "backgroundImage": "/images/backgrounds/grupal_2019.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "video": {
@@ -391,48 +391,58 @@
     "elements": [
       {
         "name": "Super Early Bird General",
+        "type": "General",
         "price": 25,
         "currency": " USD",
         "starts": "super-early-ticket-starts",
         "ends": "early-ticket-starts",
         "info": "early-ticket-info",
-        "soldOut": false
+        "soldOut": false,
+        "gone": false
       },
       {
         "name": "Early Bird General",
-        "price": 37.5,
+        "type": "General",
+        "price": 38,
         "currency": " USD",
         "starts": "early-ticket-starts",
-        "ends": "early-ticket-ends",
+        "ends": "general-ticket-starts",
         "info": "early-ticket-info",
-        "soldOut": false
+        "soldOut": false,
+        "gone": false
       },
       {
         "name": "Early Bird VIP",
+        "type": "VIP",
         "price": 85,
         "currency": " USD",
-        "starts": "super-early-ticket-starts",
-        "ends": "early-ticket-ends",
+        "starts": "early-ticket-vip-starts",
+        "ends": "ticket-vip-starts",
         "info": "early-ticket-info",
-        "soldOut": false
+        "soldOut": false,
+        "gone": false
       },
       {
         "name": "Early Bird Estudiantes",
+        "type": "Estudiante",
         "price": 25,
         "currency": " USD",
-        "starts": "student-ticket-starts",
-        "ends": "student-ticket-ends",
+        "starts": "early-ticket-starts",
+        "ends": "early-ticket-student-ends",
         "info": "early-ticket-info",
-        "soldOut": false
+        "soldOut": false,
+        "gone": false
       },
       {
         "name": "Invita un amigo(3x2 General)",
+        "type": "General",
         "price": 100,
         "currency": " USD",
-        "starts": "lazy-ticket-starts",
-        "ends": "lazy-ticket-ends",
+        "starts": "invite-friend-ticket-starts",
+        "ends": "invite-friend-ticket-ends",
         "info": "lazy-ticket-info",
-        "soldOut": false
+        "soldOut": false,
+        "gone": false
       }
     ]
   },
@@ -450,11 +460,11 @@
       "caption": "tracks"
     },
     {
-      "counter": 70,
+      "counter": 18,
       "caption": "sessions"
     },
     {
-      "counter": 81,
+      "counter": 18,
       "caption": "speakers"
     }
   ],

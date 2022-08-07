@@ -3,12 +3,42 @@
     "youtubeId": "HzSvgzQFbos",
     "title": "Composing Cloud Infrastructures as k8 resources",
     "speakers": "Shailyn Ortíz",
-    "thumbnail": "/images/sessions/shailyn.jpg"
+    "thumbnail": "/images/sessions/2021/shailyn.jpg"
+  },
+  {
+    "youtubeId": "TC1tRiJ4Jhw",
+    "title": "The dev skills no one teaches you",
+    "speakers": "Ryan Chartrand",
+    "thumbnail": "/images/sessions/2021/ryanc.jpg"
   },
   {
     "youtubeId": "TC1tRiJ4Jhw",
     "title": "Scaling With Flutter",
     "speakers": "Noe Branagan",
-    "thumbnail": "/images/sessions/noe.jpg"
+    "thumbnail": "/images/sessions/2021/noe.jpg"
+  },
+  {
+    "youtubeId": "TC1tRiJ4Jhw",
+    "title": "Database design thinking of Long-Term",
+    "speakers": "Elena López",
+    "thumbnail": "/images/sessions/2021/elena.jpg"
+  },
+  {
+    "youtubeId": "TC1tRiJ4Jhw",
+    "title": "Working with state machines in .Net",
+    "speakers": "Charlin Agramonte y Rendy Del Rosario",
+    "thumbnail": "/images/sessions/2021/charlin_rendy.jpg"
+  },
+  {
+    "youtubeId": "TC1tRiJ4Jhw",
+    "title": "El mejor coro del hacker son los de TI",
+    "speakers": "Julio Ureña",
+    "thumbnail": "/images/sessions/2021/juliou.jpg"
+  },
+  {
+    "youtubeId": "TC1tRiJ4Jhw",
+    "title": "The Unfair Advantage",
+    "speakers": "Leonardo Jiménez",
+    "thumbnail": "/images/sessions/2021/leonardo.jpg"
   }
 ]
