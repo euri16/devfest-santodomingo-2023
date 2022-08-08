@@ -56,13 +56,6 @@
         "width": 200
       },
       {
-        "name": "STI Datos",
-        "url": "https://www.stidatos.com/",
-        "logoUrl": "../images/logos/sti_datos.png",
-        "width": 160,
-        "height": 80
-      },
-      {
         "name": "UNAPEC",
         "url": "https://unapec.edu.do/",
         "logoUrl": "../images/logos/unapec.png",
