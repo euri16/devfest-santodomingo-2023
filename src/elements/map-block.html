@@ -1,23 +1,32 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
-<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link
+  rel="import"
+  href="../../bower_components/iron-flex-layout/iron-flex-layout.html"
+/>
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html" />
 
-<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="../../bower_components/paper-item/paper-icon-item.html">
-<link rel="import" href="../../bower_components/paper-item/paper-item-body.html">
-<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link
+  rel="import"
+  href="../../bower_components/paper-icon-button/paper-icon-button.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-item/paper-icon-item.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-item/paper-item-body.html"
+/>
+<link rel="import" href="../../bower_components/paper-card/paper-card.html" />
 
-<link rel="import" href="../../bower_components/google-map/google-map.html">
+<link rel="import" href="../../bower_components/google-map/google-map.html" />
 
-<link rel="import" href="../behaviors/localize-behavior.html">
-<link rel="import" href="../styles/shared-styles.html">
-
+<link rel="import" href="../behaviors/localize-behavior.html" />
+<link rel="import" href="../styles/shared-styles.html" />
 
 <dom-module id="map-block">
-
   <template>
-
     <style include="shared-styles">
       :host {
         display: block;
@@ -30,17 +39,17 @@
 
       google-map,
       .disable-map-events {
-        @apply(--layout-fit);
+        @apply (--layout-fit);
       }
 
       .container {
-        @apply(--layout-horizontal);
+        @apply (--layout-horizontal);
       }
 
       .card-wrapper {
-        @apply(--layout-horizontal);
-        @apply(--layout-flex);
-        @apply(--layout-around-justified);
+        @apply (--layout-horizontal);
+        @apply (--layout-flex);
+        @apply (--layout-around-justified);
       }
 
       .card-content {
@@ -50,11 +59,11 @@
 
       .card {
         --paper-card-header-text: {
-          color: #FFFFFF;
+          color: #ffffff;
           font-weight: 300;
-        };
+        }
         max-width: 400px;
-        background: #FFFFFF;
+        background: #ffffff;
       }
 
       paper-icon-item {
@@ -75,7 +84,7 @@
       }
 
       .header-image {
-        @apply(--layout-fit);
+        @apply (--layout-fit);
         width: 100%;
         background-size: cover;
         background-position: 50% 50%;
@@ -111,7 +120,8 @@
         longitude="{$ location.mapCenter.longitude $}"
         api-key="{$ location.apiKey $}"
         styles="[[options]]"
-        disable-zoom disable-default-ui
+        disable-zoom
+        disable-default-ui
       >
         <google-map-marker
           latitude="{$ location.pointer.latitude $}"
@@ -121,7 +131,7 @@
     </template>
     >
     <div class="disable-map-events"></div>
-    <div class="container">
+    <!-- <div class="container">
       <div>
         <paper-card class="card">
           <div class="header paper-card">
@@ -154,8 +164,7 @@
           </div>
         </paper-card>
       </div>
-    </div>
-
+    </div> -->
   </template>
 
   <script>
@@ -237,5 +246,4 @@
 
     }());
   </script>
-
 </dom-module>

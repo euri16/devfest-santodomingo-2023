@@ -174,18 +174,19 @@
     ]
   },
   "location": {
-    "apiKey": "AIzaSyChcvE26qgZJs2j4UKC2Q621aJIh2L4hEY",
+    "apiKey": "AIzaSyD6qBLelL6o_K_mzaJS0YlcOCbbzsN3taA",
     "name": "Santo Domingo, Distrito Nacional",
     "address": "Av. Máximo Gómez 72, Santo Domingo 10100",
+    "zoom": 16,
     "link": "http://www.lacite-nantes.fr/",
     "pointer": {
       "latitude": 18.473685,
       "longitude": -69.914115,
-      "zoom": 5
+      "zoom": 16
     },
     "mapCenter": {
-      "latitude": 46.9666849,
-      "longitude": -1.4848352
+      "latitude": 18.473685,
+      "longitude": -69.914115
     },
     "mapAttending": {
       "title": "location-attending-title",
@@ -279,17 +280,17 @@
   "gallery": {
     "albumUrl": "http://instagram.com/gdgsantodomingo/",
     "photos": {
-      "big": "/images/backgrounds/staff_2021.jpg",
+      "big": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fstaff_2021.JPG?alt=media&token=fe3e310b-0605-48b9-be77-0ff9f70f343a",
       "small": [
-        "/images/backgrounds/pedro_adriana.jpg",
-        "/images/backgrounds/charla2.png"
+        "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fpedro_adriana.JPG?alt=media&token=2d265e92-b6c2-437c-9d7a-3320dc6a41b8g",
+        "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fcharla2.png?alt=media&token=876fbdca-732c-4e14-ac2e-7a87e9ecb89e"
       ]
     }
   },
   "pages": {
     "home": {
       "headerSettings": {
-        "backgroundColor": "#673ab7",
+        "backgroundColor": "#4384f3",
         "backgroundImage": "/images/backgrounds/grupal_2019.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
@@ -357,7 +358,7 @@
       "text": "team-page-text",
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "/images/backgrounds/staff_2021_2.jpg",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2FAE9A0405.JPG?alt=media&token=b2848490-28ab-4aa8-b8ea-84aa74937cd2",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "citation": "",

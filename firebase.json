@@ -3,43 +3,17 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "./build",
-    "headers": [
-      {
-        "source": "/.well-known/assetlinks.json",
-        "headers": [
-          {
-            "key": "Content-Type",
-            "value": "application/json"
-          },
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*"
-          }
-        ]
-      },
-      {
-        "source" : "bower_components/**.*",
-        "headers" : [
-          {
-            "key" : "Cache-Control",
-            "value" : "max-age=7200"
-          }
-        ]
-      }
-    ],
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
-        "source": "**/*",
+        "source": "**",
         "destination": "/index.html"
       }
-    ],
-    "ignore": [
-      "/test/**",
-      "bower.json",
-      "database.rules.json",
-      "firebase.json",
-      "README.md"
     ]
+  },
+  "functions": {
+    "source": "functions",
+    "runtime": "nodejs14"
   }
 }

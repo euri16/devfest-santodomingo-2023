@@ -1,26 +1,35 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
-<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link
+  rel="import"
+  href="../../bower_components/iron-flex-layout/iron-flex-layout.html"
+/>
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html" />
 
-<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
-<link rel="import" href="../../bower_components/paper-item/paper-icon-item.html">
-<link rel="import" href="../../bower_components/paper-item/paper-item-body.html">
-<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link
+  rel="import"
+  href="../../bower_components/paper-icon-button/paper-icon-button.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-item/paper-icon-item.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-item/paper-item-body.html"
+/>
+<link rel="import" href="../../bower_components/paper-card/paper-card.html" />
 
-<link rel="import" href="../../bower_components/google-map/google-map.html">
+<link rel="import" href="../../bower_components/google-map/google-map.html" />
 
-<link rel="import" href="../styles/shared-styles.html">
-<link rel="import" href="../behaviors/localize-behavior.html">
-
+<link rel="import" href="../styles/shared-styles.html" />
+<link rel="import" href="../behaviors/localize-behavior.html" />
 
 <dom-module id="map-element">
-
   <template>
-
     <style include="shared-styles">
       :host {
-        display: block;    
+        display: block;
         margin-bottom: 20px;
         position: relative;
         overflow: hidden;
@@ -29,17 +38,17 @@
 
       google-map,
       .disable-map-events {
-        @apply(--layout-fit);
+        @apply (--layout-fit);
       }
 
       .container {
-        @apply(--layout-horizontal);
+        @apply (--layout-horizontal);
       }
 
       .card-wrapper {
-        @apply(--layout-horizontal);
-        @apply(--layout-flex);
-        @apply(--layout-around-justified);
+        @apply (--layout-horizontal);
+        @apply (--layout-flex);
+        @apply (--layout-around-justified);
       }
 
       .card-content {
@@ -49,9 +58,9 @@
       .card {
         --paper-card-header-text: {
           font-weight: 100;
-        };
+        }
         max-width: 400px;
-        background: #FFFFFF;
+        background: #ffffff;
       }
 
       paper-icon-item {
@@ -85,7 +94,7 @@
         .header {
           height: 40px;
         }
-        
+
         .card {
           min-width: 320px;
         }
@@ -93,8 +102,8 @@
 
       @media (min-width: 961px) {
         .additional-space {
-          @apply(--layout);
-          @apply(--layout-flex);
+          @apply (--layout);
+          @apply (--layout-flex);
         }
       }
     </style>
@@ -105,15 +114,18 @@
       longitude="[[location.longitude]]"
       api-key="[[app.data.location.apiKey]]"
       styles="[[options]]"
-      disable-zoom disable-default-ui>
+      disable-zoom
+      disable-default-ui
+    >
       <google-map-marker
         latitude="[[location.pointer.latitude]]"
-        longitude="[[location.pointer.longitude]]">
+        longitude="[[location.pointer.longitude]]"
+      >
       </google-map-marker>
     </google-map>
 
     <div class="disable-map-events"></div>
-    <div class="container">
+    <!-- <div class="container">
       <div class="additional-space"></div>
       <div class="card-wrapper">
         <paper-card class="card">
@@ -141,58 +153,64 @@
           </div>
         </paper-card>
       </div>
-    </div>
-
+    </div> -->
   </template>
 
   <script>
     (function () {
-      'use strict';
+      "use strict";
 
       Polymer({
+        is: "map-element",
 
-        is: 'map-element',
+        behaviors: [HOVERBOARD.LocalizeBehavior],
 
-        behaviors: [
-          HOVERBOARD.LocalizeBehavior
-        ],
-        
         properties: {
           location: {
-            type: Object
+            type: Object,
           },
 
           options: {
             type: String,
             value: function () {
-              return [{
-                stylers: [{
-                  'lightness': 40
-                }, {
-                  'visibility': 'on'
-                }, {
-                  'gamma': 0.9
-                }, {
-                  'weight': 0.4
-                }]
-              }, {
-                'elementType': 'labels',
-                'stylers': [{
-                  'visibility': 'on'
-                }]
-              }, {
-                'featureType': 'water',
-                'stylers': [{
-                  'color': '#5dc7ff'
-                }]
-              }];
-            }
-          }
-        }
-
+              return [
+                {
+                  stylers: [
+                    {
+                      lightness: 40,
+                    },
+                    {
+                      visibility: "on",
+                    },
+                    {
+                      gamma: 0.9,
+                    },
+                    {
+                      weight: 0.4,
+                    },
+                  ],
+                },
+                {
+                  elementType: "labels",
+                  stylers: [
+                    {
+                      visibility: "on",
+                    },
+                  ],
+                },
+                {
+                  featureType: "water",
+                  stylers: [
+                    {
+                      color: "#5dc7ff",
+                    },
+                  ],
+                },
+              ];
+            },
+          },
+        },
       });
-
-    }());
+    })();
   </script>
-
 </dom-module>
