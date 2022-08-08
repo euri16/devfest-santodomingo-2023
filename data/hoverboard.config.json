@@ -1,14 +1,16 @@
 {
-  "url": "https://devfest.gdgnantes.com",
-  "startDate": "2018-10-18T08:30:00+01:00",
-  "endDate": "2018-10-19T18:30:00+01:00",
+  "eventName": "GDG Santo Domingo 2022",
+  "url": "https://devfest.gdgsantodomingo.com",
+  "ogImageUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/public%2Fog_property.jpg?alt=media&token=15f7131a-6952-497e-a025-4a9333588e29",
+  "startDate": "2022-10-14T09:00:00-04:00",
+  "endDate": "2022-10-15T18:30:00-04:00",
   "analytics": {
-    "prod": "UA-35116426-1",
-    "dev": "UA-43643469-9"
+    "prod": "",
+    "dev": ""
   },
   "organizer": {
-    "name": "GDG Nantes",
-    "twitter": "gdgnantes"
+    "name": "GDG Santo Domingo",
+    "twitter": "gdgsdq"
   },
   "webapp": {
     "shortName": "DevFest",
@@ -25,8 +27,8 @@
     "indexedDbSession": "devfest2018"
   },
   "mailchimp": {
-    "url": "https://gdgnantes.us9.list-manage.com/subscribe/post?u=b44affc3cdfd00b20bcae502c&amp;id=e0e7ceee5d",
-    "name": "b_b44affc3cdfd00b20bcae502c_e0e7ceee5d"
+    "url": "",
+    "name": ""
   },
   "dateFormat": {
     "locale": "fr-FR",
@@ -42,11 +44,11 @@
       "key": "fr"
     }
   ],
-  "description": "LE festival des développeurs organisé par des développeurs ! Tout sur le Mobile, IoT, Web et Cloud présenté par des experts du monde entier pour une des plus grandes conférences techniques.",
-  "keywords": "event, gdg, gde, devfest, nantes, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
+  "description": "¡El festival de desarrolladores organizado por desarrolladores! Todo sobre Mobile, IoT, Web, Cloud, UI/UX y más, presentado por expertos de todo el mundo para una de las conferencias técnicas más grandes.",
+  "keywords": "event, gdg, gde, devfest, santo domingo, google, programming, android, chrome, polymer, developers, web, cloud, androiddev, kotlin, big data, firebase, gcp",
   "hashtag": "DevFestSantoDomingo2022",
-  "disqusShortName": "devfest.gdgnantes",
-  "tweetsSource": "https://tweeter-devfestnantes.herokuapp.com/favoritesjson.php?c=10&cache_interval=8000",
+  "disqusShortName": "devfest.gdgsantodomingo",
+  "tweetsSource": "",
   "partnershipProposition": "partnership-proposition-url",
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLokIBNX1GWGuLE8Jwxvv87TgXw7n_-Aaw",
   "enableSessionsRating": true,
@@ -90,7 +92,12 @@
     {
       "route": "faq",
       "permalink": "/faq/",
-      "inMenu": false
+      "inMenu": true
+    },
+    {
+      "route": "cod",
+      "permalink": "/cod/",
+      "inMenu": true
     }
   ],
   "social": [
@@ -178,7 +185,7 @@
     "name": "Santo Domingo, Distrito Nacional",
     "address": "Av. Máximo Gómez 72, Santo Domingo 10100",
     "zoom": 16,
-    "link": "http://www.lacite-nantes.fr/",
+    "link": "",
     "pointer": {
       "latitude": 18.473685,
       "longitude": -69.914115,
@@ -237,14 +244,6 @@
   "hotelTitle": "hotel-title",
   "hotelText": "hotel-text",
   "hotels": [
-    {
-      "name": "Hôtel Residhome",
-      "adress": "3 allée Jacques Berque",
-      "city": "44000 Nantes",
-      "mapUrl": "https://www.google.fr/maps/place/Residhome+Nantes+Berges+de+la+Loire/@47.2122877,-1.5388464,15z/data=!4m2!3m1!1s0x0:0x2b56e1873da0f956",
-      "description": "hotel-description-residhome",
-      "priceReservationText": "hotel-price-reservation-text-residhome"
-    }
   ],
   "indoorMapTitle": "indoor-map-title",
   "transport": {
@@ -256,24 +255,9 @@
         "text": "train-text"
       },
       {
-        "icon": "tram",
-        "title": "tram-title",
-        "text": "tram-text"
-      },
-      {
         "icon": "car",
         "title": "car-title",
         "text": "car-text"
-      },
-      {
-        "icon": "flight",
-        "title": "flight-title",
-        "text": "flight-text"
-      },
-      {
-        "icon": "rocket",
-        "title": "rocket-title",
-        "text": "rocket-text"
       }
     ]
   },
@@ -319,7 +303,7 @@
         "backgroundImage": "/images/backgrounds/space_5.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
-        "citation": "\"HUSTON, TRANQUILITY BASE HERE THE EAGLE HAS LANDED\"",
+        "citation": "",
         "authorCitation": "NEIL ARMSTRONG"
       }
     },
@@ -349,8 +333,8 @@
         "backgroundImage": "/images/backgrounds/space_5.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
-        "citation": "\"HUSTON, TRANQUILITY BASE HERE THE EAGLE HAS LANDED\"",
-        "authorCitation": "NEIL ARMSTRONG"
+        "citation": "",
+        "authorCitation": ""
       }
     },
     "team": {
@@ -368,7 +352,7 @@
     "faq": {
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "/images/backgrounds/space_7.jpg",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fcrowd1.jpg?alt=media&token=cb646413-4ac7-4f5c-a5f8-abf648c40828",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "citation": "",
@@ -379,7 +363,7 @@
       "title": "Código de Conducta",
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "/images/backgrounds/space_8.jpg",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fcrowd2.jpg?alt=media&token=13b617d4-f9ea-4d95-9d9d-d80b37665bbc",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "citation": "",
@@ -470,7 +454,7 @@
     }
   ],
   "cfp": {
-    "url": "https://cfp.gdgnantes.com/public/event/inzOQDR94h4bAaOVd7Db"
+    "url": "http://papercall.io/devfestsd22"
   },
   "infosSpeaker": [
     {
