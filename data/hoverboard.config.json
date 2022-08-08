@@ -95,24 +95,24 @@
   ],
   "social": [
     {
-      "name": "twitter",
-      "nickname": "devfestnantes",
-      "url": "https://twitter.com/devfestnantes"
+      "name": "instagram",
+      "nickname": "gdgsantodomingo",
+      "url": "https://www.instagram.com/gdgsantodomingo/"
     },
     {
-      "name": "gplus",
-      "nickname": "Gdgnantes",
-      "url": "https://plus.google.com/+Gdgnantes"
+      "name": "twitter",
+      "nickname": "gdgsdq",
+      "url": "https://twitter.com/gdgsdq"
     },
     {
       "name": "facebook",
-      "nickname": "gdgnantes",
-      "url": "https://www.facebook.com/gdgnantes"
+      "nickname": "GDGSantoDomingo",
+      "url": "https://www.facebook.com/GDGSantoDomingo"
     },
     {
       "name": "linkedin",
-      "nickname": "gdg-nantes",
-      "url": "https://www.linkedin.com/in/gdg-nantes/"
+      "nickname": "gdgsantodomingo",
+      "url": "https://www.linkedin.com/company/gdgsantodomingo/"
     }
   ],
   "footerBlocks": [
@@ -133,18 +133,23 @@
           "newTab": true
         },
         {
-          "text": "df-17",
-          "url": "https://devfest2017.gdgnantes.com/",
+          "text": "gdg-community",
+          "url": "https://gdg.community.dev/gdg-santo-domingo/",
           "newTab": true
         },
         {
-          "text": "df-16",
-          "url": "https://devfest2016.gdgnantes.com/",
+          "text": "df-21",
+          "url": "https://www.youtube.com/playlist?list=PLokIBNX1GWGuLE8Jwxvv87TgXw7n_-Aaw",
           "newTab": true
-        },
+        }
+      ]
+    },
+    {
+      "title": "for-speakers",
+      "links": [
         {
-          "text": "df-15",
-          "url": "https://devfest2015.gdgnantes.com/",
+          "text": "call-for-papers",
+          "url": "http://papercall.io/devfestsd22",
           "newTab": true
         }
       ]
@@ -153,13 +158,8 @@
       "title": "for-partners",
       "links": [
         {
-          "text": "partnership-kit",
-          "url": "https://drive.google.com/drive/folders/1NYxFvg895-xoXvZ8V63YWEr1X8_LAXnI",
-          "newTab": true
-        },
-        {
-          "text": "media-kit",
-          "url": "https://drive.google.com/drive/folders/1gGBsVN7z8O4pv-ZyETYDjoar_ED-DcNR",
+          "text": "be-sponsor",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSehwhX8iUkQu583RTzJzrYEB5j_gnnaGaiycTSJD8rcuQWzUA/viewform?usp=sf_link",
           "newTab": true
         }
       ]
@@ -168,8 +168,8 @@
   "contactBlock": {
     "links": [
       {
-        "text": "bureau@gdgnantes.com",
-        "url": "mailto:bureau@gdgnantes.com"
+        "text": "gdg.dominicana@gmail.com",
+        "url": "mailto:gdg.dominicana@gmail.com"
       }
     ]
   },
@@ -277,7 +277,7 @@
     ]
   },
   "gallery": {
-    "albumUrl": "https://www.flickr.com/photos/gdgnantes/albums/72157702575476534",
+    "albumUrl": "http://instagram.com/gdgsantodomingo/",
     "photos": {
       "big": "/images/backgrounds/staff_2021.jpg",
       "small": [
@@ -357,11 +357,11 @@
       "text": "team-page-text",
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "/images/backgrounds/space_6.jpg",
+        "backgroundImage": "/images/backgrounds/staff_2021_2.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
-        "citation": "\"WE ARE LIMITED ONLY BY OUR IMAGINATION AND OUR WILL TO ACT\"",
-        "authorCitation": "RON GARAN"
+        "citation": "",
+        "authorCitation": ""
       }
     },
     "faq": {
@@ -370,19 +370,19 @@
         "backgroundImage": "/images/backgrounds/space_7.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
-        "citation": "\"OK HUSTON, WE'VE HAD A PROBLEM HERE\"",
-        "authorCitation": "JACK SWIGERT, APOLLO 13"
+        "citation": "",
+        "authorCitation": ""
       }
     },
     "cod": {
-      "title": "Code of Conduct",
+      "title": "Código de Conducta",
       "headerSettings": {
         "backgroundColor": "#44504e",
         "backgroundImage": "/images/backgrounds/space_8.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
-        "citation": "\"WE CAME IN PEACE FOR ALL MANKIND\"",
-        "authorCitation": "NEIL ARMSTRONG"
+        "citation": "",
+        "authorCitation": ""
       }
     }
   },
@@ -390,7 +390,7 @@
     "url": "https://www.eventbrite.com/e/gdg-devfest-santo-domingo-2022-tickets-396256442687",
     "elements": [
       {
-        "name": "Super Early Bird General",
+        "name": "Super Early Bird",
         "type": "General",
         "price": 25,
         "currency": " USD",
@@ -401,7 +401,7 @@
         "gone": false
       },
       {
-        "name": "Early Bird General",
+        "name": "Early Bird",
         "type": "General",
         "price": 38,
         "currency": " USD",
@@ -423,7 +423,7 @@
         "gone": false
       },
       {
-        "name": "Early Bird Estudiantes",
+        "name": "Early Bird Est.",
         "type": "Estudiante",
         "price": 25,
         "currency": " USD",
@@ -434,7 +434,7 @@
         "gone": false
       },
       {
-        "name": "Invita un amigo(3x2 General)",
+        "name": "Invita un amigo (3x2)",
         "type": "General",
         "price": 100,
         "currency": " USD",

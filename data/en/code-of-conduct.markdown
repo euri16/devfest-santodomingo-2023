@@ -1,7 +1,7 @@
-# Light version of explicit "Code of Conduct policy".
+# Versión simplificada de la "Política de Código de Conducta".
 
-The GDG Nantes is proud to be an open community that respects differences and diversity. This implies that no inacceptable deeds or language is used or allowed at our meetings. In other words here's a reminder of what we will not accept: jokes or insults about gender issues / sex / race / religion / nationality / morphology, showing pornographic images, touching someone without his / her consent, or continuing  to interact with people who you have explicitly asked you to stop. Violations to these guidelines can lead us to exclude you from our meetings and DevFest.
+El GDG Santo Domingo se enorgullece de ser una comunidad abierta que respeta las diferencias y la diversidad. Esto implica que cualquier conducta o lenguaje fuera de tono no es aceptado en nuestras reuniones. En otras palabras, este es un ejemplo de lo que no aceptamos: Bromas o insultos sobre preferencia sexual / sexo / raza / religión / nacionalidad / morfología, exposición de imágenes pornográficas, exposición de infantes sin el debido consentimiento, tocar a alguien sin su consentimiento, o continuar interactuando con personas que te han especificado explicitamente que te detengas. Violaciones a estos lineamientos pueden resultar en la expulsión de la persona ofensiva de nuestras reuniones y del DevFest.
 
-If someone bothers you in any way, we request you to immediately contact the organizers who will put in place the necessary measures. We want to keep the DevFest respectful of others and make it a socially enjoyable event.
+Si alguien te es molesto en alguna manera, te solicitamos que de forma inmediata contactes algún miembro del staff, los cuales llevarán a cabo las medidas necesarias. Queremos que el DevFest se mantenga como un espacio respetuoso de los demás y hacerlo un evento socialmente disfrutable.
 
 [Full version](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk)

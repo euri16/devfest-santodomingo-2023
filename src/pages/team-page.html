@@ -1,23 +1,11 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link
-  rel="import"
-  href="../../bower_components/iron-flex-layout/iron-flex-layout.html"
-/>
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html" />
 
-<link
-  rel="import"
-  href="../../bower_components/paper-icon-button/paper-icon-button.html"
-/>
-<link
-  rel="import"
-  href="../../bower_components/paper-material/paper-material.html"
-/>
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html" />
+<link rel="import" href="../../bower_components/paper-material/paper-material.html" />
 
-<link
-  rel="import"
-  href="../../bower_components/marked-element/marked-element.html"
-/>
+<link rel="import" href="../../bower_components/marked-element/marked-element.html" />
 
 <link rel="import" href="../elements/footer-block.html" />
 <link rel="import" href="../behaviors/page-behavior.html" />
@@ -149,12 +137,8 @@
         }
 
         .member {
-          width: calc(
-            100% / var(--colums-number) - (var(--colums-number) + 1) *
-              var(--grid-gutter)
-          );
-          margin: var(--grid-gutter) var(--grid-gutter)
-            calc(var(--colums-number) * var(--grid-gutter));
+          width: calc(100% / var(--colums-number) - (var(--colums-number) + 1) * var(--grid-gutter));
+          margin: var(--grid-gutter) var(--grid-gutter) calc(var(--colums-number) * var(--grid-gutter));
         }
 
         .card {
@@ -215,12 +199,6 @@
             <h4 class="details-title">
               [[localize(app.data.pages.team.title)]]
             </h4>
-            <marked-element
-              class="details-text"
-              markdown="{{localize(app.data.pages.team.text)}}"
-            >
-              <div class="markdown-html"></div>
-            </marked-element>
           </div>
         </div>
       </div>
@@ -230,12 +208,7 @@
           <h3 class="team-name" cascaded>[[team.title]]</h3>
 
           <div class="team-container">
-            <template
-              is="dom-repeat"
-              items="[[team.members]]"
-              as="member"
-              on-dom-change="updateCascadedNodes"
-            >
+            <template is="dom-repeat" items="[[team.members]]" as="member" on-dom-change="updateCascadedNodes">
               <div class="member">
                 <paper-material class="card" cascaded>
                   <div class="header">
@@ -246,23 +219,12 @@
                       [[member.name]] <br /><i>[[member.aka]]</i>
                     </div>
                     <div class="title">[[member.title]]</div>
+                    <div class="title">[[member.title2]]</div>
                   </div>
                   <div class="card-actions">
-                    <template
-                      is="dom-repeat"
-                      items="[[member.socials]]"
-                      as="social"
-                    >
-                      <a
-                        class="social-link"
-                        href$="[[social.link]]"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <paper-icon-button
-                          class="social-icon"
-                          icon$="icons:{{social.icon}}"
-                        ></paper-icon-button>
+                    <template is="dom-repeat" items="[[member.socials]]" as="social">
+                      <a class="social-link" href$="[[social.link]]" target="_blank" rel="noopener noreferrer">
+                        <paper-icon-button class="social-icon" icon$="icons:{{social.icon}}"></paper-icon-button>
                       </a>
                     </template>
                   </div>

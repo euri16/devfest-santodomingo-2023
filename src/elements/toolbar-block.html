@@ -1,29 +1,14 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link
-  rel="import"
-  href="../../bower_components/app-layout/app-toolbar/app-toolbar.html"
-/>
+<link rel="import" href="../../bower_components/app-layout/app-toolbar/app-toolbar.html" />
 
-<link
-  rel="import"
-  href="../../bower_components/iron-flex-layout/iron-flex-layout.html"
-/>
+<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html" />
 <link rel="import" href="../../bower_components/iron-image/iron-image.html" />
 
 <link rel="import" href="../../bower_components/paper-tabs/paper-tabs.html" />
-<link
-  rel="import"
-  href="../../bower_components/paper-icon-button/paper-icon-button.html"
-/>
-<link
-  rel="import"
-  href="../../bower_components/paper-menu-button/paper-menu-button.html"
-/>
-<link
-  rel="import"
-  href="../../bower_components/paper-button/paper-button.html"
-/>
+<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html" />
+<link rel="import" href="../../bower_components/paper-menu-button/paper-menu-button.html" />
+<link rel="import" href="../../bower_components/paper-button/paper-button.html" />
 
 <link rel="import" href="../styles/shared-styles.html" />
 <link rel="import" href="../behaviors/utils-behavior.html" />
@@ -39,6 +24,7 @@
         --paper-tabs: {
           height: 64px;
         }
+
         --iron-icon-fill-color: var(--header-color);
         --paper-tabs-selection-bar-color: var(--header-color);
 
@@ -93,6 +79,7 @@
         --paper-tab-content-unselected: {
           opacity: 1;
         }
+
         height: 64px;
         font-size: 14px;
         font-weight: 500;
@@ -142,6 +129,12 @@
         font-size: 14px;
         cursor: pointer;
       }
+
+      .gdg-logo {
+        height: 55px;
+        margin-top: 9px;
+        margin-left: 20px;
+      }
     </style>
 
     <app-toolbar id="mainToolbar">
@@ -150,12 +143,7 @@
       </div>
       <div class="logo-wrapper">
         <a href="/" hidden$="{{hideLogo}}" fade>
-          <iron-image
-            class="logo"
-            src="/images/logo-white.svg"
-            sizing="contain"
-            alt="{{localize('title')}}"
-          ></iron-image>
+          <img class="gdg-logo" src="/images/logo-white2.png" alt="{{localize('title')}}" />
         </a>
       </div>
       <div class="navItem" layout horizontal self-end>
@@ -164,9 +152,7 @@
             <template is="dom-repeat" items="[[app.data.navigation]]" as="nav">
               <template is="dom-if" if="[[nav.inMenu]]">
                 <paper-tab name="[[nav.route]]" link>
-                  <a href="[[nav.permalink]]" class="nav-link"
-                    >{{localize(nav.route)}}</a
-                  >
+                  <a href="[[nav.permalink]]" class="nav-link">{{localize(nav.route)}}</a>
                 </paper-tab>
               </template>
             </template>
@@ -175,32 +161,16 @@
 
         <!-- <paper-tab class="signin-tab" on-tap="signIn" hidden$="[[app.user]]">{{localize('sign-in')}}</paper-tab> -->
 
-        <paper-menu-button
-          class="auth-menu"
-          hidden$="[[!app.user]]"
-          vertical-align="top"
-          horizontal-align="right"
-          phoneSize$="[[app.isPhoneSize]]"
-          layout
-          horizontal
-          center-center
-        >
-          <div
-            class="profile-image dropdown-trigger"
-            style="background-image: url('[[app.user.photoURL]]')"
-          ></div>
+        <paper-menu-button class="auth-menu" hidden$="[[!app.user]]" vertical-align="top" horizontal-align="right"
+          phoneSize$="[[app.isPhoneSize]]" layout horizontal center-center>
+          <div class="profile-image dropdown-trigger" style="background-image: url('[[app.user.photoURL]]')"></div>
           <div class="signin-panel dropdown-content">
             <div class="profile-details" layout horizontal>
-              <div
-                class="profile-image dropdown-trigger"
-                style="background-image: url('[[app.user.photoURL]]')"
-              ></div>
+              <div class="profile-image dropdown-trigger" style="background-image: url('[[app.user.photoURL]]')"></div>
               <div layout vertical center-justified>
                 <span class="profile-name">[[app.user.displayName]]</span>
                 <span class="profile-email">[[app.user.email]]</span>
-                <span class="profile-action" role="button" on-tap="signOut"
-                  >{{localize('sign-out')}}</span
-                >
+                <span class="profile-action" role="button" on-tap="signOut">{{localize('sign-out')}}</span>
               </div>
             </div>
           </div>

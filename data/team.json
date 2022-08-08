@@ -4,187 +4,102 @@
     "members": [
       {
         "name": "Eury Perez",
-        "aka": "Presidente",
+        "aka": "Coordinador Gral.",
         "photoUrl": "/images/team/eury.jpeg",
         "socials": [
           {
-            "icon": "gplus",
-            "name": "Google+",
-            "link": "https://google.com/+JulienLandure"
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/euryperez/"
           },
           {
             "icon": "twitter",
             "name": "Twitter",
-            "link": "https://twitter.com/jlandure"
-          },
-          {
-            "icon": "github",
-            "name": "Github",
-            "link": "https://github.com/jlandure"
-          }
-        ],
-        "title": "X-Team Senior Dev"
-      },
-      {
-        "name": "Alexander Vegaso",
-        "aka": "Co-organizador",
-        "photoUrl": "/images/team/vegaso.jpeg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "name": "Google+",
-            "link": "https://google.com/+JeanFrancoisGarreau"
-          },
-          {
-            "icon": "twitter",
-            "name": "Twitter",
-            "link": "https://twitter.com/jefBinomed"
-          },
-          {
-            "icon": "github",
-            "name": "Github",
-            "link": "https://github.com/jefBinomed"
+            "link": "http://twitter.com/_euryperez/"
           },
           {
             "icon": "website",
             "name": "Website",
-            "link": "http://jef.binomed.fr"
+            "link": "http://euryperez.dev/"
           }
         ],
-        "title": "CTO Sfeir Nantes"
+        "title": "Senior Android Dev @ Citizen",
+        "title2": "Google Developer Expert"
+      },
+      {
+        "name": "Alexander Vegazo",
+        "aka": "Sponsors & Partners",
+        "photoUrl": "/images/team/vegazo.jpeg",
+        "socials": [
+          {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/avegazorodriguez/"
+          }
+        ],
+        "title": "Senior QA Engineer",
+        "title2": "GDG Co-organizer"
       },
       {
         "name": "Elaine Guzman",
-        "aka": "Co-organizadora",
+        "aka": "Finanzas",
         "photoUrl": "/images/team/elaine.jpeg",
         "socials": [
-          {
-            "icon": "gplus",
-            "name": "Google+",
-            "link": "https://google.com/+BenjaminPetetot"
-          },
-          {
-            "icon": "twitter",
-            "name": "Twitter",
-            "link": "https://twitter.com/bpetetot"
-          },
-          {
-            "icon": "github",
-            "name": "Github",
-            "link": "https://github.com/bpetetot"
-          }
         ],
-        "title": "Tech Lead Zenika Nantes"
+        "title": "UI/UX Designer Jr."
       },
       {
         "name": "Pedro Sosa",
-        "aka": "Responsable técnico",
-        "photoUrl": "/images/team/pedro.jpg",
+        "aka": "Relaciones Públicas",
+        "photoUrl": "/images/team/pedro.jpeg",
         "socials": [
-          {
-            "icon": "gplus",
-            "name": "Google+",
-            "link": "https://plus.google.com/+XavierMarc"
-          },
-          {
-            "icon": "twitter",
-            "name": "Twitter",
-            "link": "https://twitter.com/xavmrc"
-          },
-          {
-            "icon": "github",
-            "name": "Github",
-            "link": "https://github.com/xavmarc"
-          },
           {
             "icon": "linkedin",
             "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/xaviermarc"
+            "link": "https://www.linkedin.com/in/pedro-sosa-452196200/"
           }
         ],
-        "title": "CTO tuguru"
+        "title": "Senior Frontend Developer"
       },
       {
-        "name": "Aymeric Fouchault",
-        "aka": "Responsable technique",
-        "photoUrl": "/images/team/aymeric.png",
+        "name": "Fidelia Matos",
+        "aka": "Coordinadora Speakers",
+        "photoUrl": "/images/team/fidelia.jpg",
         "socials": [
-          {
-            "icon": "gplus",
-            "name": "Google+",
-            "link": "https://google.com/+AymericFouchault"
-          },
-          {
-            "icon": "twitter",
-            "name": "Twitter",
-            "link": "https://twitter.com/afouchault"
-          }
-        ],
-        "title": "Dean of Studies Epitech"
-      },
-      {
-        "name": "Pierrick Guyard",
-        "aka": "Chargé relation speakers",
-        "photoUrl": "/images/team/pierrick.png",
-        "socials": [
-          {
-            "icon": "gplus",
-            "name": "Google+",
-            "link": "https://google.com/+PierrickGuyard"
-          },
-          {
-            "icon": "twitter",
-            "name": "Twitter",
-            "link": "https://twitter.com/PierrickGuyard"
-          },
-          {
-            "icon": "github",
-            "name": "Github",
-            "link": "https://github.com/pguyard"
-          },
           {
             "icon": "linkedin",
             "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/pierrickguyard"
+            "link": "https://www.linkedin.com/in/fideliamatos/"
           }
         ],
-        "title": "Deputy Dean of Studies Epitech"
+        "title": "WTM Ambassador"
       },
       {
-        "name": "Annabelle Koster",
-        "aka": "Chargé de communication",
-        "photoUrl": "/images/team/annabelle.png",
+        "name": "Natacha De La Rosa",
+        "aka": "Co-organizadora",
+        "photoUrl": "/images/team/natacha.jpg",
         "socials": [
-          {
-            "icon": "twitter",
-            "name": "Twitter",
-            "link": "https://twitter.com/AnnabelleKoster"
-          },
           {
             "icon": "linkedin",
             "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/annabelle-koster-31129383/"
+            "link": "https://www.linkedin.com/in/delarosanatacha/"
           }
         ],
-        "title": "Talent Advocate Sfeir Nantes"
+        "title": "Full Stack Engineer",
+        "title2": "WTM Ambassador"
       },
       {
-        "name": "Audrey Garreau",
-        "aka": "Responsable diversité",
-        "photoUrl": "/images/team/audrey.png",
+        "name": "Eladio Rodríguez",
+        "aka": "Co-organizador",
+        "photoUrl": "/images/team/eladio.jpeg",
         "socials": [
-          {
-            "icon": "twitter",
-            "name": "Twitter",
-            "link": "https://twitter.com/garreau_audrey"
-          },
           {
             "icon": "linkedin",
             "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/audreygarreau/"
+            "link": "https://www.linkedin.com/in/eladio-rodriguez/"
           }
         ],
-        "title": "CEO Yumigo"
+        "title": "DevOps Engineer"
       }
     ]
   }
