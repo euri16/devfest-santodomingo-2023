@@ -6,14 +6,20 @@
         "name": "Google",
         "url": "https://www.google.com.ua/intl/en/about",
         "logoUrl": "../images/logos/google.svg",
-        "width": 250
+        "height": 100
       },
       {
         "name": "EvoPoint",
         "url": "https://www.evopoint.do/",
         "logoUrl": "../images/logos/evopoint.svg",
-        "width": 250,
         "height": 75
+      },
+      {
+        "name": "Oriontek",
+        "url": "https://www.oriontek.do/",
+        "logoUrl": "../images/logos/oriontek.jpg",
+        "height": 100,
+        "width": 200
       }
     ]
   },
@@ -30,7 +36,6 @@
         "name": "VirtualMind",
         "url": "http://www.virtualmind.com",
         "logoUrl": "../images/logos/virtualmind.png",
-        "width": 250,
         "height": 75
       }
     ]
@@ -49,12 +54,6 @@
   {
     "title": "other-partner",
     "logos": [
-      {
-        "name": "Oriontek",
-        "url": "https://www.oriontek.do/",
-        "logoUrl": "../images/logos/oriontek.jpg",
-        "width": 200
-      },
       {
         "name": "UNAPEC",
         "url": "https://unapec.edu.do/",
