@@ -58,6 +58,7 @@
       }
 
       .card {
+        width: 360px;
         --paper-card-header-text: {
           color: #ffffff;
           font-weight: 300;
@@ -131,18 +132,26 @@
     </template>
     >
     <div class="disable-map-events"></div>
-    <!-- <div class="container">
+    <div class="container">
       <div>
         <paper-card class="card">
           <div class="header paper-card">
-            <div class="header-image" style$="background-image: url([[_currentImage]])"></div>
+            <div
+              class="header-image"
+              style="
+                background: url('https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fapec.png?alt=media&token=963756b7-b0c8-4f0d-bb30-f1f7b379c7a2')
+                  center center/cover;
+              "
+            ></div>
             <div class="title-text">[[app.data.location.name]]</div>
           </div>
           <div class="paper-card-container">
             <div class="card-content list">
               <paper-icon-item disabled>
                 <iron-icon icon="icons:feedback" item-icon></iron-icon>
-                <paper-item-body>[[localize('location-description')]]</paper-item-body>
+                <paper-item-body
+                  >[[localize('location-description')]]</paper-item-body
+                >
               </paper-icon-item>
               <paper-icon-item disabled>
                 <iron-icon icon="icons:location" item-icon></iron-icon>
@@ -153,18 +162,20 @@
               </paper-icon-item>
             </div>
             <div class="card-actions">
-              <a class="bottom-link"
-                 href="https://www.google.com/maps/dir/{$ location.pointer.latitude $},{$ location.pointer.longitude $}/@{$ location.pointer.latitude $},{$ location.pointer.longitude $},18z"
-                 target="_blank"
-                 rel="noopener noreferrer"
+              <a
+                class="bottom-link"
+                href="https://www.google.com/maps/dir/{$ location.pointer.latitude $},{$ location.pointer.longitude $}/@{$ location.pointer.latitude $},{$ location.pointer.longitude $},18z"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <paper-icon-button icon="icons:directions"></paper-icon-button>
+                Como llegar
               </a>
             </div>
           </div>
         </paper-card>
       </div>
-    </div> -->
+    </div>
   </template>
 
   <script>

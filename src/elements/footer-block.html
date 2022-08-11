@@ -1,13 +1,28 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html" />
+<link
+  rel="import"
+  href="../../bower_components/iron-flex-layout/iron-flex-layout.html"
+/>
 <link rel="import" href="../../bower_components/iron-image/iron-image.html" />
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html" />
 
-<link rel="import" href="../../bower_components/paper-button/paper-button.html" />
-<link rel="import" href="../../bower_components/paper-menu-button/paper-menu-button.html" />
-<link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html" />
-<link rel="import" href="../../bower_components/paper-item/paper-icon-item.html" />
+<link
+  rel="import"
+  href="../../bower_components/paper-button/paper-button.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-menu-button/paper-menu-button.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-icon-button/paper-icon-button.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-item/paper-icon-item.html"
+/>
 <link rel="import" href="../../bower_components/paper-menu/paper-menu.html" />
 <link rel="import" href="../../bower_components/paper-item/paper-item.html" />
 
@@ -156,7 +171,6 @@
       }
 
       @media (min-width: 961px) {
-
         .link-block-wrapper,
         .subscribe {
           @apply (--layout-flex);
@@ -166,7 +180,12 @@
 
     <div class="container">
       <div class="footer-content">
-        <iron-image class="gdg-logo" src="/images/gdg-logo.png" sizing="contain" alt="{$ organizer.name $}">
+        <iron-image
+          class="gdg-logo"
+          src="/images/gdg-logo.png"
+          sizing="contain"
+          alt="{$ organizer.name $}"
+        >
         </iron-image>
         <paper-button class="footer-backtotop" on-tap="scrollToTop" noink>
           [[localize('back-to-top')]]
@@ -175,14 +194,22 @@
       </div>
       <div class="footer-content footer-links-container">
         <nav class="navigation">
-          <template is="dom-repeat" items="[[app.data.footerBlocks]]" as="block">
+          <template
+            is="dom-repeat"
+            items="[[app.data.footerBlocks]]"
+            as="block"
+          >
             <div class="link-block-wrapper">
               <div class="link-block-title">[[localize(block.title)]]</div>
               <ul class="link-block">
                 <template is="dom-repeat" items="[[block.links]]" as="link">
                   <li>
-                    <a href="[[link.url]]" target="_getLinkTarget(link.newTab)"
-                      rel="noopener noreferrer">[[localize(link.text)]]</a>
+                    <a
+                      href="[[link.url]]"
+                      target="_getLinkTarget(link.newTab)"
+                      rel="noopener noreferrer"
+                      >[[localize(link.text)]]</a
+                    >
                   </li>
                 </template>
               </ul>
@@ -191,16 +218,33 @@
           <div class="link-block-wrapper">
             <div class="link-block-title">[[localize('contact-us')]]</div>
             <ul class="link-block">
-              <template is="dom-repeat" items="[[app.data.contactBlock.links]]" as="link">
+              <template
+                is="dom-repeat"
+                items="[[app.data.contactBlock.links]]"
+                as="link"
+              >
                 <li>
-                  <a href="[[link.url]]" target="_getLinkTarget(link.newTab)">[[link.text]]</a>
+                  <a href="[[link.url]]" target="_getLinkTarget(link.newTab)"
+                    >[[link.text]]</a
+                  >
                 </li>
               </template>
             </ul>
             <div class="icons-wrapper align-pb-block">
-              <template is="dom-repeat" items="[[app.data.social]]" as="network">
-                <a class="button-link" href="[[network.url]]" target="_blank" rel="noopener noreferrer">
-                  <paper-icon-button icon="icons:[[network.name]]"></paper-icon-button>
+              <template
+                is="dom-repeat"
+                items="[[app.data.social]]"
+                as="network"
+              >
+                <a
+                  class="button-link"
+                  href="[[network.url]]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <paper-icon-button
+                    icon="icons:[[network.name]]"
+                  ></paper-icon-button>
                 </a>
               </template>
             </div>
@@ -208,7 +252,11 @@
           <div class="subscribe" hidden>
             <div class="link-block-title">[[localize('subscribe')]]</div>
             <span>[[localize('subscribe-note')]]</span>
-            <mailchimp-subscribe app="[[app]]" url="{$ mailchimp.url $}" name="{$ mailchimp.name $}">
+            <mailchimp-subscribe
+              app="[[app]]"
+              url="{$ mailchimp.url $}"
+              name="{$ mailchimp.name $}"
+            >
             </mailchimp-subscribe>
           </div>
         </nav>
@@ -216,19 +264,46 @@
       <div class="footer-content footer-bottom">
         <!-- Please do NOT delete next block -->
         <div class="copyright">
-          &copy; 2022 Based on
-          <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
-            Hoverboard</a>. Designed and created by
-          <a href="http://o.zasadnyy.com/" target="_blank" rel="noopener noreferrer">Oleh Zasadnyy</a>
+          &copy; 2022 Basado en el projecto
+          <a
+            href="https://github.com/gdg-x/hoverboard"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Hoverboard</a
+          >. Diseñado y creado por
+          <a
+            href="http://o.zasadnyy.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Oleh Zasadnyy</a
+          >
           &middot;
-          <a href="http://lviv.gdg.org.ua" target="_blank" rel="noopener noreferrer">GDG Lviv</a>
+          <a
+            href="http://lviv.gdg.org.ua"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GDG Lviv</a
+          >
         </div>
         <div class="gplus">
-          <g:plusone size="medium" width="200" annotation="inline" href="{$ url $}"></g:plusone>
+          <g:plusone
+            size="medium"
+            width="200"
+            annotation="inline"
+            href="{$ url $}"
+          ></g:plusone>
         </div>
 
-        <paper-menu-button vertical-align="bottom" horizontal-align="left" share-menu>
-          <paper-icon-button icon="share" class="dropdown-trigger" on-tap="nativeShare"></paper-icon-button>
+        <paper-menu-button
+          vertical-align="bottom"
+          horizontal-align="left"
+          share-menu
+        >
+          <paper-icon-button
+            icon="share"
+            class="dropdown-trigger"
+            on-tap="nativeShare"
+          ></paper-icon-button>
           <div class="dropdown-content">
             <paper-icon-item on-tap="share" share="gplus">
               <iron-icon icon="gplus" item-icon></iron-icon>
@@ -270,7 +345,7 @@
                 >[[lang.name]]
                 </paper-item>
               </template>
-            </paper-menu> 
+            </paper-menu>
           </paper-menu-button>
         </template> -->
       </div>

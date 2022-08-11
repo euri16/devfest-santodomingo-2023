@@ -199,6 +199,7 @@
       "title": "location-attending-title",
       "name": "Santo Domingo, Distrito Nacional",
       "address": "Av. Máximo Gómez 72, Santo Domingo 10100",
+      "picture": "/images/unapec.png",
       "city": "location-city",
       "latitude": 18.473685,
       "longitude": -69.914115,
@@ -243,8 +244,7 @@
   },
   "hotelTitle": "hotel-title",
   "hotelText": "hotel-text",
-  "hotels": [
-  ],
+  "hotels": [],
   "indoorMapTitle": "indoor-map-title",
   "transport": {
     "title": "transport-attending-title",
