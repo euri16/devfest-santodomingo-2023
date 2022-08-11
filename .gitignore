@@ -5,6 +5,7 @@ build
 .idea/
 .temp/
 .firebaserc
+.firebase/*.cache
 
 processDatas/node_modules
 processDatas/exports

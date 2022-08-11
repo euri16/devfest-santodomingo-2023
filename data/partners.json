@@ -67,6 +67,12 @@
         "logoUrl": "../images/logos/jetbrains.svg",
         "width": 130,
         "height": 150
+      },
+      {
+        "name": "Axure",
+        "url": "https://www.axure.com/",
+        "logoUrl": "../images/logos/axure.svg",
+        "height": 85
       }
     ]
   }
