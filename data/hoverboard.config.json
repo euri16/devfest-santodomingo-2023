@@ -45,7 +45,7 @@
     }
   ],
   "description": "¡El festival de desarrolladores organizado por desarrolladores! Todo sobre Mobile, IoT, Web, Cloud, UI/UX y más, presentado por expertos de todo el mundo para una de las conferencias técnicas más grandes.",
-  "keywords": "event, gdg, gde, devfest, santo domingo, google, programming, android, chrome, polymer, developers, web, cloud, androiddev, kotlin, big data, firebase, gcp",
+  "keywords": "devfest santo domingo, event, gdg, gde, devfest, santo domingo, google, programming, android, chrome, polymer, developers, web, cloud, androiddev, kotlin, big data, firebase, gcp",
   "hashtag": "DevFestSantoDomingo2022",
   "disqusShortName": "devfest.gdgsantodomingo",
   "tweetsSource": "",
@@ -375,23 +375,34 @@
     "url": "https://www.eventbrite.com/e/gdg-devfest-santo-domingo-2022-tickets-396256442687",
     "elements": [
       {
-        "name": "Super Early Bird",
+        "name": "Super Early Bird Gral.",
         "type": "General",
         "price": 25,
         "currency": " USD",
         "starts": "super-early-ticket-starts",
         "ends": "early-ticket-starts",
         "info": "early-ticket-info",
-        "soldOut": false,
+        "soldOut": true,
         "gone": false
       },
       {
-        "name": "Early Bird",
+        "name": "Early Bird General",
         "type": "General",
         "price": 38,
         "currency": " USD",
         "starts": "early-ticket-starts",
         "ends": "general-ticket-starts",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+      {
+        "name": "General",
+        "type": "General",
+        "price": 50,
+        "currency": " USD",
+        "starts": "general-ticket-starts",
+        "ends": "all-tickets-ends",
         "info": "early-ticket-info",
         "soldOut": false,
         "gone": false
@@ -408,12 +419,12 @@
         "gone": false
       },
       {
-        "name": "Early Bird Est.",
-        "type": "Estudiante",
-        "price": 25,
+        "name": "VIP",
+        "type": "VIP",
+        "price": 120,
         "currency": " USD",
-        "starts": "early-ticket-starts",
-        "ends": "early-ticket-student-ends",
+        "starts": "ticket-vip-starts",
+        "ends": "all-tickets-ends",
         "info": "early-ticket-info",
         "soldOut": false,
         "gone": false
@@ -426,6 +437,28 @@
         "starts": "invite-friend-ticket-starts",
         "ends": "invite-friend-ticket-ends",
         "info": "lazy-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+      {
+        "name": "Early Bird Est.",
+        "type": "Estudiante",
+        "price": 30,
+        "currency": " USD",
+        "starts": "early-ticket-starts",
+        "ends": "early-ticket-student-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+      {
+        "name": "Estudiante.",
+        "type": "Estudiante",
+        "price": 35,
+        "currency": " USD",
+        "starts": "early-ticket-student-ends",
+        "ends": "all-tickets-ends",
+        "info": "early-ticket-info",
         "soldOut": false,
         "gone": false
       }

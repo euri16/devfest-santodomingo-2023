@@ -20,6 +20,13 @@
         "logoUrl": "../images/logos/oriontek.jpg",
         "height": 100,
         "width": 200
+      },
+      {
+        "name": "Solvex",
+        "url": "https://solvex.com.do/",
+        "logoUrl": "../images/logos/solvex.png",
+        "height": 100,
+        "width": 170
       }
     ]
   },
@@ -37,6 +44,12 @@
         "url": "http://www.virtualmind.com",
         "logoUrl": "../images/logos/virtualmind.png",
         "height": 75
+      },
+      {
+        "name": "EPAM",
+        "url": "https://www.epam.com/",
+        "logoUrl": "../images/logos/epam.svg",
+        "height": 75
       }
     ]
   },
@@ -48,6 +61,12 @@
         "url": "http://encora.com/",
         "logoUrl": "../images/logos/encora.svg",
         "width": 250
+      },
+      {
+        "name": "Platzi",
+        "url": "https://platzi.com/",
+        "logoUrl": "../images/logos/platzi.png",
+        "width": 150
       }
     ]
   },
