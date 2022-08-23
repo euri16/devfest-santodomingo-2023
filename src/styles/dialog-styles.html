@@ -1,12 +1,12 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../../bower_components/paper-dialog-behavior/paper-dialog-shared-styles.html">
-
+<link
+  rel="import"
+  href="../../bower_components/paper-dialog-behavior/paper-dialog-shared-styles.html"
+/>
 
 <dom-module id="dialog-styles">
-
   <template>
-
     <style include="paper-dialog-shared-styles">
       :host {
         display: block;
@@ -18,38 +18,47 @@
         --truncate-marked-text-style: {
           font-size: 15px;
           line-height: 1.5;
-        };
+        }
 
-        --paper-fab-background: #FFFFFF;
-        --paper-fab-keyboard-focus-background: #FFFFFF;
+        --paper-fab-background: #ffffff;
+        --paper-fab-keyboard-focus-background: #ffffff;
         --paper-menu-button-content: {
-          background: #FFFFFF;
+          background: #ffffff;
           color: var(--secondary-text-color);
-        };
+        }
         --paper-fab-iron-icon: {
           color: var(--secondary-text-color);
-        };
+        }
       }
 
-      paper-scroll-header-panel, app-header-layout {
-        @apply(--layout-fit);
+      paper-scroll-header-panel,
+      app-header-layout {
+        @apply (--layout-fit);
         margin: 0;
-        background: #FFFFFF;
+        background: #ffffff;
         height: 100%;
         --paper-scroll-header-panel-full-header: {
-          background-color: var(--paper-scroll-header-panel-color, var(--general));
-        };
+          background-color: var(
+            --paper-scroll-header-panel-color,
+            var(--general)
+          );
+        }
         --paper-scroll-header-panel-condensed-header: {
-          background-color: var(--paper-scroll-header-panel-color, var(--general));
-        };
+          background-color: var(
+            --paper-scroll-header-panel-color,
+            var(--general)
+          );
+        }
       }
 
-      paper-toolbar, app-header, app-toolbar {
+      paper-toolbar,
+      app-header,
+      app-toolbar {
         background-color: transparent;
-        color: #FFFFFF;
+        color: #ffffff;
         --paper-toolbar-title: {
           margin-left: 10px;
-        };
+        }
       }
 
       .header-action {
@@ -59,9 +68,9 @@
       }
 
       .fallback-image-wrapper {
-        @apply(--layout-horizontal);
-        @apply(--layout-center-center);
-        @apply(--layout-fit);
+        @apply (--layout-horizontal);
+        @apply (--layout-center-center);
+        @apply (--layout-fit);
       }
 
       .fallback-image {
@@ -69,7 +78,7 @@
       }
 
       .photo {
-        @apply(--img-circle);
+        @apply (--img-circle);
         margin-right: var(--content-padding);
         width: 80px;
         height: 80px;
@@ -80,7 +89,7 @@
       }
 
       .content {
-        @apply(--truncate-marked-text-style);
+        @apply (--truncate-marked-text-style);
         padding: var(--content-padding);
       }
 
@@ -92,18 +101,18 @@
       }
 
       .metadata-wrapper {
-        @apply(--layout-vertical);
+        @apply (--layout-vertical);
         margin-bottom: 10px;
       }
 
       .main-info {
-        @apply(--layout-horizontal);
+        @apply (--layout-horizontal);
       }
 
       .info {
-        @apply(--layout-flex);
-        @apply(--layout-vertical);
-        @apply(--layout-center-justified);
+        @apply (--layout-flex);
+        @apply (--layout-vertical);
+        @apply (--layout-center-justified);
         color: var(--secondary-text-color);
       }
 
@@ -131,8 +140,8 @@
       }
 
       .actions {
-        @apply(--layout-horizontal);
-        @apply(--layout-wrap);
+        @apply (--layout-horizontal);
+        @apply (--layout-wrap);
         margin-left: -9px;
       }
 
@@ -156,12 +165,12 @@
       }
 
       .sections {
-        @apply(--layout-horizontal);
-        @apply(--layout-wrap);
+        @apply (--layout-horizontal);
+        @apply (--layout-wrap);
       }
 
       .section {
-        @apply(--layout-horizontal);
+        @apply (--layout-horizontal);
       }
 
       .section:not(:last-of-type) {
@@ -169,11 +178,11 @@
       }
 
       .section-info {
-        @apply(--layout-flex);
+        @apply (--layout-flex);
       }
 
       .section-photo {
-        @apply(--img-circle);
+        @apply (--img-circle);
         margin-right: var(--content-padding);
         width: 60px;
         height: 60px;
@@ -221,9 +230,6 @@
           margin-bottom: 32px;
         }
       }
-
     </style>
-
   </template>
-
 </dom-module>

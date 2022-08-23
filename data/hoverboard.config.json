@@ -77,7 +77,7 @@
     {
       "route": "speakers",
       "permalink": "/speakers/",
-      "inMenu": false
+      "inMenu": true
     },
     {
       "route": "speaker",
@@ -310,11 +310,11 @@
     "speakers": {
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "/images/backgrounds/space_3.jpg",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/public%2FAE9A0281.JPG?alt=media&token=952f00eb-a3e9-45e0-95ec-be0a1257f71d",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
-        "citation": "\"THE STARS DON'T LOOK BIGGER, BUT THEY LOOK BRIGHTER\"",
-        "authorCitation": "SALLY RIDE"
+        "citation": "",
+        "authorCitation": ""
       }
     },
     "schedule": {

@@ -1,22 +1,31 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link
+  rel="import"
+  href="../../bower_components/app-layout/app-toolbar/app-toolbar.html"
+/>
 
-<link rel="import" href="../../bower_components/iron-flex-layout/iron-flex-layout.html">
-<link rel="import" href="../../bower_components/iron-image/iron-image.html">
+<link
+  rel="import"
+  href="../../bower_components/iron-flex-layout/iron-flex-layout.html"
+/>
+<link rel="import" href="../../bower_components/iron-image/iron-image.html" />
 
-<link rel="import" href="../../bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
-<link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
-<link rel="import" href="../../bower_components/paper-menu/paper-menu.html">
+<link
+  rel="import"
+  href="../../bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-toolbar/paper-toolbar.html"
+/>
+<link rel="import" href="../../bower_components/paper-menu/paper-menu.html" />
 
-<link rel="import" href="../styles/shared-styles.html">
-<link rel="import" href="../behaviors/localize-behavior.html">
-
+<link rel="import" href="../styles/shared-styles.html" />
+<link rel="import" href="../behaviors/localize-behavior.html" />
 
 <dom-module id="drawer-block">
-
   <template>
-
     <style include="shared-styles">
       :host {
         display: block;
@@ -29,9 +38,10 @@
       }
 
       .logo {
-        margin-top: 30px;
+        margin-top: 55px;
         height: 80px;
         width: 220px;
+        /* margin-top: 15px; */
       }
 
       .bottom {
@@ -62,8 +72,8 @@
       }
 
       .navigation-link {
-        @apply(--layout-horizontal);
-        @apply(--layout-center);
+        @apply (--layout-horizontal);
+        @apply (--layout-center);
       }
 
       .navigation-link .open-in-new {
@@ -79,12 +89,18 @@
 
     <paper-toolbar class="tall">
       <div class="top">
-        <iron-image class="logo" src="/images/logo-white.svg" sizing="contain"
-                    alt="[[localize('title')]]"></iron-image>
+        <iron-image
+          class="logo"
+          src="/images/logo-white2.png"
+          sizing="contain"
+          alt="[[localize('title')]]"
+        ></iron-image>
       </div>
       <div class="bottom">
         <span class="dates">[[localize('dates')]]</span>
-        <span class="location">{{localize('location-address-short')}}</span>
+        <span style="margin-bottom: 20px" class="location"
+          >{{localize('location-address-short')}}</span
+        >
       </div>
     </paper-toolbar>
     <nav>
@@ -96,40 +112,38 @@
       >
         <template is="dom-repeat" items="[[app.data.navigation]]" as="nav">
           <template is="dom-if" if="[[nav.inMenu]]">
-            <a class="navigation-link" href="[[nav.permalink]]" name="[[nav.route]]" on-tap="closeDrawer">
-                {{localize(nav.route)}}
+            <a
+              class="navigation-link"
+              href="[[nav.permalink]]"
+              name="[[nav.route]]"
+              on-tap="closeDrawer"
+            >
+              {{localize(nav.route)}}
             </a>
           </template>
         </template>
       </paper-menu>
     </nav>
-
   </template>
 
   <script>
     (function () {
-      'use strict';
+      "use strict";
 
       Polymer({
+        is: "drawer-block",
 
-        is: 'drawer-block',
-
-        behaviors: [
-          HOVERBOARD.LocalizeBehavior
-        ],
+        behaviors: [HOVERBOARD.LocalizeBehavior],
 
         closeDrawer: function () {
           HOVERBOARD.Elements.Template.closeDrawer();
         },
 
         _trackBuyClick: function () {
-          HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'drawer');
+          HOVERBOARD.Analytics.trackEvent("ticket", "buy_click", "drawer");
           this.closeDrawer();
-        }
-
+        },
       });
-
-    }());
+    })();
   </script>
-
 </dom-module>
