@@ -46,5 +46,69 @@
     "tags": ["Web"],
     "complexity": "Intermediate",
     "speakers": [103]
+  },
+  "104": {
+    "id": 104,
+    "title": "Prototipado en Android con Firestore y Jetpack Compose",
+    "description": "En esta charla vamos a hablar de 3 tecnologías que te permiten prototipar una idea de negocio con muy pocas líneas de código y esfuerzo. 1. Android con Kotlin, construye una aplicación con una plantilla de Jetpack Compose y crea la estructura base. 2. Conecta tu aplicación Android con Firebase y Firestore para persistir tus datos en la nube y monitorear cambios en tiempo real. 3. Utiliza Jetpack compose para crear listas y elementos visuales sencillos con muy pocas líneas de código e integrado con Firestore y el ViewModels.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Android",
+    "language": "en",
+    "tags": ["Android"],
+    "complexity": "Intermediate",
+    "speakers": [104]
+  },
+  "105": {
+    "id": 105,
+    "title": "Creando un generador de código con Kotlin, KSP y anotaciones",
+    "description": "Como desarrollador usando el lenguaje Kotlin se que has usado anotaciones, una magia negra que te ahorra tiempo, te agrega mantenibilidad y genera código. ¿Cómo funciona eso?? ¿Cómo puedo construir mis anotaciones y que generen código?. En esta charla hablaremos como funciona las anotaciones y construiremos algunos ejemplos usando KSP (Kotlin Symbol Processing).",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Android",
+    "language": "en",
+    "tags": ["Kotlin"],
+    "complexity": "Intermediate",
+    "speakers": [105]
+  },
+  "106": {
+    "id": 106,
+    "title": "Bases de Datos NoSQL",
+    "description": "A veces, las estructuras de datos utilizadas por las bases de datos NoSQL también se consideran “más flexibles” que las tablas de bases de datos relacionales. En esta charla ilustraremos con algunos casos prácticos como están impactando estas bases de datos en el mundo de las Apps, sitios web, entre otros softwares.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Database",
+    "language": "en",
+    "tags": ["Database"],
+    "complexity": "Intermediate",
+    "speakers": [106]
+  },
+  "107": {
+    "id": 107,
+    "title": "How to increase your daily vision capabilities using Google Glass and Google Cloud",
+    "description": "In this event we are going to explore how to provide augmentation capabilities to our vision in our daily routine using Google Glass. Providing machine learnings models to our glasses to identify objects and patterns and using this information to identify useful insights with the help of Google Cloud.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Android",
+    "language": "en",
+    "tags": ["Cloud"],
+    "complexity": "Intermediate",
+    "speakers": [107]
   }
 }

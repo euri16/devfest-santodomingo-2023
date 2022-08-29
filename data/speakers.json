@@ -41,5 +41,61 @@
     "tags": ["Web", "UX"],
     "badges": [],
     "socials": []
+  },
+  "104": {
+    "id": 104,
+    "name": "Santiago Carrillo",
+    "featured": true,
+    "company": "Ada School",
+    "companyLogo": "/images/logos/thoughtworks.png",
+    "country": "Colombia",
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/speakers%2FSantiago%20Carrillo.jpg?alt=media&token=89dbe8e6-409c-4aab-a943-2ae565222e9b",
+    "shortBio": "Santiago es cofundador y CEO de Ada School,  MSc en Ingeniería de Software de la Universidad de Amsterdam, cuenta con +11 años de experiencia como desarrollador Android, es reconocido por Google como experto en Android, hace parte de la red de mentores de la aceleradora de Google for Startups.",
+    "bio": "Santiago es cofundador y CEO de Ada School,  MSc en Ingeniería de Software de la Universidad de Amsterdam, cuenta con +11 años de experiencia como desarrollador Android, es reconocido por Google como experto en Android, hace parte de la red de mentores de la aceleradora de Google for Startups.",
+    "tags": ["Kotlin", "Android", "Firebase"],
+    "badges": [],
+    "socials": []
+  },
+  "105": {
+    "id": 105,
+    "name": "Juan Guillermo Gómez",
+    "featured": true,
+    "company": "GDE",
+    "companyLogo": "/images/logos/thoughtworks.png",
+    "country": "Colombia",
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/speakers%2FJuan%20Guillermo%20Go%CC%81mez.jpg?alt=media&token=ea7b445c-8001-4a35-b710-33c2206e7642",
+    "shortBio": "Juan Guillermo is the co-organizer of several global and local events, such as GDG Cali, startup weekend Colombia and free software. He has been involved in tech and software programming for the past 20 years. He attends more than 30 events per year as a guest speaker throughout Latin America, where he speaks about mobile, android, cloud, firebase, kotlin, software architecture, entrepreneurship, and innovation. ",
+    "bio": "Juan Guillermo is the co-organizer of several global and local events, such as GDG Cali, startup weekend Colombia and free software. He has been involved in tech and software programming for the past 20 years. He attends more than 30 events per year as a guest speaker throughout Latin America, where he speaks about mobile, android, cloud, firebase, kotlin, software architecture, entrepreneurship, and innovation. In 2016, he co-founded the first hacker school in Cali (DevHack), where he teaches programming different technologies such as front-end, mobile, and back-end. He has been a programmer, software architect, technology leader, university professor, advisor in technology companies and systems departments. Now, he is an educator at DevHack and tech lead in WordBox. Juan is GDE (Google Developer Expert) in Firebase, GCP and Kotlin, holds a BS in System Engineering, and an MS in Software Engineering at Universidad San Buenaventura Cali.",
+    "tags": ["Kotlin"],
+    "badges": [],
+    "socials": []
+  },
+  "106": {
+    "id": 106,
+    "name": "José Aquino",
+    "featured": true,
+    "company": "",
+    "companyLogo": "/images/logos/thoughtworks.png",
+    "country": "República Dominicana",
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/speakers%2FJose%CC%81%20Aquino.jpg?alt=media&token=9434a7e6-4d02-4bf6-9736-859edef590ce",
+    "shortBio": "Profesional de Sistemas y Tecnologia de la Información con Máster en Business Intelligence & Big Data, Fundador y Coordinador de la Comunidad Big Data Dominicana, Docente y Consultor Senior con más de 15 años de experiencia en el área de T.I.",
+    "bio": "Profesional de Sistemas y Tecnologia de la Información con Máster en Business Intelligence & Big Data, Fundador y Coordinador de la Comunidad Big Data Dominicana, Docente y Consultor Senior con más de 15 años de experiencia en el área de T.I.",
+    "tags": ["Database"],
+    "badges": [],
+    "socials": []
+  },
+  "107": {
+    "id": 107,
+    "name": "Sebastián Moreno",
+    "featured": true,
+    "company": "GDE",
+    "companyLogo": "/images/logos/thoughtworks.png",
+    "country": "Chile",
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/speakers%2FSebastia%CC%81n%20Moreno.jpg?alt=media&token=e9f2d68c-8955-41f1-8e1a-ea1db2e4e7c8",
+    "shortBio": "Regional Partner Engineer @ Google, Founder of the GDG Cloud Santiago de Chile, Former GDE for Google Cloud technologies. Passionated about pushing technologies to the limit.",
+    "bio": "Regional Partner Engineer @ Google, Founder of the GDG Cloud Santiago de Chile, Former GDE for Google Cloud technologies. Passionated about pushing technologies to the limit.",
+    "tags": ["Cloud"],
+    "badges": [],
+    "socials": []
   }
 }
