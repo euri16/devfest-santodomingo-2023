@@ -110,5 +110,21 @@
     "tags": ["Cloud"],
     "complexity": "Intermediate",
     "speakers": [107]
+  },
+  "108": {
+    "id": 108,
+    "title": "Building Maintainable Angular Libraries",
+    "description": "Creating a library that is easy to use and manage is a major challenge. Angular is a great platform for large applications, and large organizations, but often teams don’t put the necessary effort into making it easier to manage. In this session, we’ll cover some of the basic principles for how to identify, extract, implement, and maintain a library (or sets of libraries) for your application and organization.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Angular",
+    "language": "en",
+    "tags": ["Angular"],
+    "complexity": "Intermediate",
+    "speakers": [108]
   }
 }
