@@ -113,17 +113,17 @@
   },
   "108": {
     "id": 108,
-    "title": "Building Maintainable Angular Libraries",
-    "description": "Creating a library that is easy to use and manage is a major challenge. Angular is a great platform for large applications, and large organizations, but often teams don’t put the necessary effort into making it easier to manage. In this session, we’ll cover some of the basic principles for how to identify, extract, implement, and maintain a library (or sets of libraries) for your application and organization.",
+    "title": "Beginning gRPC with Python",
+    "description": "Da un giro tecnológico con gRPC y Golang Web Services mientras descubres las últimas funcionalidades del lenguaje Go. El éxito gRPC es totalmente relacionada a su performance en comparación a los APIs JSON y XML. En esta sesión, descubrirás como desarrollar Web APIs con la especificación gRPC.",
     "presentation": "",
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
       "title": "Titan"
     },
-    "category": "Angular",
+    "category": "Python",
     "language": "en",
-    "tags": ["Angular"],
+    "tags": ["Python"],
     "complexity": "Intermediate",
     "speakers": [108]
   }

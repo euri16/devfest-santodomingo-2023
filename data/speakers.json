@@ -100,15 +100,15 @@
   },
   "108": {
     "id": 108,
-    "name": "Jeremy Wilken",
+    "name": "Andrés Pineda",
     "featured": true,
-    "company": "NVIDIA",
+    "company": "GDE",
     "companyLogo": "/images/logos/thoughtworks.png",
-    "country": "Austin, TX",
-    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/speakers%2FJeremy%20Wilken.jpeg?alt=media&token=1f475459-1ecf-487f-b730-e2bef2d4f696",
-    "shortBio": "Jeremy Wilken is a seasoned engineering leader with a focus on building web applications at companies like NVIDIA, eBay, Teradata, and VMware. He is a Google Developer Expert for Google Assistant, Angular and Web Technologies and regularly speaks at events and writes around the web. He is also the author of two books, Angular in Action and Ionic in Action. He lives in Austin, Texas with his family.",
-    "bio": "Jeremy Wilken is a seasoned engineering leader with a focus on building web applications at companies like NVIDIA, eBay, Teradata, and VMware. He is a Google Developer Expert for Google Assistant, Angular and Web Technologies and regularly speaks at events and writes around the web. He is also the author of two books, Angular in Action and Ionic in Action. He lives in Austin, Texas with his family.",
-    "tags": ["Angular"],
+    "country": "República Dominicana",
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/speakers%2FAndre%CC%81s%20Pineda.jpg?alt=media&token=60a9d2aa-b23f-4ddd-bd8d-d265079fd617",
+    "shortBio": "Software Developer with a passion for Mobile Technologies. He is part of different developer communities where he collaborates in different ways (coding, mentoring, hosting events, speaking, etc). In his free time, he enjoys working out, playing a video game, or just chilling out watching a tv show.",
+    "bio": "Software Developer with a passion for Mobile Technologies. He is part of different developer communities where he collaborates in different ways (coding, mentoring, hosting events, speaking, etc). In his free time, he enjoys working out, playing a video game, or just chilling out watching a tv show.",
+    "tags": [""],
     "badges": [],
     "socials": []
   }
