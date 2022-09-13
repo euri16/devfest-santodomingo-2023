@@ -27,18 +27,24 @@
         "logoUrl": "../images/logos/solvex.png",
         "height": 100,
         "width": 170
-      }
-    ]
-  },
-  {
-    "title": "gold-partner",
-    "logos": [
+      },
       {
         "name": "Smart Testing",
         "url": "https://www.smarttestingrd.com/",
         "logoUrl": "../images/logos/smart_testing.png",
         "width": 250
       },
+      {
+        "name": "GovValue",
+        "url": "https://govvalue.com/",
+        "logoUrl": "../images/logos/govvalue.webp",
+        "width": 350
+      }
+    ]
+  },
+  {
+    "title": "gold-partner",
+    "logos": [
       {
         "name": "VirtualMind",
         "url": "http://www.virtualmind.com",
@@ -67,6 +73,12 @@
         "url": "https://platzi.com/",
         "logoUrl": "../images/logos/platzi.png",
         "width": 150
+      },
+      {
+        "name": "Ministerio de la Juventud",
+        "url": "https://juventud.gob.do/",
+        "logoUrl": "../images/logos/juventud.svg",
+        "width": 250
       }
     ]
   },

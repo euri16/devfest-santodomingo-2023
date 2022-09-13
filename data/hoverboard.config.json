@@ -375,6 +375,57 @@
     "url": "https://www.eventbrite.com/e/gdg-devfest-santo-domingo-2022-tickets-396256442687",
     "elements": [
       {
+        "name": "General",
+        "type": "General",
+        "price": 50,
+        "currency": " USD",
+        "starts": "general-ticket-starts",
+        "ends": "all-tickets-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+
+      {
+        "name": "VIP",
+        "type": "VIP",
+        "price": 120,
+        "currency": " USD",
+        "starts": "ticket-vip-starts",
+        "ends": "all-tickets-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+      {
+        "name": "Invita un amigo (3x2)",
+        "type": "General",
+        "price": 100,
+        "currency": " USD",
+        "starts": "invite-friend-ticket-starts",
+        "ends": "invite-friend-ticket-ends",
+        "info": "lazy-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+
+      {
+        "name": "Estudiante.",
+        "type": "Estudiante",
+        "price": 35,
+        "currency": " USD",
+        "starts": "early-ticket-student-ends",
+        "ends": "all-tickets-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      }
+    ]
+  },
+  "tickets1": {
+    "url": "https://www.eventbrite.com/e/gdg-devfest-santo-domingo-2022-tickets-396256442687",
+    "elements": [
+      {
         "name": "Super Early Bird Gral.",
         "type": "General",
         "price": 25,
@@ -383,7 +434,7 @@
         "ends": "early-ticket-starts",
         "info": "early-ticket-info",
         "soldOut": true,
-        "gone": false
+        "gone": true
       },
       {
         "name": "Early Bird General",
@@ -394,7 +445,7 @@
         "ends": "general-ticket-starts",
         "info": "early-ticket-info",
         "soldOut": false,
-        "gone": false
+        "gone": true
       },
       {
         "name": "General",
@@ -416,7 +467,7 @@
         "ends": "ticket-vip-starts",
         "info": "early-ticket-info",
         "soldOut": false,
-        "gone": false
+        "gone": true
       },
       {
         "name": "VIP",
@@ -449,7 +500,7 @@
         "ends": "early-ticket-student-ends",
         "info": "early-ticket-info",
         "soldOut": false,
-        "gone": false
+        "gone": true
       },
       {
         "name": "Estudiante.",
@@ -466,7 +517,7 @@
   },
   "statistics": [
     {
-      "counter": 250,
+      "counter": "+250",
       "caption": "attendees"
     },
     {
@@ -474,15 +525,15 @@
       "caption": "days"
     },
     {
-      "counter": 1,
+      "counter": 2,
       "caption": "tracks"
     },
     {
-      "counter": 18,
+      "counter": "+32",
       "caption": "sessions"
     },
     {
-      "counter": 18,
+      "counter": "+30",
       "caption": "speakers"
     }
   ],
