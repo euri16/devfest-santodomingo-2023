@@ -44,8 +44,7 @@
         "name": "Elaine Guzman",
         "aka": "Finanzas",
         "photoUrl": "/images/team/elaine.jpeg",
-        "socials": [
-        ],
+        "socials": [],
         "title": "UI/UX Designer Jr."
       },
       {
@@ -100,6 +99,19 @@
           }
         ],
         "title": "DevOps Engineer"
+      },
+      {
+        "name": "Xiara Paulino",
+        "aka": "Relaciones Públicas",
+        "photoUrl": "/images/team/xiara.jpeg",
+        "socials": [
+          {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/xiara-paulino-871005183/"
+          }
+        ],
+        "title": "Digital Content Manager"
       }
     ]
   }

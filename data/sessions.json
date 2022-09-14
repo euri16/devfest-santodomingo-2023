@@ -65,8 +65,8 @@
   },
   "105": {
     "id": 105,
-    "title": "Creando un generador de código con Kotlin, KSP y anotaciones",
-    "description": "Como desarrollador usando el lenguaje Kotlin se que has usado anotaciones, una magia negra que te ahorra tiempo, te agrega mantenibilidad y genera código. ¿Cómo funciona eso?? ¿Cómo puedo construir mis anotaciones y que generen código?. En esta charla hablaremos como funciona las anotaciones y construiremos algunos ejemplos usando KSP (Kotlin Symbol Processing).",
+    "title": "Harder, Better, Faster, Stronger with the power of Firebase Extensions and Google Cloud",
+    "description": "In this talk, I’ll introduce Firebase’s newest product in the serverless world called Firebase Extensions, and show how it enables you to create serverless backends with less code in less time. Specifically I’ll cover: * What a Firebase Extension is and how it works with Cloud Functions * How to use them in your apps * How to integrate them with other Firebase services such as Firebase Auth, Cloud Firestore or Cloud Storage * How you can call Extensions both from your backend and your frontend * How to customize Extensions to your specific needs In the end I will also introduce you to a sneak preview of how you can build an extension and share it with other developers so they can use it in their own apps. No matter if you’re a seasoned Google Cloud or Firebase user, or just wondering what it is all about, you should leave this session with a deeper understanding of what Firebase Extensions are, how they’re built on top of Google Cloud Functions and other serverless technologies, and how they enable you to add powerful features to your app and ship faster than ever before.",
     "presentation": "",
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
@@ -126,5 +126,101 @@
     "tags": ["Python"],
     "complexity": "Intermediate",
     "speakers": [108]
+  },
+  "109": {
+    "id": 109,
+    "title": "Bootcamps: el futuro de la educación tecnológica",
+    "description": "Están surgiendo nuevas formas de enseñar tecnología. En el mundo se necesitan más y mejores profesionales de TI y para ellos se necesita innovar en la formación. Una de las tendencias actuales son los bootcamps en tecnología, donde se aprende de una forma intensiva, rápida y con alto enfoque práctico",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Python",
+    "language": "en",
+    "tags": ["Diversity"],
+    "complexity": "Intermediate",
+    "speakers": [109]
+  },
+  "110": {
+    "id": 110,
+    "title": "Migrando a Jetpack Compose",
+    "description": "Al introducir nuevas tecnologías a un proyecto existente existen muchas dificultades, tanto la adopción de estas como su aprendizaje implican un esfuerzo para los equipos involucrados y en grandes organizaciones se convierte en un reto muy complicado. Existen patrones para modulizar nuestra aplicación, crear sistemas de diseño e ir migrando el código de a poco sin perder compatibilidad. Estas estrategias tienen pros y contras las cuales le daremos un breve repaso, algunas por mencionar son de adoptar un sistema de diseño y/o una arquitectura diferente o un sistema basado en micro aplicaciones.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Python",
+    "language": "en",
+    "tags": ["Android"],
+    "complexity": "Intermediate",
+    "speakers": [110]
+  },
+  "111": {
+    "id": 111,
+    "title": "Diseño funcional de microservicios con Spring Boot",
+    "description": "El diseño de micro servicios funcionales y escalables es un reto complejo de afrontar y la necesidad de hacer una implementación impecable que funcione en un entorno real es muy difícil cuando afrontas temas de transacciones, delegación de responsabilidad, seguridad, debug, logs, entre otras. El objetivo principal será mostrar como ejecutar la solución de los problemas con patrones simples que atomizaran los problemas y permitirán una codificación limpia, escalable y sobre todo colaborativa entre los equipos de trabajo.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Python",
+    "language": "en",
+    "tags": ["Java"],
+    "complexity": "Intermediate",
+    "speakers": [111]
+  },
+  "112": {
+    "id": 112,
+    "title": "Matter, el nuevo estándar del IoT",
+    "description": "Cuando aparece una nueva “tecnología” como IoT (ya no tan nueva) las empresas entran en competencia buscando diferenciarse para lograr que su producto se transforme en el nuevo estándar. La creatividad de las empresas es un aspecto muy importante pero, a la vez, puede generarnos algunos problemas. Por ejemplo: hace algunos años, con los navegadores de internet, cuando comenzaba el internet doméstico,Estas diferencias le trajeron muchos problemas a los desarrolladores a lo largo de los años, juntos conozcamos la historia de este nuevo estándar que esta llegando.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Python",
+    "language": "en",
+    "tags": ["IoT"],
+    "complexity": "Intermediate",
+    "speakers": [112]
+  },
+  "113": {
+    "id": 113,
+    "title": "Serverless para Frontends",
+    "description": "Los desarrolladores front-end pueden hacer mucha magia en la web hoy en día, pero a veces todavía existe la necesidad de manejar algo de lógica en el lado del servidor. Serverless permite a los desarrolladores front-end crear aplicaciones fullstack sin tener que administrar y operar la infraestructura, lo que libera a los desarrolladores de la preocupación de las tareas back-end como escalar servidores y aprovisionar capacidad y recursos. En esta charla vamos a conocer el concepto ver algunos servicios y jugaremos con ellos. ¡Hagámoslo sin servidor!",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Python",
+    "language": "en",
+    "tags": ["Serverless"],
+    "complexity": "Intermediate",
+    "speakers": [113]
+  },
+  "114": {
+    "id": 114,
+    "title": "Machine Learning on GCP",
+    "description": "There are Lots of options for Machine Learning on Google Cloud. In this talk, I will share a range of options, and discuss where it is recommended to employ which options - ranging from the prebuilt models and available APIs to the compute resources for custom training and serving to orchestration options. All with the aim to optimize your results!",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Titan"
+    },
+    "category": "Python",
+    "language": "en",
+    "tags": ["ML"],
+    "complexity": "Intermediate",
+    "speakers": [114]
   }
 }
