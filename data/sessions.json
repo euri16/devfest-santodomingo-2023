@@ -7,7 +7,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 2"
     },
     "category": "Assistant",
     "language": "en",
@@ -23,7 +23,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 1"
     },
     "category": "Android",
     "language": "en",
@@ -39,7 +39,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 1"
     },
     "category": "Android",
     "language": "en",
@@ -55,7 +55,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 1"
     },
     "category": "Android",
     "language": "en",
@@ -71,7 +71,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 1"
     },
     "category": "Android",
     "language": "en",
@@ -87,11 +87,11 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 2"
     },
-    "category": "Database",
+    "category": "DB",
     "language": "en",
-    "tags": ["Database"],
+    "tags": ["DB"],
     "complexity": "Intermediate",
     "speakers": [106]
   },
@@ -103,7 +103,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 2"
     },
     "category": "Android",
     "language": "en",
@@ -119,11 +119,11 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 1"
     },
-    "category": "Python",
+    "category": "gRPC",
     "language": "en",
-    "tags": ["Python"],
+    "tags": ["gRPC", "Python"],
     "complexity": "Intermediate",
     "speakers": [108]
   },
@@ -133,29 +133,29 @@
     "description": "Están surgiendo nuevas formas de enseñar tecnología. En el mundo se necesitan más y mejores profesionales de TI y para ellos se necesita innovar en la formación. Una de las tendencias actuales son los bootcamps en tecnología, donde se aprende de una forma intensiva, rápida y con alto enfoque práctico",
     "presentation": "",
     "videoId": "JaHsrC7UNeM",
-    "type": "📣 Conference",
+    "type": "📣 Keynote",
     "track": {
-      "title": "Titan"
+      "title": "Track 1"
     },
-    "category": "Python",
+    "category": "Community",
     "language": "en",
-    "tags": ["Diversity"],
+    "tags": ["Community"],
     "complexity": "Intermediate",
     "speakers": [109]
   },
   "110": {
     "id": 110,
-    "title": "Migrando a Jetpack Compose",
-    "description": "Al introducir nuevas tecnologías a un proyecto existente existen muchas dificultades, tanto la adopción de estas como su aprendizaje implican un esfuerzo para los equipos involucrados y en grandes organizaciones se convierte en un reto muy complicado. Existen patrones para modulizar nuestra aplicación, crear sistemas de diseño e ir migrando el código de a poco sin perder compatibilidad. Estas estrategias tienen pros y contras las cuales le daremos un breve repaso, algunas por mencionar son de adoptar un sistema de diseño y/o una arquitectura diferente o un sistema basado en micro aplicaciones.",
+    "title": "Not Limits for Ci/CD Mobile",
+    "description": "Hablar sobre las diferentes etapas de la gestión de versiones en una aplicación móvil. Teniendo en cuenta las mejores prácticas, herramientas recomendadas, ejemplos prácticos y repositorios de código abierto como ejemplos. Entre los temas específicos estarán: - Introducción a un CI/CD - Registro - Monitoreo - Perfiles de rendimiento - Seguridad móvil - Actualizaciones inalámbricas - Hablando sobre las acciones de Github - Caché - Registro de cambios - Etiquetas de lanzamiento - Hablando sobre Fastlane - Introducción, ¿Qué es? Ventajas - Integración entre Android, iOS, Flutter y React Native - Mejores prácticas - Las herramientas funcionan bien con él. - Integración entre Github Actions y Fastlane",
     "presentation": "",
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 2"
     },
-    "category": "Python",
+    "category": "Mobile",
     "language": "en",
-    "tags": ["Android"],
+    "tags": ["Mobile"],
     "complexity": "Intermediate",
     "speakers": [110]
   },
@@ -167,7 +167,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 1"
     },
     "category": "Python",
     "language": "en",
@@ -177,17 +177,17 @@
   },
   "112": {
     "id": 112,
-    "title": "Matter, el nuevo estándar del IoT",
-    "description": "Cuando aparece una nueva “tecnología” como IoT (ya no tan nueva) las empresas entran en competencia buscando diferenciarse para lograr que su producto se transforme en el nuevo estándar. La creatividad de las empresas es un aspecto muy importante pero, a la vez, puede generarnos algunos problemas. Por ejemplo: hace algunos años, con los navegadores de internet, cuando comenzaba el internet doméstico,Estas diferencias le trajeron muchos problemas a los desarrolladores a lo largo de los años, juntos conozcamos la historia de este nuevo estándar que esta llegando.",
+    "title": "Learning how to Learn: The most critical skill in the information age.",
+    "description": "La ingeniería de software es una de las áreas del conocimiento donde para ser un profesional competente debemos enfrentarnos a inmensas cantidades de información de forma constante e inevitable a través de toda nuestra carrera. Aprender a aprender, de forma eficiente, eficaz y duradera es clave para todo Ingeniero de Software que quiera ser exitoso. La habilidad de aprender es una de las más usadas y esenciales en nuestro día a día. Curiosamente, no todos nos hemos sentado a esquematizar tácticas y estrategias para potenciar la forma en que adquirimos el conocimiento. Si deseas saber qué herramientas, métodos y estrategias puedes utilizar para potenciar tu aprendizaje, esta charla podría resultarte interesante.",
     "presentation": "",
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 2"
     },
-    "category": "Python",
+    "category": "Android",
     "language": "en",
-    "tags": ["IoT"],
+    "tags": ["Android"],
     "complexity": "Intermediate",
     "speakers": [112]
   },
@@ -199,7 +199,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 1"
     },
     "category": "Python",
     "language": "en",
@@ -215,12 +215,318 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Titan"
+      "title": "Track 1"
     },
     "category": "Python",
     "language": "en",
     "tags": ["ML"],
     "complexity": "Intermediate",
     "speakers": [114]
+  },
+  "115": {
+    "id": 115,
+    "title": "How To Build Your First Voice-Driven Web Application ",
+    "description": "Imagine you can speak to your web application. Your app is ready to listen to voice commands and perform actions for you. With the help of Web APIs, we can move forward to develop modern apps that not only recognize what your users are saying but speak back to them as well. We’ll see a demo app using Web APIs, and design patterns through TypeScript and Angular to learn some basics of speech recognition and speech synthesis.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Angular",
+    "language": "en",
+    "tags": ["Angular"],
+    "complexity": "Intermediate",
+    "speakers": [115]
+  },
+  "116": {
+    "id": 116,
+    "title": "Flutter Forest",
+    "description": "Espero que al final de esta platica se cree un mundo de dudas las cuales les dé la oportunidad de profundizar en el tema de Flutter, Rendering y todo el trabajo que esta hecho detrás de cada pequeño rebuild que vemos que sucede en la pantalla. Entenderemos el como sucede, cual es el proceso que se lleva internamente en el core de Flutter para que esto suceda y todo lo que necesita suceder tras bambalinas con una gran desempeño sin que nosotros no preocupemos por ellos, claro que hay mucho que podemos hacer para ayudar a este proceso, pero conociendo lo que tenemos como base nos ayuda a lograr enfocarnos en lo que es verdaderamente es importante y cuando lo sea importante.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Flutter",
+    "language": "en",
+    "tags": ["Flutter"],
+    "complexity": "Intermediate",
+    "speakers": [116]
+  },
+  "117": {
+    "id": 117,
+    "title": "Qwik is a new kind of web framework",
+    "description": "Qwik is a new kind of web framework that can deliver instantly load web applications at any size or complexity. Your sites and apps can boot with about 1kb of JS (regardless of application complexity), and achieve consistent performance at scale.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Angular",
+    "language": "en",
+    "tags": ["Angular"],
+    "complexity": "Intermediate",
+    "speakers": [117]
+  },
+  "118": {
+    "id": 118,
+    "title": "Transformación Digital - Mitos y realidades.",
+    "description": "En todas las industrias del mundo, el año pasado las organizaciones se adaptaron a los desafíos, buscaron nuevas oportunidades comerciales y aceleraron sus capacidades digitales frente a la pandemia que ha remodelado nuestro mundo. La disrupción exige la capacidad de convertir el desafío en oportunidad. En el mundo actual, esta capacidad se basa en una sólida base digital. Lo hemos escuchado una y otra vez: las organizaciones que ya habían comenzado su viaje de transformación digital se sintieron mejor equipadas para responder a cambios rápidos e impredecibles. Es muy frecuente escuchar el termino transformación digital, pero realmente que es? En verdad funciona en todas las empresas? Que se necesita para lograrla?",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Angular",
+    "language": "en",
+    "tags": ["Angular"],
+    "complexity": "Intermediate",
+    "speakers": [118]
+  },
+  "119": {
+    "id": 119,
+    "title": "What Is Software Architecture?",
+    "description": "Software Architecture is like Happiness: ambiguous, subjective, opinionated, sometimes undervalued, and many others overrated. I want to take you on a journey where we will try to give an objective, practical, and beneficial definition for all the actors involved in software development.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Java",
+    "language": "en",
+    "tags": ["Java"],
+    "complexity": "Intermediate",
+    "speakers": [119]
+  },
+  "120": {
+    "id": 120,
+    "title": "Theming & styles in .NET MAUI",
+    "description": "Hoy día los usuarios tienen la oportunidad de cambiar el modo de visualización de su dispositivo móvil, por esto generalmente las aplicaciones se han ido adaptando a estas preferencias. En esta charla aprenderemos como adaptar el UI de nuestras App tanto a los modos claro y oscuro en .NET MAUI! Además de que aprendemos a como reutilizar nuestro código aplicando los estilos.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "ASP",
+    "language": "en",
+    "tags": ["ASP"],
+    "complexity": "Intermediate",
+    "speakers": [120]
+  },
+  "121": {
+    "id": 121,
+    "title": "¿Cómo crear apps que resuelven necesidades?",
+    "description": "Busca transmitir que si nos enfocamos en resolver problemas reales que requiere ser resultos en nuestros países o a nivel mundial, podemos crear algo que aporta, agrega valor y que también a la vez puede generar rentabilidad en el tiempo.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Community",
+    "language": "en",
+    "tags": ["Community"],
+    "complexity": "Intermediate",
+    "speakers": [121]
+  },
+  "122": {
+    "id": 122,
+    "title": "¿Como desarrollar el vendedor interno de un tecnólogo?",
+    "description": "“Soy desarrollador, analista de datos, diseñador etc… pero no logro conseguir empleo, siempre me rechazan”. NO TE SABES VENDER. “Tengo un producto desarrollado y ya lo lancé pero no logro conectar con los clientes, nadie me compra”. NO SABES VENDER. Aveces son los nervios, la personalidad introvertida o no creer en nosotros mismos lo que nos traiciona y no permite que cumplamos el objetivo. En esta charla se compartiran conocimientos sobre la eficiente gestión de ventas y como desarrollar el vendedor interno que todos llevamos. Hablaremos sobre las herramientas necesarias para que personas, emprendedores y negocios conozcan más sobre su público objetivo, cómo llegar a ellos y convertirlos en clientes.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Community",
+    "language": "en",
+    "tags": ["Community"],
+    "complexity": "Intermediate",
+    "speakers": [122]
+  },
+  "123": {
+    "id": 123,
+    "title": "Baseline Profiles: a new way to improve app performance",
+    "description": "Si eres un desarrollador de Android que solo se preocupa por hacer que la aplicación funcione, es posible que te falte algo de experiencia. Mejorar el rendimiento de la aplicación es una tarea que beneficia tanto al desarrollador como a la propia aplicación. Los perfiles básicos son una lista de clases y métodos incluidos en un APK que utiliza Android Runtime (ART) durante la instalación de la aplicación para compilar previamente las rutas críticas en el código de la máquina. Esta es una forma de optimización guiada por perfil (PGO) que permite que las aplicaciones optimicen el inicio, reduzcan los bloqueos y mejoren el rendimiento para los usuarios finales.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Android",
+    "language": "en",
+    "tags": ["Android"],
+    "complexity": "Intermediate",
+    "speakers": [123]
+  },
+  "124": {
+    "id": 124,
+    "title": "Nanopb - Protocol Buffers for Embedded Systems",
+    "description": "Probar una implementación de Protocol Buffer en un Arduino y probarla entre la MCU y un servidor.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "",
+    "language": "en",
+    "tags": [""],
+    "complexity": "Intermediate",
+    "speakers": [124]
+  },
+  "125": {
+    "id": 125,
+    "title": "The aesthetic-usability effect",
+    "description": "En esta charla se tratará sobre el efecto usabilidad estética un termino que se utiliza para demostrar cómo los usuarios perciben como más fácil de usar una aplicación cuya UI es más estética. Entendiendo esto, se puede decir que la estética es una funcionalidad y si el trabajo de los UX Designer es que la aplicación funcione tanto para los usuarios como la el negocio entonces el UX y el UI no están tan separadas como se suele pensar.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "UX",
+    "language": "en",
+    "tags": ["UX"],
+    "complexity": "Intermediate",
+    "speakers": [125]
+  },
+  "126": {
+    "id": 126,
+    "title": "The UX Design of Data",
+    "description": "En los primeros días de la web y las aplicaciones móviles, los diseñadores de UX se inspiraron en el diseño gráfico para ofrecer productos buenos y hermosos. En el mundo de hoy eso ha cambiado fundamentalmente. Hoy en día, a los usuarios les importa menos la belleza y más los datos, y aquí exploraremos por qué.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "UX",
+    "language": "en",
+    "tags": ["UX"],
+    "complexity": "Intermediate",
+    "speakers": [126]
+  },
+  "127": {
+    "id": 127,
+    "title": "Usabilidad: diseñando productos que sean UTILES",
+    "description": "Cuando diseñamos un producto no nos percatamos si funciona en la vida real o si de verdad se puede utilizar terminando esto en que creamos algo que la gente no ve su valor, por tanto no utilizará entonces culminando nosotros en haber perdido tiempo y dinero en algo que se pudo haber evitado. La usabilidad es una métrica que nos permite saber y conocer la sastifacción del usuario en cuanto al USO que tiene con nuestra aplicación o página web. En esta charla aprenderemos a como medir nuestros productos correctamente, a cómo CREARLOS partiendo de estas métricas y análisis, y medir en el tiempo hacia el éxito.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "UX",
+    "language": "en",
+    "tags": ["UX"],
+    "complexity": "Intermediate",
+    "speakers": [127]
+  },
+  "128": {
+    "id": 128,
+    "title": "Why you need to learn Flutter Web?",
+    "description": "Probablemente sepa qué es Flutter, en caso de que Flutter sea un marco de aplicación multiplataforma que le permite crear aplicaciones a partir de una base de código única en caso de que no sepa \"saber que sabe\". Sí, lo hiciste bien, puedes crear aplicaciones web usándolo después de que 2.0 Flutter se optimizó más, por lo que ahora podemos desarrollar aplicaciones web completamente funcionales con Flutter. El uso de Flutter definitivamente reducirá los costos y el tiempo, ya que puede aprovechar todas las características que tiene el marco para la web.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Flutter",
+    "language": "en",
+    "tags": ["Flutter"],
+    "complexity": "Intermediate",
+    "speakers": [128]
+  },
+  "129": {
+    "id": 129,
+    "title": "Switching careers: A quick and practical guide to start s career in tech",
+    "description": "En esta charla, se compartirá un marco para abordar el cambio de carrera desde otra industria para las personas que desean pasar con éxito a la industria tecnológica.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Community",
+    "language": "en",
+    "tags": ["Community"],
+    "complexity": "Intermediate",
+    "speakers": [129]
+  },
+  "130": {
+    "id": 130,
+    "title": "Destruyendo tu App con los ojos cerrados.",
+    "description": "La intensión en esta charla es poder explicar cómo funciona la inyección de SQL ciega, de una forma divertida y simple. La misma iniciará hablando de una historia de hacking, una actividad de pentesting realizada por el orador a una empresa de RD y cómo utilizó la inyección de SQL a ciegas para comprometer esa empresa. Luego, tratar de los detalles técnicos de cómo funciona la inyección de SQL a ciegas, mostrar algunos videos de demo y concluirá con recomendaciones para evitar este tipo de vulnerabilidad en sus aplicaciones.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Security",
+    "language": "en",
+    "tags": ["Security"],
+    "complexity": "Intermediate",
+    "speakers": [130]
+  },
+  "131": {
+    "id": 131,
+    "title": "Unreal Engine, Metaverse, Practical Use Cases",
+    "description": "Metaverse is all in the rage right now, new technologies and integrations are springing forth to shape the way we Work, Socially interact and understand information. we will be showing real world scenarios where Virtual reality is being used and look into how this applications are being made and what’s to come in next few years.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "VR",
+    "language": "en",
+    "tags": ["VR"],
+    "complexity": "Intermediate",
+    "speakers": [131]
+  },
+  "135": {
+    "id": 135,
+    "title": "De Junior a Senior y de Senior a Jedi",
+    "description": "",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Community",
+    "language": "es",
+    "tags": ["Community"],
+    "complexity": "Intermediate",
+    "speakers": [108, 116]
+  },
+  "150": {
+    "title": "Bienvenida",
+    "titleMobile": "Bienvenida",
+    "image": "/images/backgrounds/scenario.jpeg",
+    "type": "break"
+  },
+  "151": {
+    "title": "Receso",
+    "titleMobile": "Receso",
+    "image": "/images/backgrounds/scenario.jpeg",
+    "type": "break"
+  },
+  "152": {
+    "title": "Interacción con reclutadores",
+    "titleMobile": "Interacción con reclutadores",
+    "image": "/images/backgrounds/scenario.jpeg",
+    "type": "break"
   }
 }

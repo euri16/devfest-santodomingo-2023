@@ -1,435 +1,164 @@
-[{
-    "date": "2018-10-18",
-    "dateReadable": "October 18",
-    "tracks": [{
-        "title": "Titan"
+[
+  {
+    "date": "2022-10-14",
+    "dateReadable": "October 14",
+    "tracks": [
+      {
+        "title": "Track 1"
       },
       {
-        "title": "Belem"
-      },
-      {
-        "title": "Tour Bretagne"
-      },
-      {
-        "title": "Graslin"
-      },
-      {
-        "title": "Les Machines"
-      },
-      {
-        "title": "Hangar"
+        "title": "Track 2"
       }
     ],
-    "timeslots": [{
-        "startTime": "08:00",
-        "endTime": "09:00",
-        "sessions": [
-          [
-            101
-          ]
-        ]
-      },
+    "timeslots": [
       {
         "startTime": "09:00",
-        "endTime": "09:50",
-        "sessions": [
-          [
-            102
-          ]
-        ]
+        "endTime": "09:20",
+        "sessions": [[150]]
+      },
+      {
+        "startTime": "09:20",
+        "endTime": "10:00",
+        "sessions": [[109]]
       },
       {
         "startTime": "10:00",
-        "endTime": "10:50",
-        "sessions": [
-          [
-            170
-          ],
-          [
-            154
-          ],
-          [
-            116
-          ],
-          [
-            173
-          ]
-        ]
+        "endTime": "10:45",
+        "sessions": [[130], [124]]
       },
       {
-        "startTime": "10:00",
-        "endTime": "12:00",
-        "sessions": [
-          [
-            145
-          ],
-          [
-            127
-          ]
-        ]
+        "startTime": "10:45",
+        "endTime": "11:00",
+        "sessions": [[151]]
       },
       {
-        "startTime": "11:10",
-        "endTime": "12:00",
-        "sessions": [
-          [
-            132
-          ],
-          [
-            144
-          ],
-          [
-            122
-          ],
-          [
-            165
-          ]
-        ]
+        "startTime": "11:00",
+        "endTime": "11:45",
+        "sessions": [[111], [106]]
       },
       {
-        "startTime": "12:00",
+        "startTime": "11:45",
+        "endTime": "12:30",
+        "sessions": [[129], [118]]
+      },
+      {
+        "startTime": "12:30",
+        "endTime": "13:30",
+        "sessions": [[151]]
+      },
+      {
+        "startTime": "13:30",
         "endTime": "14:00",
-        "sessions": [
-          [
-            103
-          ]
-        ]
+        "sessions": [[122], [112]]
       },
       {
         "startTime": "14:00",
-        "endTime": "14:50",
-        "sessions": [
-          [
-            136
-          ],
-          [
-            152
-          ],
-          [
-            172
-          ],
-          [
-            137
-          ]
-        ]
+        "endTime": "14:30",
+        "sessions": [[121], [123]]
       },
       {
-        "startTime": "14:00",
+        "startTime": "14:30",
+        "endTime": "15:15",
+        "sessions": [[], [119]]
+      },
+      {
+        "startTime": "15:15",
         "endTime": "16:00",
-        "sessions": [
-          [
-            166
-          ],
-          [
-            147
-          ]
-        ]
+        "sessions": [[152]]
       },
       {
-        "startTime": "15:10",
-        "endTime": "16:00",
-        "sessions": [
-          [
-            114
-          ],
-          [
-            115
-          ],
-          [
-            124
-          ],
-          [
-            140
-          ]
-        ]
+        "startTime": "16:00",
+        "endTime": "16:45",
+        "sessions": [[113], [107]]
       },
       {
-        "startTime": "16:20",
-        "endTime": "18:20",
-        "sessions": [
-          [
-            157
-          ],
-          [
-            168
-          ]
-        ]
+        "startTime": "16:45",
+        "endTime": "17:30",
+        "sessions": [[116], []]
       },
       {
-        "startTime": "16:20",
-        "endTime": "17:10",
-        "sessions": [
-          [
-            111
-          ],
-          [
-            139
-          ],
-          [
-            162
-          ],
-          [
-            107
-          ]
-        ]
-      },
-      {
-        "startTime": "17:20",
-        "endTime": "17:40",
-        "sessions": [
-          [
-            169
-          ],
-          [
-            156
-          ],
-          [
-            133
-          ],
-          [
-            117
-          ]
-        ]
-      },
-      {
-        "startTime": "17:50",
-        "endTime": "18:10",
-        "sessions": [
-          [
-            131
-          ],
-          [
-            135
-          ],
-          [
-            130
-          ],
-          [
-            109
-          ]
-        ]
-      },
-      {
-        "startTime": "18:30",
-        "endTime": "23:00",
-        "sessions": [
-          [
-            104
-          ]
-        ]
+        "startTime": "17:30",
+        "endTime": "18:00",
+        "sessions": [[120], [127]]
       }
     ]
   },
   {
-    "date": "2017-10-19",
-    "dateReadable": "October 19",
-    "tracks": [{
-        "title": "Titan"
+    "date": "2022-10-15",
+    "dateReadable": "October 15",
+    "tracks": [
+      {
+        "title": "Track 1"
       },
       {
-        "title": "Belem"
-      },
-      {
-        "title": "Tour Bretagne"
-      },
-      {
-        "title": "Graslin"
-      },
-      {
-        "title": "Les Machines"
-      },
-      {
-        "title": "Hangar"
+        "title": "Track 2"
       }
     ],
-    "timeslots": [{
-        "startTime": "08:30",
-        "endTime": "09:00",
-        "sessions": [
-          [
-            105
-          ]
-        ]
-      },
+    "timeslots": [
       {
         "startTime": "09:00",
-        "endTime": "09:50",
-        "sessions": [
-          [
-            164
-          ],
-          [
-            159
-          ],
-          [
-            163
-          ],
-          [
-            153
-          ]
-        ]
+        "endTime": "09:15",
+        "sessions": [[150]]
       },
       {
-        "startTime": "09:00",
+        "startTime": "09:15",
+        "endTime": "10:00",
+        "sessions": [[114], []]
+      },
+      {
+        "startTime": "10:00",
+        "endTime": "10:45",
+        "sessions": [[102], [101]]
+      },
+      {
+        "startTime": "10:45",
         "endTime": "11:00",
-        "sessions": [
-          [
-            148
-          ],
-          [
-            125
-          ]
-        ]
+        "sessions": [[151]]
       },
       {
-        "startTime": "10:10",
-        "endTime": "11:00",
-        "sessions": [
-          [
-            161
-          ],
-          [
-            119
-          ],
-          [
-            126
-          ],
-          [
-            150
-          ]
-        ]
+        "startTime": "11:00",
+        "endTime": "11:45",
+        "sessions": [[104], [110]]
       },
       {
-        "startTime": "11:20",
-        "endTime": "12:10",
-        "sessions": [
-          [
-            112
-          ],
-          [
-            146
-          ],
-          [
-            155
-          ],
-          [
-            123
-          ]
-        ]
+        "startTime": "11:45",
+        "endTime": "12:30",
+        "sessions": [[103], [126]]
       },
       {
-        "startTime": "12:10",
+        "startTime": "12:30",
+        "endTime": "13:30",
+        "sessions": [[151]]
+      },
+      {
+        "startTime": "13:30",
         "endTime": "14:00",
-        "sessions": [
-          [
-            106
-          ]
-        ]
-      },
-      {
-        "startTime": "13:00",
-        "endTime": "15:00",
-        "sessions": [
-          [
-            142
-          ],
-          [
-            113
-          ]
-        ]
+        "sessions": [[117], [125]]
       },
       {
         "startTime": "14:00",
-        "endTime": "14:50",
-        "sessions": [
-          [
-            141
-          ],
-          [
-            128
-          ],
-          [
-            158
-          ],
-          [
-            118
-          ]
-        ]
+        "endTime": "14:30",
+        "sessions": [[135]]
       },
       {
-        "startTime": "15:10",
-        "endTime": "17:10",
-        "sessions": [
-          [
-            129
-          ],
-          [
-            167
-          ]
-        ]
+        "startTime": "14:30",
+        "endTime": "15:15",
+        "sessions": [[105], [115]]
       },
       {
-        "startTime": "15:10",
+        "startTime": "15:15",
         "endTime": "16:00",
-        "sessions": [
-          [
-            171
-          ],
-          [
-            149
-          ],
-          [
-            120
-          ],
-          [
-            110
-          ]
-        ]
+        "sessions": [[152]]
       },
       {
-        "startTime": "16:20",
-        "endTime": "16:40",
-        "sessions": [
-          [
-            108
-          ],
-          [
-            134
-          ],
-          [
-            160
-          ],
-          [
-            138
-          ]
-        ]
+        "startTime": "16:00",
+        "endTime": "16:45",
+        "sessions": [[128], [131]]
       },
       {
-        "startTime": "16:50",
-        "endTime": "17:10",
-        "sessions": [
-          [
-            121
-          ],
-          [
-            174
-          ],
-          [
-            151
-          ],
-          [
-            143
-          ]
-        ]
-      },
-      {
-        "startTime": "17:30",
-        "endTime": "18:20",
-        "sessions": [
-          [
-            175
-          ]
-        ]
+        "startTime": "16:45",
+        "endTime": "17:30",
+        "sessions": [[108]]
       }
     ]
   }

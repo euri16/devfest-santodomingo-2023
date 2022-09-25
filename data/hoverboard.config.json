@@ -72,7 +72,7 @@
     {
       "route": "schedule",
       "permalink": "/schedule/",
-      "inMenu": false
+      "inMenu": true
     },
     {
       "route": "speakers",
@@ -320,11 +320,11 @@
     "schedule": {
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "/images/backgrounds/space_4.jpg",
+        "backgroundImage": "/images/backgrounds/eury.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
-        "citation": "\"FAILURE IS NOT AN OPTION\"",
-        "authorCitation": "APOLLO 13 RESCUE MISSION"
+        "citation": "",
+        "authorCitation": ""
       }
     },
     "attending": {
@@ -394,7 +394,7 @@
         "starts": "ticket-vip-starts",
         "ends": "all-tickets-ends",
         "info": "early-ticket-info",
-        "soldOut": false,
+        "soldOut": true,
         "gone": false
       },
       {
