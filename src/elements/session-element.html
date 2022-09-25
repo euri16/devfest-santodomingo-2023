@@ -1,28 +1,28 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../../bower_components/iron-image/iron-image.html">
-<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/iron-image/iron-image.html" />
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html" />
 
-<link rel="import" href="../../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../../bower_components/paper-card/paper-card.html" />
 
-<link rel="import" href="../../bower_components/app-storage/app-network-status-behavior.html">
+<link
+  rel="import"
+  href="../../bower_components/app-storage/app-network-status-behavior.html"
+/>
 
-<link rel="import" href="../behaviors/utils-behavior.html">
-<link rel="import" href="../behaviors/localize-behavior.html">
-<link rel="import" href="../behaviors/my-schedule-behavior.html">
-
+<link rel="import" href="../behaviors/utils-behavior.html" />
+<link rel="import" href="../behaviors/localize-behavior.html" />
+<link rel="import" href="../behaviors/my-schedule-behavior.html" />
 
 <dom-module id="session-element">
-
   <template>
-
     <style include="shared-styles">
       :host {
         display: block;
       }
 
       .session {
-        @apply(--shadow-transition);
+        @apply (--shadow-transition);
         cursor: pointer;
         color: var(--primary-text-color);
       }
@@ -36,7 +36,7 @@
       }
 
       .session:hover {
-        @apply(--shadow-elevation-4dp);
+        @apply (--shadow-elevation-4dp);
       }
 
       .session-content {
@@ -144,7 +144,7 @@
       }
 
       .photo {
-        @apply(--img-circle);
+        @apply (--img-circle);
         margin-right: 4px;
         width: 32px;
         height: 32px;
@@ -169,7 +169,7 @@
         font-size: 13px;
       }
 
-      .meta-language{
+      .meta-language {
         position: relative;
         top: 10px;
       }
@@ -180,30 +180,33 @@
       href$="/schedule/[[dayName]]?sessionId=[[session.id]]"
       with-background$="[[session.image]]"
       wide$="{{!app.isPhoneSize}}"
-      layout flex-auto
+      layout
+      flex-auto
     >
       <paper-card layout flex-auto>
-
         <iron-image
           src="[[session.image]]"
           sizing="cover"
-          fit preload
+          fit
+          preload
         ></iron-image>
 
         <div class="overlay" relative layout vertical flex>
           <div class="session-content" flex>
             <h2 class="session-title">[[session.title]]</h2>
             <ul class="session-meta">
-              <li hidden$="[[!session.language]]">
-                <img class="meta-language" src$="[[_getFlag(session)]]" />
+              <li hidden$="[[!session.track.title]]">
+                [[session.track.title]]
               </li>
-              <li hidden$="[[!session.complexity]]">[[session.complexity]]</li>
-              <li hidden$="[[!session.track.title]]">[[session.track.title]]</li>
             </ul>
           </div>
 
           <div class="bottom-caption" layout horizontal center justified>
-            <div class="bottom-meta" flex hidden$="[[!_hasBottomMeta(session)]]">
+            <div
+              class="bottom-meta"
+              flex
+              hidden$="[[!_hasBottomMeta(session)]]"
+            >
               <div hidden$="[[!session.tags.length]]" layout horizontal center>
                 <iron-icon icon="tags"></iron-icon>
                 <span>[[_joinArray(session.tags)]]</span>
@@ -238,7 +241,10 @@
           <div
             class="speaker-block"
             hidden$="[[!session.speakers.length]]"
-            layout horizontal wrap relative
+            layout
+            horizontal
+            wrap
+            relative
           >
             <div
               class="image-overlay"
@@ -248,70 +254,73 @@
 
             <template is="dom-repeat" items="[[session.speakers]]" as="speaker">
               <div class="speaker" layout horizontal center>
-                <div class="photo" style$="background-image: url('[[speaker.photoUrl]]')"></div>
+                <div
+                  class="photo"
+                  style$="background-image: url('[[speaker.photoUrl]]')"
+                ></div>
                 <div class="person-detail" flex>
                   <span class="speaker-name">[[speaker.name]]</span>
-                  <div class="speaker-title">[[speaker.company]] / [[speaker.country]]</div>
+                  <div class="speaker-title">
+                    [[speaker.company]] / [[speaker.country]]
+                  </div>
                 </div>
               </div>
             </template>
-
           </div>
-
         </div>
       </paper-card>
     </a>
-
   </template>
 
   <script>
     (function () {
-      'use strict';
+      "use strict";
 
       Polymer({
-
-        is: 'session-element',
+        is: "session-element",
 
         behaviors: [
           Polymer.AppNetworkStatusBehavior,
           HOVERBOARD.UtilsBehavior,
           HOVERBOARD.LocalizeBehavior,
-          HOVERBOARD.MyScheduleBehavior
+          HOVERBOARD.MyScheduleBehavior,
         ],
 
         properties: {
           app: {
             type: Object,
-            notify: true
+            notify: true,
           },
 
           dayName: {
-            type: String
+            type: String,
           },
 
           session: {
-            type: Object
+            type: Object,
           },
 
           sessionColor: {
             type: String,
-            value: ''
+            value: "",
           },
 
           myScheduleIcon: {
             type: String,
-            value: 'calendar-plus'
-          }
+            value: "calendar-plus",
+          },
         },
 
         observers: [
-          '_getMyScheduleIcon(session.id, app.user.sessions)',
-          '_userUpdated(app.user)'
+          "_getMyScheduleIcon(session.id, app.user.sessions)",
+          "_userUpdated(app.user)",
         ],
 
         ready: function () {
           this.async(function () {
-            this.sessionColor = this.getComputedStyleValue('--' + this._generateClass(this.session.category));
+            this.sessionColor = this.getComputedStyleValue(
+              "--" + this._generateClass(this.session.category)
+            );
           });
         },
 
@@ -321,11 +330,13 @@
 
         _joinArray: function (array) {
           if (!array) return;
-          return array.join(', ');
+          return array.join(", ");
         },
 
         _getMyScheduleIcon: function (id) {
-          this.myScheduleIcon = this.isInMySchedule(id) ? 'calendar-check' : 'calendar-plus';
+          this.myScheduleIcon = this.isInMySchedule(id)
+            ? "calendar-check"
+            : "calendar-plus";
         },
 
         _userUpdated: function (user) {
@@ -335,15 +346,19 @@
         },
 
         _hasBottomMeta: function (session) {
-          return session.tags && session.tags.length || session.presentation || session.videoId;
+          return (
+            (session.tags && session.tags.length) ||
+            session.presentation ||
+            session.videoId
+          );
         },
 
         _getFlag: function (session) {
-          return (session && session.language) ? '/images/flags/' + session.language + '.png' : '';
-        }
+          return session && session.language
+            ? "/images/flags/" + session.language + ".png"
+            : "";
+        },
       });
-
-    }());
+    })();
   </script>
-
 </dom-module>

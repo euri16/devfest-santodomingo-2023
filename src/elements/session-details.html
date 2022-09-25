@@ -1,41 +1,80 @@
-<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer/polymer.html" />
 
-<link rel="import" href="../../bower_components/app-storage/app-network-status-behavior.html">
-<link rel="import" href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
+<link
+  rel="import"
+  href="../../bower_components/app-storage/app-network-status-behavior.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html"
+/>
 
-<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
-<link rel="import" href="../../bower_components/iron-dropdown/iron-dropdown-scroll-manager.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html" />
+<link
+  rel="import"
+  href="../../bower_components/iron-dropdown/iron-dropdown-scroll-manager.html"
+/>
 
-<link rel="import" href="../../bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
-<link rel="import" href="../../bower_components/paper-dialog-behavior/paper-dialog-behavior.html">
-<link rel="import" href="../../bower_components/paper-menu-button/paper-menu-button.html">
-<link rel="import" href="../../bower_components/paper-toolbar/paper-toolbar.html">
-<link rel="import" href="../../bower_components/paper-item/paper-icon-item.html">
-<link rel="import" href="../../bower_components/paper-menu/paper-menu.html">
-<link rel="import" href="../../bower_components/paper-fab/paper-fab.html">
+<link
+  rel="import"
+  href="../../bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-dialog-behavior/paper-dialog-behavior.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-menu-button/paper-menu-button.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-toolbar/paper-toolbar.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/paper-item/paper-icon-item.html"
+/>
+<link rel="import" href="../../bower_components/paper-menu/paper-menu.html" />
+<link rel="import" href="../../bower_components/paper-fab/paper-fab.html" />
 
-<link rel="import" href="../../bower_components/app-layout/app-header-layout/app-header-layout.html">
-<link rel="import" href="../../bower_components/app-layout/app-header/app-header.html">
-<link rel="import" href="../../bower_components/app-layout/app-toolbar/app-toolbar.html">
+<link
+  rel="import"
+  href="../../bower_components/app-layout/app-header-layout/app-header-layout.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/app-layout/app-header/app-header.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/app-layout/app-toolbar/app-toolbar.html"
+/>
 
-<link rel="import" href="../../bower_components/neon-animation/neon-animation-runner-behavior.html">
-<link rel="import" href="../../bower_components/marked-element/marked-element.html">
+<link
+  rel="import"
+  href="../../bower_components/neon-animation/neon-animation-runner-behavior.html"
+/>
+<link
+  rel="import"
+  href="../../bower_components/marked-element/marked-element.html"
+/>
 
-<link rel="import" href="../../bower_components/polymerfire/firebase-document.html">
+<link
+  rel="import"
+  href="../../bower_components/polymerfire/firebase-document.html"
+/>
 
-<link rel="import" href="../styles/dialog-styles.html">
-<link rel="import" href="../behaviors/share-behavior.html">
-<link rel="import" href="../behaviors/utils-behavior.html">
-<link rel="import" href="../behaviors/localize-behavior.html">
-<link rel="import" href="../behaviors/my-schedule-behavior.html">
-<link rel="import" href="truncate-marked-text.html">
-<link rel="import" href="rating-element.html">
-
+<link rel="import" href="../styles/dialog-styles.html" />
+<link rel="import" href="../behaviors/share-behavior.html" />
+<link rel="import" href="../behaviors/utils-behavior.html" />
+<link rel="import" href="../behaviors/localize-behavior.html" />
+<link rel="import" href="../behaviors/my-schedule-behavior.html" />
+<link rel="import" href="truncate-marked-text.html" />
+<link rel="import" href="rating-element.html" />
 
 <dom-module id="session-details">
-
   <template>
-
     <style include="shared-styles dialog-styles">
       a {
         color: var(--default-primary-color);
@@ -49,13 +88,13 @@
       paper-fab {
         --paper-fab-iron-icon: {
           color: var(--primary-text-color);
-        };
+        }
         transition: background 0.28s cubic-bezier(0.4, 0, 0.2, 1);
       }
 
       paper-fab.calendar-check {
-        @apply(--shadow-elevation-4dp);
-        @apply(--shadow-transition);
+        @apply (--shadow-elevation-4dp);
+        @apply (--shadow-transition);
         color: #fff;
         background: var(--accent-color);
       }
@@ -66,7 +105,7 @@
       }
 
       paper-fab[disabled].calendar-check {
-        @apply(--shadow-none);
+        @apply (--shadow-none);
         background: var(--disabled-accent-color);
         cursor: default;
       }
@@ -91,55 +130,52 @@
         position: relative;
         top: 10px;
       }
-
     </style>
 
     <app-header-layout id="scrollHeaderPanel" fullbleed has-scrolling-region>
       <app-header fixed waterfall id="detailsHeader">
         <paper-toolbar class="medium-tall">
-          <paper-icon-button class="back-button" dialog-dismiss icon="arrow-back"></paper-icon-button>
-          <div class="middle fallback-image-wrapper">
+          <paper-icon-button
+            class="back-button"
+            dialog-dismiss
+            icon="arrow-back"
+          ></paper-icon-button>
+          <!-- <div class="middle fallback-image-wrapper">
             <iron-image class="fallback-image" src="/images/logo-white2.png"
                         alt="{$ title $}"></iron-image>
-          </div>
+          </div> -->
         </paper-toolbar>
       </app-header>
       <div>
         <div class="content">
-          <paper-fab
+          <!-- <paper-fab
             class$="float-button header-action [[fabIcon]]"
-            style="margin-top: auto;"
+            style="margin-top: auto"
             icon="[[fabIcon]]"
             session-id$="[[session.id]]"
             session-track$="[[session.track.title]]"
             on-tap="toggleMyScheduleSession"
             disabled$="[[!online]]"
-          ></paper-fab>
+          ></paper-fab> -->
 
           <div class="metadata-wrapper">
             <div class="main-info">
               <div class="info">
                 <h1 class="main-title">[[session.title]]</h1>
                 <div class="meta highlight">
-                  <span>
-                    [[session.dateReadable]]
-                  </span>
-                  <span>
-                    [[session.startTime]] - [[session.endTime]]
-                  </span>
-                  <span>
-                    [[session.track.title]]
-                  </span>
-                  <span hidden$="[[!session.language]]">
+                  <span> [[session.dateReadable]] </span>
+                  <span> [[session.startTime]] - [[session.endTime]] </span>
+                  <span> [[session.track.title]] </span>
+                  <!-- <span hidden$="[[!session.language]]">
                     <img class="meta-language" src$="[[_getFlag(session)]]" />
                   </span>
                   <span hidden$="[[!session.complexity]]">
                     [[session.complexity]]
-                  </span>
+                  </span> -->
                 </div>
                 <span class="meta">
-                    <span>[[_concatArray(session.tags)]]</span>
-                    <span hidden$="[[!session.type]]">[[session.type]]</span>
+                  <span>[[_concatArray(session.tags)]]</span>
+                  <span hidden$="[[!session.type]]">[[session.type]]</span>
                 </span>
               </div>
             </div>
@@ -149,9 +185,17 @@
             <div class="markdown-html"></div>
           </marked-element>
 
-          <div class="actions">
-            <paper-menu-button class="share-menu" horizontal-align="left" vertical-align="bottom" share-menu>
-              <paper-button class="action dropdown-trigger" on-tap="nativeShare">
+          <!-- <div class="actions">
+            <paper-menu-button
+              class="share-menu"
+              horizontal-align="left"
+              vertical-align="bottom"
+              share-menu
+            >
+              <paper-button
+                class="action dropdown-trigger"
+                on-tap="nativeShare"
+              >
                 <iron-icon icon="share"></iron-icon>
                 [[localize('share')]]
               </paper-button>
@@ -175,28 +219,33 @@
               </div>
             </paper-menu-button>
 
-
-            <a href$="[[session.presentation]]" hidden$="[[!session.presentation]]" target="_blank"
-              rel="noopener noreferrer">
+            <a
+              href$="[[session.presentation]]"
+              hidden$="[[!session.presentation]]"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <paper-button class="action">
                 <iron-icon icon="presentation"></iron-icon>
                 [[localize('view-presentation')]]
               </paper-button>
             </a>
 
-            <div on-tap="_openVideo" hidden$="[[!session.videoId]]">
+            <!-- <div on-tap="_openVideo" hidden$="[[!session.videoId]]">
               <paper-button class="action">
                 <iron-icon icon="video"></iron-icon>
                 [[localize('view-video')]]
               </paper-button>
-            </div>
-          </div>
+            </div> --
+          </div> -->
 
           <template is="dom-if" if="{{enableSessionsRating}}">
             <div class="label">[[localize('rateSession')]]</div>
-            <rating-element rate={{rate}}
-                            disabled$="[[_isRatingDisabled(online, app.user)]]"
-                            on-tap="_rate"></rating-element>
+            <rating-element
+              rate="{{rate}}"
+              disabled$="[[_isRatingDisabled(online, app.user)]]"
+              on-tap="_rate"
+            ></rating-element>
           </template>
         </div>
 
@@ -204,16 +253,34 @@
           <div class="sections-wrapper content">
             <h4 class="block-title">[[localize('speakers')]]</h4>
             <div class="sections">
-              <template is="dom-repeat" items="[[session.speakers]]" as="speaker">
+              <template
+                is="dom-repeat"
+                items="[[session.speakers]]"
+                as="speaker"
+              >
                 <div class="section">
-                  <div class="section-photo" style$="background-image: url('[[speaker.photoUrl]]')"></div>
+                  <div
+                    class="section-photo"
+                    style$="background-image: url('[[speaker.photoUrl]]')"
+                  ></div>
                   <div class="section-info">
                     <h3 class="section-title">[[speaker.name]]</h3>
-                    <span class="section-sub-title">[[speaker.company]], [[speaker.country]]</span>
+                    <span class="section-sub-title"
+                      >[[speaker.company]], [[speaker.country]]</span
+                    >
                     <div class="badges">
-                      <template is="dom-repeat" items="[[speaker.badges]]" as="badge">
-                        <a class="badge" href$="[[badge.link]]" target="_blank"
-                          rel="noopener noreferrer">[[badge.name]]</a>
+                      <template
+                        is="dom-repeat"
+                        items="[[speaker.badges]]"
+                        as="badge"
+                      >
+                        <a
+                          class="badge"
+                          href$="[[badge.link]]"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >[[badge.name]]</a
+                        >
                       </template>
                     </div>
                     <truncate-marked-text
@@ -222,7 +289,12 @@
                       break-last-word
                     ></truncate-marked-text>
 
-                    <a class="read-more" href$="/speakers/[[speaker.id]]" dialog-dismiss>[[localize('read-more')]]</a>
+                    <a
+                      class="read-more"
+                      href$="/speakers/[[speaker.id]]"
+                      dialog-dismiss
+                      >[[localize('read-more')]]</a
+                    >
                   </div>
                 </div>
               </template>
@@ -231,16 +303,14 @@
         </template>
       </div>
     </app-header-layout>
-
   </template>
 
   <script>
     (function () {
-      'use strict';
+      "use strict";
 
       Polymer({
-
-        is: 'session-details',
+        is: "session-details",
 
         behaviors: [
           Polymer.PaperDialogBehavior,
@@ -249,58 +319,67 @@
           HOVERBOARD.LocalizeBehavior,
           HOVERBOARD.UtilsBehavior,
           HOVERBOARD.ShareBehavior,
-          HOVERBOARD.MyScheduleBehavior
+          HOVERBOARD.MyScheduleBehavior,
         ],
 
         properties: {
           session: {
             type: Object,
-            observer: '_sessionChanged'
+            observer: "_sessionChanged",
           },
 
           fabIcon: {
             type: String,
-            value: 'calendar-plus'
+            value: "calendar-plus",
           },
 
           rate: {
             type: Number,
-            observer: 'rateSession'
-          }
+            observer: "rateSession",
+          },
         },
 
-        observers: [
-          '_getMyScheduleIcon(session.id, app.user.sessions)'
-        ],
+        observers: ["_getMyScheduleIcon(session.id, app.user.sessions)"],
 
         listeners: {
-          'neon-animation-finish': '_onNeonAnimationFinish'
+          "neon-animation-finish": "_onNeonAnimationFinish",
         },
 
         _openVideo: function () {
-          HOVERBOARD.Elements.Template.openVideo(this.session.title, this.session.videoId, true);
+          HOVERBOARD.Elements.Template.openVideo(
+            this.session.title,
+            this.session.videoId,
+            true
+          );
         },
 
         _concatArray: function (array) {
-          return array ? array.join(', ') : '';
+          return array ? array.join(", ") : "";
         },
 
         _sessionChanged: function () {
           if (this.app.user) {
             if (!this.app.user.ratings) {
               this.app.user.ratings = {
-                sessions: {}
+                sessions: {},
               };
             } else if (!this.app.user.ratings.sessions) {
               this.app.user.ratings.sessions = {};
             }
-            this.set('rate', this.app.user.ratings.sessions[this.session.id] || 0);
+            this.set(
+              "rate",
+              this.app.user.ratings.sessions[this.session.id] || 0
+            );
           }
           var generatedClass = this._generateClass(this.session.category);
-          this.$.detailsHeader.style['background-color'] = this.getComputedStyleValue('--' + generatedClass);
-          this.customStyle['--paper-scroll-header-panel-color'] = 'var(--' + generatedClass + ')';
+          this.$.detailsHeader.style["background-color"] =
+            this.getComputedStyleValue("--" + generatedClass);
+          this.customStyle["--paper-scroll-header-panel-color"] =
+            "var(--" + generatedClass + ")";
           this._previousBrowserColor = HOVERBOARD.Util.getMetaThemeColor();
-          HOVERBOARD.Util.setMetaThemeColor(this.getComputedStyleValue('--' + generatedClass));
+          HOVERBOARD.Util.setMetaThemeColor(
+            this.getComputedStyleValue("--" + generatedClass)
+          );
           this.updateStyles();
         },
 
@@ -308,44 +387,53 @@
           if (this.withBackdrop && window.innerWidth > 960) {
             this.backdropElement.open();
           }
-          this.playAnimation('entry');
+          this.playAnimation("entry");
           // this.async(function () {
           //   this.$.scrollHeaderPanel.scrollToTop(true);
           //   this.$.scrollHeaderPanel.notifyResize();
           // });
-          HOVERBOARD.Analytics.trackEvent('session', 'open details', this.session.title);
+          HOVERBOARD.Analytics.trackEvent(
+            "session",
+            "open details",
+            this.session.title
+          );
         },
 
         _renderClosed: function () {
           HOVERBOARD.Util.setMetaThemeColor(this._previousBrowserColor);
           this.backdropElement.close();
-          this.playAnimation('exit');
+          this.playAnimation("exit");
         },
 
         _onNeonAnimationFinish: function () {
           if (this.opened) {
-            document.body.style.overflow = 'hidden';
+            document.body.style.overflow = "hidden";
             this._finishRenderOpened();
           } else {
-            document.body.style.overflow = '';
+            document.body.style.overflow = "";
             this._finishRenderClosed();
           }
         },
 
         rateSession: function () {
           if (!this.rate) return;
-          this.set('app.user.ratings.sessions.' + this.session.id, this.rate);
+          this.set("app.user.ratings.sessions." + this.session.id, this.rate);
         },
 
         _rate: function () {
           if (!this.online) {
-            HOVERBOARD.Elements.Template.$.toast.showMessage('{$ offlineMessage $}');
+            HOVERBOARD.Elements.Template.$.toast.showMessage(
+              "{$ offlineMessage $}"
+            );
           } else if (!this.app.user) {
             var signIn = function () {
               HOVERBOARD.Elements.Template.signIn();
             };
             HOVERBOARD.Elements.Template.$.toast.showMessage(
-              '{$ youShouldSignInRating $}', signIn, '{$ signIn $}');
+              "{$ youShouldSignInRating $}",
+              signIn,
+              "{$ signIn $}"
+            );
           }
         },
 
@@ -354,16 +442,17 @@
         },
 
         _getMyScheduleIcon: function (id) {
-          this.fabIcon = this.isInMySchedule(id) ? 'calendar-check' : 'calendar-plus';
+          this.fabIcon = this.isInMySchedule(id)
+            ? "calendar-check"
+            : "calendar-plus";
         },
 
         _getFlag: function (session) {
-          return (session && session.language) ? '/images/flags/' + session.language + '.png' : '';
-        }
-
+          return session && session.language
+            ? "/images/flags/" + session.language + ".png"
+            : "";
+        },
       });
-
-    }());
+    })();
   </script>
-
 </dom-module>
