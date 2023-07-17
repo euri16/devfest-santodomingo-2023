@@ -20,7 +20,7 @@ jobs:
           cache: 'npm'
 
       - name: Install package dependencies using lockfile
-        run: rm package-lock.json && npm ci
+        run: rm package-lock.json && npm i
 
       - name: Run build
         run: npm run build
