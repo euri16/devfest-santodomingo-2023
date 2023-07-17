@@ -9,3 +9,6 @@ build
 
 processDatas/node_modules
 processDatas/exports
+
+.tool-versions
+.DS_Store
