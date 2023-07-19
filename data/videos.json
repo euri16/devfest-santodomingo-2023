@@ -1,44 +1,44 @@
 [
   {
-    "youtubeId": "HzSvgzQFbos",
-    "title": "Composing Cloud Infrastructures as k8 resources",
-    "speakers": "Shailyn Ortíz",
-    "thumbnail": "/images/sessions/2021/shailyn.jpg"
+    "youtubeId": "Fy_FAcs3GRk",
+    "title": "Nanopb - Protocol Buffers para Embedded Systems",
+    "speakers": "Pablo Oyarzo",
+    "thumbnail": "/images/sessions/2022/Pablo Oyarzo.jpg"
   },
   {
-    "youtubeId": "HgNavva3D3Y",
-    "title": "The dev skills no one teaches you",
-    "speakers": "Ryan Chartrand",
-    "thumbnail": "/images/sessions/2021/ryanc.jpg"
+    "youtubeId": "kQMrOwSnUuo",
+    "title": "Serverless para Frontends",
+    "speakers": "Christian Moreno",
+    "thumbnail": "/images/sessions/2022/Christian Moreno.jpg"
   },
   {
-    "youtubeId": "TC1tRiJ4Jhw",
-    "title": "Scaling With Flutter",
-    "speakers": "Noe Branagan",
-    "thumbnail": "/images/sessions/2021/noe.jpg"
-  },
-  {
-    "youtubeId": "Ls5e2zsgV3U",
-    "title": "Database design thinking of Long-Term",
-    "speakers": "Elena López",
-    "thumbnail": "/images/sessions/2021/elena.jpg"
-  },
-  {
-    "youtubeId": "oYaIqOFQZRw",
-    "title": "Working with state machines in .Net",
-    "speakers": "Charlin Agramonte y Rendy Del Rosario",
-    "thumbnail": "/images/sessions/2021/charlin_rendy.jpg"
-  },
-  {
-    "youtubeId": "egML3WJLTT8",
-    "title": "El mejor coro del hacker son los de TI",
+    "youtubeId": "2ApQrCXhK7w",
+    "title": "Destruyendo tu App con los ojos cerrados",
     "speakers": "Julio Ureña",
-    "thumbnail": "/images/sessions/2021/juliou.jpg"
+    "thumbnail": "/images/sessions/2022/Julio Ureña.jpg"
   },
   {
-    "youtubeId": "DzmvUJNqS5o",
-    "title": "The Unfair Advantage",
+    "youtubeId": "Lyaqd-qavyI",
+    "title": "Theming & Styles in .NET MAUI",
+    "speakers": "Leomaris Reyes",
+    "thumbnail": "/images/sessions/2022/Leomaris Reyes.jpg"
+  },
+  {
+    "youtubeId": "IYqL160a62A",
+    "title": "Switching Careers: A Quick and Practical Guide",
     "speakers": "Leonardo Jiménez",
-    "thumbnail": "/images/sessions/2021/leonardo.jpg"
+    "thumbnail": "/images/sessions/2022/Leonardo Jiménez.jpg"
+  },
+  {
+    "youtubeId": "xCtqoSxf0Vc",
+    "title": "Learning How to Learn (Aprendiendo a Aprender)",
+    "speakers": "Wilson Reyes",
+    "thumbnail": "/images/sessions/2022/Wilson Reyes.jpg"
+  },
+  {
+    "youtubeId": "DJlVU9BsCC4",
+    "title": "Diseño funcional de microservicios con Spring Boot",
+    "speakers": "Aluis Marte",
+    "thumbnail": "/images/sessions/2022/Aluis Marte.jpg"
   }
 ]
