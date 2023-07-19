@@ -1,65 +1,44 @@
 [
   {
-    "youtubeId": "2ApQrCXhK7w",
-    "title": "Destruyendo tu App con los ojos cerrados",
-    "speakers": "Julio Ureña",
-    "thumbnail": "/images/sessions/2022/JulioUrena.jpeg"
-  },
-  {
-    "youtubeId": "DJlVU9BsCC4",
-    "title": "Diseño funcional de microservicios con Spring Boot",
-    "speakers": "Aluis Marte",
-    "thumbnail": "/images/sessions/2022/AluisMarte.jpeg"
-  },
-  {
     "youtubeId": "Fy_FAcs3GRk",
     "title": "Nanopb - Protocol Buffers para Embedded Systems",
     "speakers": "Pablo Oyarzo",
-    "thumbnail": "/images/sessions/2022/PabloOyarso.jpeg"
-  },
-  {
-    "youtubeId": "2TycqAtAuio",
-    "title": "¿Qué es la Arquitectura de Software?",
-    "speakers": "Lorenzo Solano",
-    "thumbnail": "/images/sessions/2022/LorenzoSolano.jpeg"
-  },
-  {
-    "youtubeId": "IYqL160a62A",
-    "title": "Switching Careers: A Quick and Practical Guide",
-    "speakers": "Leonardo Jiménez",
-    "thumbnail": "/images/sessions/2022/LeonardoJimenez.jpeg"
-  },
-  {
-    "youtubeId": "voXQ3H3myuk",
-    "title": "Desarrollando el vendedor interno de un Tecnólogo",
-    "speakers": "Daviana Núñez",
-    "thumbnail": "/images/sessions/2022/DavianaNunez.jpeg"
-  },
-  {
-    "youtubeId": "BQBCkSoFQrc",
-    "title": "Transformación Digital: Mitos y Realidades",
-    "speakers": "Federico Muller",
-    "thumbnail": "/images/sessions/2022/FedericoMuller.jpeg"
-  },
-  {
-    "youtubeId": "xCtqoSxf0Vc",
-    "title": "Learning How to Learn (Aprendiendo a Aprender)",
-    "speakers": "Wilson Reyes",
-    "thumbnail": "/images/sessions/2022/WilsonReyes.jpeg"
+    "thumbnail": "/images/sessions/2022/Pablo Oyarzo.jpg"
   },
   {
     "youtubeId": "kQMrOwSnUuo",
     "title": "Serverless para Frontends",
     "speakers": "Christian Moreno",
-    "thumbnail": "/images/sessions/2022/ChristianMoreno.jpeg"
+    "thumbnail": "/images/sessions/2022/Christian Moreno.jpg"
+  },
+  {
+    "youtubeId": "2ApQrCXhK7w",
+    "title": "Destruyendo tu App con los ojos cerrados",
+    "speakers": "Julio Ureña",
+    "thumbnail": "/images/sessions/2022/Julio Ureña.jpg"
   },
   {
     "youtubeId": "Lyaqd-qavyI",
     "title": "Theming & Styles in .NET MAUI",
     "speakers": "Leomaris Reyes",
-    "thumbnail": "/images/sessions/2022/LeomarisReyes.jpeg"
+    "thumbnail": "/images/sessions/2022/Leomaris Reyes.jpg"
+  },
+  {
+    "youtubeId": "IYqL160a62A",
+    "title": "Switching Careers: A Quick and Practical Guide",
+    "speakers": "Leonardo Jiménez",
+    "thumbnail": "/images/sessions/2022/Leonardo Jiménez.jpg"
+  },
+  {
+    "youtubeId": "xCtqoSxf0Vc",
+    "title": "Learning How to Learn (Aprendiendo a Aprender)",
+    "speakers": "Wilson Reyes",
+    "thumbnail": "/images/sessions/2022/Wilson Reyes.jpg"
+  },
+  {
+    "youtubeId": "DJlVU9BsCC4",
+    "title": "Diseño funcional de microservicios con Spring Boot",
+    "speakers": "Aluis Marte",
+    "thumbnail": "/images/sessions/2022/Aluis Marte.jpg"
   }
-  
- 
 ]
-
