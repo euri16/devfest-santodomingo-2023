@@ -377,20 +377,30 @@
     }
   },
   "tickets": {
-    "url": "https://www.eventbrite.com/e/gdg-devfest-santo-domingo-2022-tickets-396256442687",
+    "url": "https://www.eventbrite.com/e/google-devfest-santo-domingo-2023-tickets-674191554087?aff=oddtdtcreator",
     "elements": [
       {
-        "name": "General",
+        "name": "Super Early Bird Gral.",
         "type": "General",
-        "price": 50,
+        "price": 35,
         "currency": " USD",
-        "starts": "general-ticket-starts",
-        "ends": "all-tickets-ends",
+        "starts": "super-early-ticket-starts",
+        "ends": "super-early-ticket-ends",
         "info": "early-ticket-info",
         "soldOut": false,
         "gone": false
       },
-
+      {
+        "name": "Early Bird Est.",
+        "type": "Estudiante",
+        "price": 30,
+        "currency": " USD",
+        "starts": "early-ticket-starts",
+        "ends": "early-ticket-student-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
       {
         "name": "VIP",
         "type": "VIP",
@@ -399,36 +409,24 @@
         "starts": "ticket-vip-starts",
         "ends": "all-tickets-ends",
         "info": "early-ticket-info",
-        "soldOut": true,
+        "soldOut": false,
         "gone": false
       },
       {
-        "name": "Invita un amigo (3x2)",
-        "type": "General",
+        "name": "Super Early Bird VIP",
+        "type": "VIP",
         "price": 100,
         "currency": " USD",
-        "starts": "invite-friend-ticket-starts",
-        "ends": "invite-friend-ticket-ends",
-        "info": "lazy-ticket-info",
-        "soldOut": false,
-        "gone": false
-      },
-
-      {
-        "name": "Estudiante.",
-        "type": "Estudiante",
-        "price": 35,
-        "currency": " USD",
-        "starts": "early-ticket-student-ends",
-        "ends": "all-tickets-ends",
+        "starts": "early-ticket-vip-starts",
+        "ends": "super-early-ticket-vip-ends",
         "info": "early-ticket-info",
-        "soldOut": false,
+        "soldOut": true,
         "gone": false
       }
     ]
   },
   "tickets1": {
-    "url": "https://www.eventbrite.com/e/gdg-devfest-santo-domingo-2022-tickets-396256442687",
+    "url": "https://www.eventbrite.com/e/google-devfest-santo-domingo-2023-tickets-674191554087?aff=oddtdtcreator",
     "elements": [
       {
         "name": "Super Early Bird Gral.",
@@ -522,7 +520,7 @@
   },
   "statistics": [
     {
-      "counter": "+250",
+      "counter": "+450",
       "caption": "attendees"
     },
     {
@@ -534,7 +532,7 @@
       "caption": "tracks"
     },
     {
-      "counter": "+32",
+      "counter": "+25",
       "caption": "sessions"
     },
     {
