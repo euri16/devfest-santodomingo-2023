@@ -3,9 +3,9 @@
     "title": "diamond-partner",
     "logos": [
       {
-        "name": "Applaudo",
-        "url": "https://applaudostudios.com/",
-        "logoUrl": "../images/logos/applaudo.png",
+        "name": "Arroyo Consulting",
+        "url": "https://arroyoconsulting.net",
+        "logoUrl": "../images/logos/ArroyoConsulting.png.webp",
         "height": 150,
         "width": 200
       }
@@ -41,92 +41,44 @@
         "width": 170
       },
       {
-        "name": "Smart Testing",
-        "url": "https://www.smarttestingrd.com/",
-        "logoUrl": "../images/logos/smart_testing.png",
-        "width": 250
-      },
-      {
-        "name": "GovValue",
-        "url": "https://govvalue.com/",
-        "logoUrl": "../images/logos/govvalue.png",
-        "height": 130,
-        "width": 250
+        "name": "UNPHU",
+        "url": "https://unphu.edu.do",
+        "logoUrl": "../images/logos/unphuLogo.png",
+        "width": 200,
+        "height": 85
       }
+    
     ]
   },
   {
     "title": "gold-partner",
     "logos": [
       {
-        "name": "VirtualMind",
-        "url": "http://www.virtualmind.com",
-        "logoUrl": "../images/logos/virtualmind.png",
-        "height": 75
-      },
-      {
-        "name": "EPAM",
-        "url": "https://www.epam.com/",
-        "logoUrl": "../images/logos/epam.svg",
+        "name": "Nearsure",
+        "url": "https://nearsure.com",
+        "logoUrl": "../images/logos/nearsure.png",
         "height": 75
       }
+     
     ]
   },
   {
     "title": "silver-partner",
     "logos": [
       {
-        "name": "Encora",
-        "url": "http://encora.com/",
-        "logoUrl": "../images/logos/encora.svg",
-        "width": 200
-      },
-      {
-        "name": "Platzi",
-        "url": "https://platzi.com/",
-        "logoUrl": "../images/logos/platzi.png",
-        "width": 150
-      },
-      {
-        "name": "NAEZ",
-        "url": "https://naez.co/",
-        "logoUrl": "../images/logos/naez.PNG",
-        "width": 100,
-        "height": 200
-      },
-      {
-        "name": "Ministerio de la Juventud",
-        "url": "https://juventud.gob.do/",
-        "logoUrl": "../images/logos/minjuventud.svg",
-        "width": 150,
-        "height": 150
-      },
-      {
-        "name": "Alterna Academy",
-        "url": "https://alternaacademy.com/",
-        "logoUrl": "../images/logos/alterna_academy.png",
-        "width": 150,
-        "height": 150
-      },
-      {
-        "name": "Gaming Continues",
-        "url": "https://www.instagram.com/gamingcontinuesrd/?hl=es",
-        "logoUrl": "../images/logos/gc.png",
-        "width": 100,
-        "height": 100
+        "name": "Cecomsa",
+        "url": "https://cecomsa.com",
+        "logoUrl": "../images/logos/cecomsa.svg",
+        "width": 200,
+        "height": 85
+
       }
+     
     ]
   },
   {
     "title": "other-partner",
     "logos": [
-      {
-        "name": "UNAPEC",
-        "url": "https://unapec.edu.do/",
-        "logoUrl": "../images/logos/unapec.png",
-        "width": 100,
-        "height": 150
-      },
       {
         "name": "JetBrains",
         "url": "https://www.jetbrains.com/",
