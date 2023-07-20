@@ -50,7 +50,7 @@
   "disqusShortName": "devfest.gdgsantodomingo",
   "tweetsSource": "",
   "partnershipProposition": "partnership-proposition-url",
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLokIBNX1GWGuLE8Jwxvv87TgXw7n_-Aaw",
+  "videosSessionsUrl": "https://youtube.com/playlist?list=PLokIBNX1GWGsH0V2vlGCgFyqkBFSYf5C1",
   "enableSessionsRating": true,
   "codPath": "cod-path",
   "navigation": [
@@ -148,6 +148,11 @@
           "text": "df-21",
           "url": "https://www.youtube.com/playlist?list=PLokIBNX1GWGuLE8Jwxvv87TgXw7n_-Aaw",
           "newTab": true
+        },
+        {
+          "text": "df-22",
+          "url": "https://www.youtube.com/playlist?list=PLokIBNX1GWGsH0V2vlGCgFyqkBFSYf5C1",
+          "newTab": true
         }
       ]
     },
@@ -156,7 +161,7 @@
       "links": [
         {
           "text": "call-for-papers",
-          "url": "http://papercall.io/devfestsd22",
+          "url": "https://sessionize.com/devfest-santo-domingo-2023",
           "newTab": true
         }
       ]
@@ -183,30 +188,30 @@
   "location": {
     "apiKey": "AIzaSyD6qBLelL6o_K_mzaJS0YlcOCbbzsN3taA",
     "name": "Santo Domingo, Distrito Nacional",
-    "address": "Av. Máximo Gómez 72, Santo Domingo 10100",
+    "address": "Av. John F. Kennedy Km 7 1/2 , Santo Domingo 1423",
     "zoom": 16,
     "link": "",
     "pointer": {
-      "latitude": 18.473685,
-      "longitude": -69.914115,
+      "latitude": 18.48596,
+      "longitude": -69.94884,
       "zoom": 16
     },
     "mapCenter": {
-      "latitude": 18.473685,
-      "longitude": -69.914115
+      "latitude": 18.48596,
+      "longitude": -69.94884
     },
     "mapAttending": {
       "title": "location-attending-title",
       "name": "Santo Domingo, Distrito Nacional",
-      "address": "Av. Máximo Gómez 72, Santo Domingo 10100",
-      "picture": "/images/unapec.png",
+      "address": "Av. John F. Kennedy Km 7 1/2 , Santo Domingo 1423",
+      "picture": "/images/unphu.png", 
       "city": "location-city",
-      "latitude": 18.473685,
-      "longitude": -69.914115,
+      "latitude": 18.48596,
+      "longitude": -69.94884,
       "zoom": 14,
       "pointer": {
-        "latitude": 18.473685,
-        "longitude": -69.914115,
+        "latitude": 18.48596,
+        "longitude": -69.94884,
         "zoom": 5
       }
     },
@@ -279,7 +284,7 @@
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "video": {
-          "title": "DevFest Santo Domingo 2022",
+          "title": "DevFest Santo Domingo 2023",
           "youtubeId": "xcYWs4YEISU",
           "text": "play-icon"
         },
@@ -538,7 +543,7 @@
     }
   ],
   "cfp": {
-    "url": "http://papercall.io/devfestsd22"
+    "url": " https://sessionize.com/devfest-santo-domingo-2023"
   },
   "infosSpeaker": [
     {
