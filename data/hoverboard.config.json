@@ -72,12 +72,12 @@
     {
       "route": "schedule",
       "permalink": "/schedule/",
-      "inMenu": true
+      "inMenu": false
     },
     {
       "route": "speakers",
       "permalink": "/speakers/",
-      "inMenu": true
+      "inMenu": false
     },
     {
       "route": "speaker",
@@ -87,7 +87,7 @@
     {
       "route": "team",
       "permalink": "/team/",
-      "inMenu": true
+      "inMenu": false
     },
     {
       "route": "faq",
