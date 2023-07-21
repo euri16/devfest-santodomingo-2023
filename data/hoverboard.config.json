@@ -347,7 +347,7 @@
       "text": "team-page-text",
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2FAE9A0405.JPG?alt=media&token=b2848490-28ab-4aa8-b8ea-84aa74937cd2",
+        "backgroundImage": "/images/backgrounds/2022/Team.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "citation": "",
@@ -357,7 +357,7 @@
     "faq": {
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fcrowd1.jpg?alt=media&token=cb646413-4ac7-4f5c-a5f8-abf648c40828",
+        "backgroundImage": "/images/backgrounds/2022/FQImage.jpg",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "citation": "",
@@ -368,7 +368,7 @@
       "title": "Código de Conducta",
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fcrowd2.jpg?alt=media&token=13b617d4-f9ea-4d95-9d9d-d80b37665bbc",
+        "backgroundImage": "/images/backgrounds/2022/CodCon.JPG",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "citation": "",
