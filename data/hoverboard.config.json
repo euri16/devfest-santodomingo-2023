@@ -87,7 +87,7 @@
     {
       "route": "team",
       "permalink": "/team/",
-      "inMenu": false
+      "inMenu": true
     },
     {
       "route": "faq",

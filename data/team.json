@@ -5,7 +5,7 @@
       {
         "name": "Eury Perez",
         "aka": "Coordinador Gral.",
-        "photoUrl": "/images/team/eury.jpeg",
+        "photoUrl": "/images/team/euryP.png",
         "socials": [
           {
             "icon": "linkedin",
@@ -29,7 +29,7 @@
       {
         "name": "Alexander Vegazo",
         "aka": "Sponsors & Partners",
-        "photoUrl": "/images/team/vegazo.jpeg",
+        "photoUrl": "/images/team/Alex_min.png",
         "socials": [
           {
             "icon": "linkedin",
@@ -43,75 +43,73 @@
       {
         "name": "Elaine Guzman",
         "aka": "Finanzas",
-        "photoUrl": "/images/team/elaine.jpeg",
-        "socials": [],
-        "title": "UI/UX Designer Jr."
-      },
-      {
-        "name": "Pedro Sosa",
-        "aka": "Relaciones Públicas",
-        "photoUrl": "/images/team/pedro.jpeg",
+        "photoUrl": "/images/team/Elaine.png",
         "socials": [
           {
             "icon": "linkedin",
             "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/pedro-sosa-452196200/"
+            "link": "https://www.linkedin.com/in/elaineguzman/"
           }
         ],
-        "title": "Senior Frontend Developer"
+        "title": "UI/UX Designer"
       },
       {
-        "name": "Fidelia Matos",
+        "name": "Daviana Núñez",
+        "aka": "Sponsors & Partners",
+        "photoUrl": "/images/team/Daviana_min.png",
+        "socials": [
+          {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/daviana-núñez-384b86112/"
+          }
+        ],
+        "title": "Co-founder @Couple Media"
+      },
+      {
+        "name": "Madeline Pérez",
         "aka": "Coordinadora Speakers",
-        "photoUrl": "/images/team/fidelia.jpg",
+        "photoUrl": "/images/team/Made_min.png",
         "socials": [
-          {
-            "icon": "linkedin",
-            "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/fideliamatos/"
-          }
+         
         ],
-        "title": "WTM Ambassador"
+        "title": ""
       },
       {
-        "name": "Natacha De La Rosa",
-        "aka": "Co-organizadora",
-        "photoUrl": "/images/team/natacha.jpg",
+        "name": "Julio Alcàntara",
+        "aka": "Core Team",
+        "photoUrl": "/images/team/JulioAlcantara.jpeg",
         "socials": [
           {
             "icon": "linkedin",
             "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/delarosanatacha/"
-          }
-        ],
-        "title": "Full Stack Engineer",
-        "title2": "WTM Ambassador"
-      },
-      {
-        "name": "Eladio Rodríguez",
-        "aka": "Co-organizador",
-        "photoUrl": "/images/team/eladio.jpeg",
-        "socials": [
-          {
-            "icon": "linkedin",
-            "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/eladio-rodriguez/"
+            "link": "https://www.linkedin.com/in/julio-alcantara/"
           }
         ],
         "title": "DevOps Engineer"
       },
       {
-        "name": "Xiara Paulino",
-        "aka": "Relaciones Públicas",
-        "photoUrl": "/images/team/xiara.jpeg",
+        "name": "Miguel Vásquez",
+        "aka": "Core Team",
+        "photoUrl": "/images/team/Miguel_min.png",
+        "socials": [
+         
+        ],
+        "title": "",
+        "title2": ""
+      },
+      {
+        "name": "Carmelo Cueto",
+        "aka": "Core Team",
+        "photoUrl": "/images/team/Carmelo.jpeg",
         "socials": [
           {
             "icon": "linkedin",
             "name": "Linkedin",
-            "link": "https://www.linkedin.com/in/xiara-paulino-871005183/"
+            "link": "https://www.linkedin.com/in/carmelo-cueto-507ab9127/"
           }
         ],
-        "title": "Digital Content Manager"
+        "title": "Senior Developer"
       }
     ]
   }
