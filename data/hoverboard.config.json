@@ -269,10 +269,10 @@
   "gallery": {
     "albumUrl": "http://instagram.com/gdgsantodomingo/",
     "photos": {
-      "big": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fstaff_2021.JPG?alt=media&token=fe3e310b-0605-48b9-be77-0ff9f70f343a",
+      "big": "/images/Gallery/BigImage.jpg",
       "small": [
-        "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fpedro_adriana.JPG?alt=media&token=2d265e92-b6c2-437c-9d7a-3320dc6a41b8g",
-        "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/gallery%2Fcharla2.png?alt=media&token=876fbdca-732c-4e14-ac2e-7a87e9ecb89e"
+        "/images/Gallery/Small1.JPG",
+        "/images/Gallery/Small2.JPG"
       ]
     }
   },
