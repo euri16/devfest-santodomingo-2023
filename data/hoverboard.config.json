@@ -357,7 +357,7 @@
     "faq": {
       "headerSettings": {
         "backgroundColor": "#44504e",
-        "backgroundImage": "/images/backgrounds/2022/FQImage.jpg",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/Backgrounds%2FFQImage.JPG?alt=media&token=f80a07ed-859f-48ef-b183-0b8951b516c5",
         "fontColor": "#faf6dd",
         "tabBarColor": "#faf6dd",
         "citation": "",
