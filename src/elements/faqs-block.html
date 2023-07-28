@@ -33,19 +33,80 @@
       .faq-text .markdown-html { 
         font-size: 16px; 
       }
+
+      .container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+button.accordion {
+  width: 100%;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #444;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+  position: relative;
+}
+
+button.accordion:after {
+
+  font-family: "fontawesome";
+  font-size: 14px;
+  float: right;
+}
+
+button.accordion.is-open > img {
+ transform: rotateX(180deg);
+}
+
+button.accordion:hover, button.accordion.is-open {
+  background-color: #ddd;
+}
+
+.icon-collapsable{
+  width: 30px;
+  position: absolute;
+  right: 15px;
+  transition: .5s all ease;
+}
+
+.accordion-content {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+button.accordion.style-scope.faqs-block {
+    color: #000;
+
+    font-size: 23px;
+}
+
+.title-faq{
+  margin-bottom: 20px;
+}
+
     </style>
 
+<h1 class="title-faq">Preguntas frecuentes</h1>
     <div class="faqs"> 
       <template is="dom-repeat" items="[[app.faqs]]" as="faq">
-        <div class="faq-item" cascaded id="[[faq.question]]">
-          <h4 class="faq-title">[[localize(faq.question)]]</h4>
-        </div>
-
-        <div class="faq-item" cascaded> 
-          <marked-element class="faq-text" markdown="{{localize(faq.answer)}}"> 
+        <button class="accordion">[[localize(faq.question)]] <img class="icon-collapsable " src="../../images/collapse.png" alt=""></button>
+    <div class="accordion-content">
+      <marked-element class="faq-text" markdown="{{localize(faq.answer)}}"> 
             <div class="markdown-html"></div> 
           </marked-element> 
-        </div>
+    </div>
       </template>
       </div>
     </template>
@@ -53,8 +114,28 @@
   </template>
 
   <script>
+
     (function () {
       'use strict';
+
+      setTimeout(() => {
+        var accordions = document.getElementsByClassName("accordion");
+
+        for (var i = 0; i < accordions.length; i++) {
+          accordions[i].onclick = function() {
+            this.classList.toggle('is-open');
+
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight) {
+            // accordion is currently open, so close it
+              content.style.maxHeight = null;
+            } else {
+            // accordion is currently closed, so open it
+              content.style.maxHeight = content.scrollHeight + "px";
+          }
+          }
+        }
+      }, 2000);
 
       Polymer({
 
