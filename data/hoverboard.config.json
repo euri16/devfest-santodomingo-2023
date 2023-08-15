@@ -204,7 +204,7 @@
       "title": "location-attending-title",
       "name": "Santo Domingo, Distrito Nacional",
       "address": "Av. John F. Kennedy Km 7 1/2 , Santo Domingo 1423",
-      "picture": "/images/unphu.png", 
+      "picture": "/images/unphu.png",
       "city": "location-city",
       "latitude": 18.48596,
       "longitude": -69.94884,
@@ -270,10 +270,7 @@
     "albumUrl": "http://instagram.com/gdgsantodomingo/",
     "photos": {
       "big": "/images/Gallery/BigImage.jpg",
-      "small": [
-        "/images/Gallery/Small1.JPG",
-        "/images/Gallery/Small2.JPG"
-      ]
+      "small": ["/images/Gallery/Small1.JPG", "/images/Gallery/Small2.JPG"]
     }
   },
   "pages": {
@@ -380,42 +377,53 @@
     "url": "https://www.eventbrite.com/e/google-devfest-santo-domingo-2023-tickets-674191554087?aff=oddtdtcreator",
     "elements": [
       {
-        "name": "Super Early Bird Gral.",
-        "type": "General",
+        "name": "Estudiante",
+        "type": "Estudiante",
         "price": 35,
         "currency": " USD",
         "starts": "super-early-ticket-starts",
-        "ends": "super-early-ticket-ends",
+        "ends": "student-ticket-ends",
         "info": "early-ticket-info",
         "soldOut": false,
         "gone": false
       },
       {
-        "name": "Early Bird Est.",
-        "type": "Estudiante",
-        "price": 30,
+        "name": "General",
+        "type": "General",
+        "price": 50,
         "currency": " USD",
-        "starts": "early-ticket-starts",
-        "ends": "early-ticket-student-ends",
-        "info": "early-ticket-info",
-        "soldOut": false,
-        "gone": false
-      },
-      {
-        "name": "VIP",
-        "type": "VIP",
-        "price": 120,
-        "currency": " USD",
-        "starts": "ticket-vip-starts",
+        "starts": "general-ticket-starts",
         "ends": "all-tickets-ends",
         "info": "early-ticket-info",
         "soldOut": false,
         "gone": false
       },
       {
-        "name": "Super Early Bird VIP",
+        "name": "Arma tu coro (3 tickets)",
+        "type": "General",
+        "price": 120,
+        "currency": " USD",
+        "starts": "ticket-vip-starts",
+        "ends": "team-ticket-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+      {
+        "name": "Early Bird General",
+        "type": "General",
+        "price": 40,
+        "currency": " USD",
+        "starts": "early-ticket-vip-starts",
+        "ends": "super-early-ticket-vip-ends",
+        "info": "early-ticket-info",
+        "soldOut": true,
+        "gone": false
+      },
+      {
+        "name": "VIP",
         "type": "VIP",
-        "price": 100,
+        "price": 120,
         "currency": " USD",
         "starts": "early-ticket-vip-starts",
         "ends": "super-early-ticket-vip-ends",
