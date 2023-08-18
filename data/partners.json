@@ -14,39 +14,29 @@
   {
     "title": "platinum-partner",
     "logos": [
-      {
-        "name": "Google",
-        "url": "https://www.google.com.ua/intl/en/about",
-        "logoUrl": "../images/logos/google.svg",
-        "height": 100
-      },
+     
       {
         "name": "EvoPoint",
         "url": "https://www.evopoint.do/",
         "logoUrl": "../images/logos/evopoint.svg",
         "height": 75
       },
+     
       {
-        "name": "Oriontek",
-        "url": "https://www.oriontek.do/",
-        "logoUrl": "../images/logos/oriontek.jpg",
-        "height": 100,
-        "width": 200
-      },
-      {
-        "name": "Solvex",
-        "url": "https://solvex.com.do/",
-        "logoUrl": "../images/logos/solvex.png",
+        "name": "Smart Testing",
+        "url": "https://www.smarttestingrd.com",
+        "logoUrl": "../images/logos/smart_testing.png",
         "height": 100,
         "width": 170
       },
       {
-        "name": "UNPHU",
-        "url": "https://unphu.edu.do",
-        "logoUrl": "../images/logos/unphuLogo.png",
-        "width": 200,
-        "height": 85
+        "name": "GovValue",
+        "url": "https://govvalue.com",
+        "logoUrl": "../images/logos/govvalue.png",
+        "height": 100,
+        "width": 170
       }
+     
     
     ]
   },
@@ -58,6 +48,13 @@
         "url": "https://nearsure.com",
         "logoUrl": "../images/logos/nearsure.png",
         "height": 75
+      },
+      {
+        "name": "Oriontek",
+        "url": "https://www.oriontek.do/",
+        "logoUrl": "../images/logos/oriontek.jpg",
+        "height": 100,
+        "width": 200
       }
      
     ]
@@ -91,6 +88,19 @@
         "url": "https://www.axure.com/",
         "logoUrl": "../images/logos/axure.svg",
         "height": 85
+      },
+      {
+        "name": "UNPHU",
+        "url": "https://unphu.edu.do",
+        "logoUrl": "../images/logos/unphuLogo.png",
+        "width": 200,
+        "height": 85
+      },
+      {
+        "name": "Google",
+        "url": "https://www.google.com.ua/intl/en/about",
+        "logoUrl": "../images/logos/google.svg",
+        "height": 100
       }
     ]
   }
