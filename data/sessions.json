@@ -461,7 +461,7 @@
     "language": "en",
     "tags": ["Community"],
     "complexity": "Intermediate",
-    "speakers": []
+    "speakers": [130]
   },
   "130": {
     "id": 130,
@@ -545,7 +545,7 @@
   },
   "135": {
     "id": 135,
-    "title": "20 anios de la pulga virtual",
+    "title": "20 Años de La Pulga Virtual",
     "description": "Proyecto del popular portal de compras y ventas dominicano, desarrollado en php y con uso de herramientas nativas.",
     "presentation": "",
     "videoId": "JaHsrC7UNeM",
@@ -561,7 +561,7 @@
   },
   "136": {
     "id": 136,
-    "title": "Mangú Tecnológico",
+    "title": "Podcast En Vivo: Mangú Tecnológico",
     "description": "",
     "presentation": "",
     "videoId": "JaHsrC7UNeM",
@@ -573,7 +573,7 @@
     "language": "es",
     "tags": ["Community"],
     "complexity": "Intermediate",
-    "speakers": [108, 116]
+    "speakers": []
   },
   "137": {
     "id": 137,
