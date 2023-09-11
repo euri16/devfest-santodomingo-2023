@@ -122,7 +122,7 @@
     "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/2023%2FSpeakers%2Fmirla-massiell-del-rio-lopez-min.jpg?alt=media&token=21777374-e861-422f-a25d-19720880e09b",
     "shortBio": "Asesora inmobiliaria, top producer, ingeniera de sistemas, directora de proyectos.",
     "bio": "Mirla Del Rio es una inversionista inmobiliaria y destacada asesora de bienes raíces, asociada a Urban Realty Group, es reconocida como 'Top Producer', con más de 15 millones de dólares en ventas. Asesora a una gran variedad de clientes, desde inversionistas individuales hasta constructoras y desarrolladores para llevarlos desde su situación actual hasta su situación deseada, se enfoca en inversiones con alta rentabilidad y plusvalía. Cuenta con la reputación de brindar un servicio personalizado asegurando a sus clientes alcanzar sus metas financieras e inmobiliarias. Entre sus estudios están: Es egresada de ingeniera de sistemas de información de la universidad APEC, posee el título de Magister en dirección de proyectos en la PUCMM y la EOI, posee una certificación en la Asociación de Agentes y Empresas Inmobiliarias, realizó un diplomado en gerencia inmobiliaria en la PUCMM, actualmente cursa el programa de Finanzas en Barna Management School.",
-    "tags": ["Real State"],
+    "tags": ["Community"],
     "badges": [],
     "socials": []
   },
@@ -480,7 +480,7 @@
     "id": 135,
     "name": "Michael Boada",
     "featured": true,
-    "company": "",
+    "company": "Arroyo Consulting Remote",
     "companyLogo": "/images/logos/thoughtworks.png",
     "country": "Colombia",
     "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/2023%2FSpeakers%2Fmichael-boada-min.jpg?alt=media&token=ef7a59e5-e101-4bac-9d9c-5fb72632c09d",
@@ -501,6 +501,20 @@
     "shortBio": "Director Técnico en IPS.",
     "bio": "Licenciado en Informatica, dedicado al desarrollo web desde el 1999 aproximadamente.",
     "tags": ["Web Technologies"],
+    "badges": [],
+    "socials": []
+  },
+  "137": {
+    "id": 137,
+    "name": "Luis Pujols",
+    "featured": true,
+    "company": "GitHub",
+    "companyLogo": "/images/logos/thoughtworks.png",
+    "country": "República Dominicana",
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/2023%2FSpeakers%2Fluis-pujols-min.png?alt=media&token=fcc2ac32-7122-4f49-8a24-a0ef1eee3239",
+    "shortBio": "Senior Customer Success Architect at GitHub",
+    "bio": "Luis Pujols es un Senior Customer Success Architect en GitHub y se desempeña como asesor técnico para los clientes más grandes de GitHub. Es originalmente de la República Dominicana y actualmente reside en Seattle, WA. Luis ha sido 2 veces Microsoft MVP y le apasiona el DevOps, el código abierto y el desarrollo móvil multiplataforma. En su tiempo libre disfruta compartir su conocimiento y experiencia a través de charlas, talleres, siendo mentor y co-organizando eventos para la comunidad tecnológica de .NET Dominicana.",
+    "tags": ["DevOps"],
     "badges": [],
     "socials": []
   }
