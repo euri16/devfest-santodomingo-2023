@@ -35,9 +35,21 @@
         "logoUrl": "../images/logos/govvalue.png",
         "height": 100,
         "width": 170
+      },
+      {
+        "name": "Blue Coding",
+        "url": "https://www.bluecoding.com/",
+        "logoUrl": "../images/logos/blue_coding.jpeg",
+        "height": 100,
+        "width": 170
+      },
+      {
+        "name": "Kake",
+        "url": "https://kake.co/",
+        "logoUrl": "../images/logos/kake.jpg",
+        "height": 100,
+        "width": 170
       }
-     
-    
     ]
   },
   {
@@ -55,8 +67,13 @@
         "logoUrl": "../images/logos/oriontek.jpg",
         "height": 100,
         "width": 200
+      },
+      {
+        "name": "Solvex",
+        "url": "https://solvex.com.do/",
+        "logoUrl": "../images/logos/solvex.png",
+        "width": 150
       }
-     
     ]
   },
   {
@@ -100,6 +117,18 @@
         "name": "Google",
         "url": "https://www.google.com.ua/intl/en/about",
         "logoUrl": "../images/logos/google.svg",
+        "height": 100
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/",
+        "logoUrl": "../images/logos/github.png",
+        "height": 100
+      },
+      {
+        "name": "Conexión Tecnológica",
+        "url": "https://www.conexiontecnologica.com.do/",
+        "logoUrl": "../images/logos/conexion_tecnologica.jpeg",
         "height": 100
       }
     ]
