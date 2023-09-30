@@ -384,7 +384,7 @@
         "starts": "super-early-ticket-starts",
         "ends": "student-ticket-ends",
         "info": "early-ticket-info",
-        "soldOut": false,
+        "soldOut": true,
         "gone": false
       },
       {
@@ -395,7 +395,7 @@
         "starts": "general-ticket-starts",
         "ends": "all-tickets-ends",
         "info": "early-ticket-info",
-        "soldOut": false,
+        "soldOut": true,
         "gone": false
       },
       {
@@ -406,7 +406,7 @@
         "starts": "ticket-vip-starts",
         "ends": "team-ticket-ends",
         "info": "early-ticket-info",
-        "soldOut": false,
+        "soldOut": true,
         "gone": false
       },
       {
