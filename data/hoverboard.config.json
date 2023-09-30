@@ -1,0 +1,568 @@
+{
+  "eventName": "GDG Santo Domingo 2023",
+  "url": "https://devfest.gdgsantodomingo.com",
+  "ogImageUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/public%2Fog_property.jpg?alt=media&token=15f7131a-6952-497e-a025-4a9333588e29",
+  "startDate": "2022-10-14T09:00:00-04:00",
+  "endDate": "2022-10-15T18:30:00-04:00",
+  "analytics": {
+    "prod": "",
+    "dev": ""
+  },
+  "organizer": {
+    "name": "GDG Santo Domingo",
+    "twitter": "gdgsdq"
+  },
+  "webapp": {
+    "shortName": "DevFest",
+    "themeColor": "#673ab7",
+    "backgroundColor": "#673ab7"
+  },
+  "firebase": {
+    "name": "devfest2018",
+    "domain": "devfest2018-site.firebaseapp.com",
+    "database": "https://devfest2018-site.firebaseio.com",
+    "api": "AIzaSyAlmudkgp_ns9kaFTQ_kPKsdZGprFw2y7Q",
+    "userSessionsPath": "/userSessions",
+    "ratingsPath": "/ratings",
+    "indexedDbSession": "devfest2018"
+  },
+  "mailchimp": {
+    "url": "",
+    "name": ""
+  },
+  "dateFormat": {
+    "locale": "fr-FR",
+    "blog": { "month": "short", "day": "numeric", "year": "numeric" }
+  },
+  "languages": [
+    {
+      "name": "English",
+      "key": "en"
+    },
+    {
+      "name": "Français",
+      "key": "fr"
+    }
+  ],
+  "description": "¡El festival de desarrolladores organizado por desarrolladores! Todo sobre Mobile, IoT, Web, Cloud, UI/UX y más, presentado por expertos de todo el mundo para una de las conferencias técnicas más grandes.",
+  "keywords": "devfest santo domingo, event, gdg, gde, devfest, santo domingo, google, programming, android, chrome, polymer, developers, web, cloud, androiddev, kotlin, big data, firebase, gcp",
+  "hashtag": "DevFestSantoDomingo2023",
+  "disqusShortName": "devfest.gdgsantodomingo",
+  "tweetsSource": "",
+  "partnershipProposition": "partnership-proposition-url",
+  "videosSessionsUrl": "https://youtube.com/playlist?list=PLokIBNX1GWGsH0V2vlGCgFyqkBFSYf5C1",
+  "enableSessionsRating": true,
+  "codPath": "cod-path",
+  "navigation": [
+    {
+      "route": "home",
+      "permalink": "/",
+      "inMenu": true
+    },
+    {
+      "route": "blog",
+      "permalink": "/blog/",
+      "inMenu": false
+    },
+    {
+      "route": "attending",
+      "permalink": "/attending/",
+      "inMenu": false
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/",
+      "inMenu": true
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/",
+      "inMenu": true
+    },
+    {
+      "route": "speaker",
+      "permalink": "/speaker/",
+      "inMenu": false
+    },
+    {
+      "route": "team",
+      "permalink": "/team/",
+      "inMenu": true
+    },
+    {
+      "route": "faq",
+      "permalink": "/faq/",
+      "inMenu": true
+    },
+    {
+      "route": "cod",
+      "permalink": "/cod/",
+      "inMenu": true
+    }
+  ],
+  "social": [
+    {
+      "name": "instagram",
+      "nickname": "gdgsantodomingo",
+      "url": "https://www.instagram.com/gdgsantodomingo/"
+    },
+    {
+      "name": "twitter",
+      "nickname": "gdgsdq",
+      "url": "https://twitter.com/gdgsdq"
+    },
+    {
+      "name": "facebook",
+      "nickname": "GDGSantoDomingo",
+      "url": "https://www.facebook.com/GDGSantoDomingo"
+    },
+    {
+      "name": "linkedin",
+      "nickname": "gdgsantodomingo",
+      "url": "https://www.linkedin.com/company/gdgsantodomingo/"
+    }
+  ],
+  "footerBlocks": [
+    {
+      "title": "for-visitors",
+      "links": [
+        {
+          "text": "team",
+          "url": "/team/"
+        },
+        {
+          "text": "cod",
+          "url": "/cod/"
+        },
+        {
+          "text": "google-developers",
+          "url": "https://developers.google.com/",
+          "newTab": true
+        },
+        {
+          "text": "gdg-community",
+          "url": "https://gdg.community.dev/gdg-santo-domingo/",
+          "newTab": true
+        },
+        {
+          "text": "df-21",
+          "url": "https://www.youtube.com/playlist?list=PLokIBNX1GWGuLE8Jwxvv87TgXw7n_-Aaw",
+          "newTab": true
+        },
+        {
+          "text": "df-22",
+          "url": "https://devfest22.gdgsantodomingo.org/",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "for-speakers",
+      "links": [
+        {
+          "text": "call-for-papers",
+          "url": "https://sessionize.com/devfest-santo-domingo-2023",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "for-partners",
+      "links": [
+        {
+          "text": "be-sponsor",
+          "url": "https://docs.google.com/presentation/d/e/2PACX-1vTf_-5z59tZ_wri2CVEux-0Rs7Bim4h8RgIBKkatxAMjE-jvOBQiw4eIC5_bKRSwKS9XloPriLJZ6JQ/pub",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "contactBlock": {
+    "links": [
+      {
+        "text": "gdg.dominicana@gmail.com",
+        "url": "mailto:gdg.dominicana@gmail.com"
+      }
+    ]
+  },
+  "location": {
+    "apiKey": "AIzaSyD6qBLelL6o_K_mzaJS0YlcOCbbzsN3taA",
+    "name": "Santo Domingo, Distrito Nacional",
+    "address": "Av. John F. Kennedy Km 7 1/2 , Santo Domingo 1423",
+    "zoom": 16,
+    "link": "",
+    "pointer": {
+      "latitude": 18.48596,
+      "longitude": -69.94884,
+      "zoom": 16
+    },
+    "mapCenter": {
+      "latitude": 18.48596,
+      "longitude": -69.94884
+    },
+    "mapAttending": {
+      "title": "location-attending-title",
+      "name": "Santo Domingo, Distrito Nacional",
+      "address": "Av. John F. Kennedy Km 7 1/2 , Santo Domingo 1423",
+      "picture": "/images/unphu.png",
+      "city": "location-city",
+      "latitude": 18.48596,
+      "longitude": -69.94884,
+      "zoom": 14,
+      "pointer": {
+        "latitude": 18.48596,
+        "longitude": -69.94884,
+        "zoom": 5
+      }
+    },
+    "mapHotelSpeaker": {
+      "name": "Residhome Appart Hotel",
+      "address": "3 Allée Jacques Berque",
+      "city": "location-city",
+      "latitude": 47.2122829,
+      "longitude": -1.538086,
+      "zoom": 15,
+      "pointer": {
+        "latitude": 47.2122829,
+        "longitude": -1.538086,
+        "zoom": 5
+      }
+    },
+    "mapDinnerSpeaker": {
+      "name": "Levrette Café",
+      "address": "30 quai Fernand Crouan",
+      "city": "location-city",
+      "latitude": 47.206532,
+      "longitude": -1.568648,
+      "zoom": 15,
+      "pointer": {
+        "latitude": 47.206532,
+        "longitude": -1.568648,
+        "zoom": 5
+      }
+    },
+    "images": [
+      "/images/backgrounds/location_1.jpg",
+      "/images/backgrounds/location_2.jpg",
+      "/images/backgrounds/location_3.jpg"
+    ]
+  },
+  "hotelTitle": "hotel-title",
+  "hotelText": "hotel-text",
+  "hotels": [],
+  "indoorMapTitle": "indoor-map-title",
+  "transport": {
+    "title": "transport-attending-title",
+    "elements": [
+      {
+        "icon": "train",
+        "title": "train-title",
+        "text": "train-text"
+      },
+      {
+        "icon": "car",
+        "title": "car-title",
+        "text": "car-text"
+      }
+    ]
+  },
+  "gallery": {
+    "albumUrl": "http://instagram.com/gdgsantodomingo/",
+    "photos": {
+      "big": "/images/Gallery/BigImage.jpg",
+      "small": ["/images/Gallery/Small1.JPG", "/images/Gallery/Small2.JPG"]
+    }
+  },
+  "pages": {
+    "home": {
+      "headerSettings": {
+        "backgroundColor": "#4384f3",
+        "backgroundImage": "/images/backgrounds/grupal_2019.jpg",
+        "fontColor": "#faf6dd",
+        "tabBarColor": "#faf6dd",
+        "video": {
+          "title": "DevFest Santo Domingo 2023",
+          "youtubeId": "xcYWs4YEISU",
+          "text": "play-icon"
+        },
+        "hideLogo": true,
+        "minHeight": "360px"
+      }
+    },
+    "blog": {
+      "headerSettings": {
+        "backgroundColor": "#44504e",
+        "backgroundImage": "/images/backgrounds/space_2.jpg",
+        "fontColor": "#faf6dd",
+        "tabBarColor": "#faf6dd",
+        "citation": "\"THAT'S ONE STEP FOR MAN, ONE GIANT LEAP FOR MANKIND\"",
+        "authorCitation": "NEIL ARMSTRONG"
+      }
+    },
+    "speaker": {
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+        "backgroundImage": "/images/backgrounds/space_5.jpg",
+        "fontColor": "#faf6dd",
+        "tabBarColor": "#faf6dd",
+        "citation": "",
+        "authorCitation": "NEIL ARMSTRONG"
+      }
+    },
+    "speakers": {
+      "headerSettings": {
+        "backgroundColor": "#44504e",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/public%2FAE9A0281.JPG?alt=media&token=952f00eb-a3e9-45e0-95ec-be0a1257f71d",
+        "fontColor": "#faf6dd",
+        "tabBarColor": "#faf6dd",
+        "citation": "",
+        "authorCitation": ""
+      }
+    },
+    "schedule": {
+      "headerSettings": {
+        "backgroundColor": "#44504e",
+        "backgroundImage": "/images/backgrounds/eury.jpg",
+        "fontColor": "#faf6dd",
+        "tabBarColor": "#faf6dd",
+        "citation": "",
+        "authorCitation": ""
+      }
+    },
+    "attending": {
+      "headerSettings": {
+        "backgroundColor": "#44504e",
+        "backgroundImage": "/images/backgrounds/space_5.jpg",
+        "fontColor": "#faf6dd",
+        "tabBarColor": "#faf6dd",
+        "citation": "",
+        "authorCitation": ""
+      }
+    },
+    "team": {
+      "title": "team-page-title",
+      "text": "team-page-text",
+      "headerSettings": {
+        "backgroundColor": "#44504e",
+        "backgroundImage": "/images/backgrounds/2022/Team.jpg",
+        "fontColor": "#faf6dd",
+        "tabBarColor": "#faf6dd",
+        "citation": "",
+        "authorCitation": ""
+      }
+    },
+    "faq": {
+      "headerSettings": {
+        "backgroundColor": "#44504e",
+        "backgroundImage": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/Backgrounds%2FFQImage.JPG?alt=media&token=f80a07ed-859f-48ef-b183-0b8951b516c5",
+        "fontColor": "#faf6dd",
+        "tabBarColor": "#faf6dd",
+        "citation": "",
+        "authorCitation": ""
+      }
+    },
+    "cod": {
+      "title": "Código de Conducta",
+      "headerSettings": {
+        "backgroundColor": "#44504e",
+        "backgroundImage": "/images/backgrounds/2022/CodCon.JPG",
+        "fontColor": "#faf6dd",
+        "tabBarColor": "#faf6dd",
+        "citation": "",
+        "authorCitation": ""
+      }
+    }
+  },
+  "tickets": {
+    "url": "https://www.eventbrite.com/e/google-devfest-santo-domingo-2023-tickets-674191554087?aff=oddtdtcreator",
+    "elements": [
+      {
+        "name": "Estudiante",
+        "type": "Estudiante",
+        "price": 35,
+        "currency": " USD",
+        "starts": "super-early-ticket-starts",
+        "ends": "student-ticket-ends",
+        "info": "early-ticket-info",
+        "soldOut": true,
+        "gone": false
+      },
+      {
+        "name": "General",
+        "type": "General",
+        "price": 50,
+        "currency": " USD",
+        "starts": "general-ticket-starts",
+        "ends": "all-tickets-ends",
+        "info": "early-ticket-info",
+        "soldOut": true,
+        "gone": false
+      },
+      {
+        "name": "Arma tu coro (3 tickets)",
+        "type": "General",
+        "price": 120,
+        "currency": " USD",
+        "starts": "ticket-vip-starts",
+        "ends": "team-ticket-ends",
+        "info": "early-ticket-info",
+        "soldOut": true,
+        "gone": false
+      },
+      {
+        "name": "Early Bird General",
+        "type": "General",
+        "price": 40,
+        "currency": " USD",
+        "starts": "early-ticket-vip-starts",
+        "ends": "super-early-ticket-vip-ends",
+        "info": "early-ticket-info",
+        "soldOut": true,
+        "gone": false
+      },
+      {
+        "name": "VIP",
+        "type": "VIP",
+        "price": 120,
+        "currency": " USD",
+        "starts": "early-ticket-vip-starts",
+        "ends": "super-early-ticket-vip-ends",
+        "info": "early-ticket-info",
+        "soldOut": true,
+        "gone": false
+      }
+    ]
+  },
+  "tickets1": {
+    "url": "https://www.eventbrite.com/e/google-devfest-santo-domingo-2023-tickets-674191554087?aff=oddtdtcreator",
+    "elements": [
+      {
+        "name": "Super Early Bird Gral.",
+        "type": "General",
+        "price": 25,
+        "currency": " USD",
+        "starts": "super-early-ticket-starts",
+        "ends": "early-ticket-starts",
+        "info": "early-ticket-info",
+        "soldOut": true,
+        "gone": true
+      },
+      {
+        "name": "Early Bird General",
+        "type": "General",
+        "price": 38,
+        "currency": " USD",
+        "starts": "early-ticket-starts",
+        "ends": "general-ticket-starts",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": true
+      },
+      {
+        "name": "General",
+        "type": "General",
+        "price": 50,
+        "currency": " USD",
+        "starts": "general-ticket-starts",
+        "ends": "all-tickets-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+      {
+        "name": "Early Bird VIP",
+        "type": "VIP",
+        "price": 85,
+        "currency": " USD",
+        "starts": "early-ticket-vip-starts",
+        "ends": "ticket-vip-starts",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": true
+      },
+      {
+        "name": "VIP",
+        "type": "VIP",
+        "price": 120,
+        "currency": " USD",
+        "starts": "ticket-vip-starts",
+        "ends": "all-tickets-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+      {
+        "name": "Invita un amigo (3x2)",
+        "type": "General",
+        "price": 100,
+        "currency": " USD",
+        "starts": "invite-friend-ticket-starts",
+        "ends": "invite-friend-ticket-ends",
+        "info": "lazy-ticket-info",
+        "soldOut": false,
+        "gone": false
+      },
+      {
+        "name": "Early Bird Est.",
+        "type": "Estudiante",
+        "price": 30,
+        "currency": " USD",
+        "starts": "early-ticket-starts",
+        "ends": "early-ticket-student-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": true
+      },
+      {
+        "name": "Estudiante.",
+        "type": "Estudiante",
+        "price": 35,
+        "currency": " USD",
+        "starts": "early-ticket-student-ends",
+        "ends": "all-tickets-ends",
+        "info": "early-ticket-info",
+        "soldOut": false,
+        "gone": false
+      }
+    ]
+  },
+  "statistics": [
+    {
+      "counter": "+450",
+      "caption": "attendees"
+    },
+    {
+      "counter": 2,
+      "caption": "days"
+    },
+    {
+      "counter": 2,
+      "caption": "tracks"
+    },
+    {
+      "counter": "+25",
+      "caption": "sessions"
+    },
+    {
+      "counter": "+30",
+      "caption": "speakers"
+    }
+  ],
+  "cfp": {
+    "url": " https://sessionize.com/devfest-santo-domingo-2023"
+  },
+  "infosSpeaker": [
+    {
+      "title": "title-speaker-arrival",
+      "text": "text-speaker-arrival"
+    },
+    {
+      "title": "title-speaker-session",
+      "text": "text-speaker-session"
+    },
+    {
+      "title": "title-speaker-slides",
+      "text": "text-speaker-slides"
+    }
+  ]
+}

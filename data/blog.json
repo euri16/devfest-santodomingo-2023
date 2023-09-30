@@ -1,0 +1,182 @@
+[
+  {
+    "id": "devfest-2018-announced",
+    "title": "Annonce du DevFest Nantes 2018",
+    "posted": "2018-04-02",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/announce.jpg",
+    "brief": "Le GDG Nantes est fier de vous annoncer la 7ème édition du DevFest Nantes! L'événement aura lieu les 18 et 19 Octobre 2018 à la Cité des Congrès de Nantes."
+  },
+  {
+    "id": "cfp-tickets-announced",
+    "title": "Voyage aux confins du code",
+    "posted": "2018-05-29",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/cfp-tickets.jpg",
+    "brief": "Le CFP ainsi que la billeterie du DevFest Nantes 2018 sont officiellement ouvert."
+  },
+  {
+    "id": "top-speakers-announced",
+    "title": "Ready to launch",
+    "posted": "2018-07-18",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/top-speakers.jpg",
+    "brief": "Top Speakeuses : La dream team est parée au décollage."
+  },
+  {
+    "id": "program-announced",
+    "title": "Le Programme du Développeur Galactique ",
+    "posted": "2018-09-10",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/program-announced.jpg",
+    "brief": "Vous l’attendiez, le voilà enfin ! Le programme du DevFest Nantes 2018 est disponible."
+  },
+  {
+    "id": "creative",
+    "title": "Mot du sponsor Groupe CREATIVE",
+    "posted": "2018-09-25",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/creative.jpg",
+    "brief": "Merci au sponsor Groupe CREATIVE pour son soutien."
+  },
+  {
+    "id": "sold-out",
+    "title": "Planète Code en vue",
+    "posted": "2018-09-26",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/sold-out.jpg",
+    "brief": "Depuis maintenant 2 semaines nous sommes sold out."
+  },
+  {
+    "id": "epitech",
+    "title": "Mot du sponsor Epitech",
+    "posted": "2018-09-27",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/epitech.jpg",
+    "brief": "Merci au sponsor Epitech pour son soutien."
+  },
+  {
+    "id": "zenika",
+    "title": "Mot du sponsor Zenika",
+    "posted": "2018-10-04",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/zenika.jpg",
+    "brief": "Merci au sponsor Zenika pour son soutien."
+  },
+  {
+    "id": "vptech",
+    "title": "Mot du sponsor vpTech",
+    "posted": "2018-10-05",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/vptech.jpg",
+    "brief": "Merci au sponsor vpTech pour son soutien."
+  },
+  {
+    "id": "sfeir",
+    "title": "Mot du sponsor SFEIR",
+    "posted": "2018-10-08",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/sfeir.jpg",
+    "brief": "Merci au sponsor SFEIR pour son soutien."
+  },
+  {
+    "id": "venue",
+    "title": "The Eagle has landed!",
+    "posted": "2018-10-08",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/venue.jpg",
+    "brief": "Ca y est le DevFest arrive à grand pas, il est maintenant temps pour vous de vous organiser !"
+  },
+  {
+    "id": "onepoint",
+    "title": "Mot du sponsor Onepoint",
+    "posted": "2018-10-09",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/onepoint.jpg",
+    "brief": "Merci au sponsor Onepoint pour son soutien."
+  },
+  {
+    "id": "talend",
+    "title": "Mot du sponsor Talend",
+    "posted": "2018-10-10",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/talend.jpg",
+    "brief": "Merci au sponsor Talend pour son soutien."
+  },
+  {
+    "id": "conserto",
+    "title": "Mot du sponsor Conserto",
+    "posted": "2018-10-11",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/conserto.jpg",
+    "brief": "Merci au sponsor Conserto pour son soutien."
+  },
+  {
+    "id": "apside",
+    "title": "Mot du sponsor Apside",
+    "posted": "2018-10-12",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/apside.jpg",
+    "brief": "Merci au sponsor Apside pour son soutien."
+  },
+  {
+    "id": "niji",
+    "title": "Mot du sponsor Niji",
+    "posted": "2018-10-15",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/niji.jpg",
+    "brief": "Merci au sponsor Niji pour son soutien."
+  },
+  {
+    "id": "capgemini",
+    "title": "Mot du sponsor Capgemini",
+    "posted": "2018-10-16",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/capgemini.jpg",
+    "brief": "Merci au sponsor Capgemini pour son soutien."
+  },
+  {
+    "id": "nantes-saint-nazaire-dev",
+    "title": "Mot du sponsor Nantes Saint-Nazaire Développement",
+    "posted": "2018-10-17",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/nantes-saint-nazaire-dev.jpg",
+    "brief": "Merci au sponsor Nantes Saint-Nazaire Développement pour son soutien."
+  },
+  {
+    "id": "thank-you",
+    "title": "Thanks",
+    "posted": "2018-10-29",
+    "primaryColor": "#44504E",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/thank-you.jpg",
+    "brief": "Et oui le DevFest est terminé, merci à toutes et à tous pour votre participation et rendez-vous les 21 & 22 Octobre 2019 !"
+  },
+  {
+    "id": "presse",
+    "title": "Ils en ont parlé...",
+    "posted": "2018-11-15",
+    "primaryColor": "#455A64",
+    "secondaryColor": "#5A7785",
+    "image": "/images/posts/presse.jpg",
+    "brief": "Ils en ont parlé sur leurs sites..."
+  }
+]

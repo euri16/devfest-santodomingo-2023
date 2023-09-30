@@ -1,0 +1,44 @@
+[
+  {
+    "youtubeId": "Fy_FAcs3GRk",
+    "title": "Nanopb - Protocol Buffers para Embedded Systems",
+    "speakers": "Pablo Oyarzo",
+    "thumbnail": "/images/sessions/2022/Pablo Oyarzo.jpg"
+  },
+  {
+    "youtubeId": "kQMrOwSnUuo",
+    "title": "Serverless para Frontends",
+    "speakers": "Christian Moreno",
+    "thumbnail": "/images/sessions/2022/Christian Moreno.jpg"
+  },
+  {
+    "youtubeId": "2ApQrCXhK7w",
+    "title": "Destruyendo tu App con los ojos cerrados",
+    "speakers": "Julio Ureña",
+    "thumbnail": "/images/sessions/2022/Julio Ureña.jpg"
+  },
+  {
+    "youtubeId": "Lyaqd-qavyI",
+    "title": "Theming & Styles in .NET MAUI",
+    "speakers": "Leomaris Reyes",
+    "thumbnail": "/images/sessions/2022/Leomaris Reyes.jpg"
+  },
+  {
+    "youtubeId": "IYqL160a62A",
+    "title": "Switching Careers: A Quick and Practical Guide",
+    "speakers": "Leonardo Jiménez",
+    "thumbnail": "/images/sessions/2022/Leonardo Jiménez.jpg"
+  },
+  {
+    "youtubeId": "xCtqoSxf0Vc",
+    "title": "Learning How to Learn (Aprendiendo a Aprender)",
+    "speakers": "Wilson Reyes",
+    "thumbnail": "/images/sessions/2022/Wilson Reyes.jpg"
+  },
+  {
+    "youtubeId": "DJlVU9BsCC4",
+    "title": "Diseño funcional de microservicios con Spring Boot",
+    "speakers": "Aluis Marte",
+    "thumbnail": "/images/sessions/2022/Aluis Marte.jpg"
+  }
+]

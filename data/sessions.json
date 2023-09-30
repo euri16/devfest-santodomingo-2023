@@ -1,0 +1,618 @@
+{
+  "101": {
+    "id": 101,
+    "title": "Aplicaciones móviles sostenibles",
+    "description": "¡Lo has hecho! En un par de años, has lanzado con éxito una aplicación móvil nativa. Ahora tienes cientos de miles de usuarios. Pero la calidad de tu código no está a la par con tu crecimiento explosivo. Errores imprevistos a menudo rompen tus aplicaciones, los ingenieros tienen miedo de hacer cambios y enfrentas incidentes todas las semanas. Este escenario es una receta para el estrés y el desgaste. ¿Cómo podemos superar esto? En esta charla, exploraremos formas de mejorar las herramientas y fomentar una cultura sostenible. Describiremos cómo mi equipo pasó de múltiples incidentes al mes a casi cero al año.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "mobile",
+    "language": "es",
+    "tags": ["mobile"],
+    "complexity": "Intermediate",
+    "speakers": [101]
+  },
+  "102": {
+    "id": 102,
+    "title": "Gobernanza de calidad de software: Garantizando la excelencia en el desarrollo digital",
+    "description": "En esta charla, exploraremos la importancia de la gobernanza de calidad de software en el desarrollo digital. Aprenderás cómo establecer un enfoque estructurado y organizado para garantizar la calidad en todas las etapas del ciclo de vida del software. Además, exploraremos los beneficios tangibles e intangibles de una sólida gobernanza de calidad de software, como la reducción de costos, la mejora de la satisfacción del cliente y la optimización de los procesos de desarrollo. ¡No te pierdas esta charla llena de ideas prácticas para elevar la calidad de tu software y alcanzar el éxito empresarial!",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Testing",
+    "language": "es",
+    "tags": ["Testing"],
+    "complexity": "Advanced",
+    "speakers": [102]
+  },
+  "103": {
+    "id": 103,
+    "title": "Accelerating CI with Ephemeral Environments: Early Stage Bug Prevention",
+    "description": "Discover how ephemeral environments turbocharge Continuous Integration (CI) by enabling early bug detection and prevention. Explore their integration within the CI pipeline, efficient workflows for Pull Requests, and comprehensive end-to-end systems testing. Learn from best practices and real-world case studies to accelerate your CI process and ensure code reliability.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "DevOps",
+    "language": "es",
+    "tags": ["DevOps"],
+    "complexity": "Advanced",
+    "speakers": [103]
+  },
+  "104": {
+    "id": 104,
+    "title": "How To Become a Agile, Disruptive and Future Thinker",
+    "description": "In my talk I will be sharing how leaders can develop their leadership distinction using my practical insights such as my 3 I's of 'Cutting Edge Leadership', the difference between a mindset and a state of mind and how to become legacy minded. I'll also share about the 3 levels of sight every leader needs in this era called 'the era of creative distinction' which includes hindsight. I'll share my 3 C's of creative leadership and how and why leaders can use them to become value added and agile disruptors using my A.G.I.L.E Disruptive Leadership™ model.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Agile",
+    "language": "en",
+    "tags": ["Agile"],
+    "complexity": "Intermediate",
+    "speakers": [104]
+  },
+  "105": {
+    "id": 105,
+    "title": "Autonomous AI Agents: The Future of Business and Software Development?",
+    "description": "Are Autonomous AI Agents the Future of Software Development and Business? You would have to answer yourself 🤖. What makes this kind of agent special is that they use AI as their brain, and when given an objective, they can create, prioritize, and complete tasks by themselves.We will explore how Autonomous AI Agents are set to redefine our professional landscape, the opportunities, real-world case studies, and the challenges.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "AI",
+    "language": "en",
+    "tags": ["AI"],
+    "complexity": "Introductory",
+    "speakers": [105]
+  },
+  "106": {
+    "id": 106,
+    "title": "The Cloud Odessy: Migrating from AWS to Google Cloud",
+    "description": "Embark on the captivating journey of a small tech startup's migration from AWS to Google Cloud. In this talk, I'll take you through NonprofitsHQ's exciting migration journey from AWS to Google Cloud. Discover the strategic decisions, challenges, and innovative solutions we encountered during this transformation. From resource optimization to harnessing Google Cloud's advanced capabilities, learn how NonprofitsHQ flourished in the cloud landscape. Join to gain valuable insights and inspiration for your own startup's cloud migration endeavors.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Cloud",
+    "language": "en",
+    "tags": ["Cloud"],
+    "complexity": "Introductory",
+    "speakers": [106]
+  },
+  "107": {
+    "id": 107,
+    "title": "Deployment Strategies in real life!",
+    "description": "Deployment Strategies in Real Life!, es una charla dinámica y detallada diseñada para desglosar las estrategias de despliegue en entornos del mundo real. Esta sesión está dirigida a profesionales de DevOps, ingenieros de software y arquitectos de sistemas que buscan ampliar su conocimiento y mejorar su práctica en la implementación efectiva de código y sistemas. Durante esta charla, nos adentraremos en la esencia de diversas estrategias de despliegue y cómo se aplican en entornos reales. Cubriremos escenarios como el despliegue en instalaciones locales, en Kubernetes, en ambientes serverless y en otros patrones arquitectónicos emergentes. Nuestra discusión incluirá tanto los beneficios como los desafíos de cada enfoque, proporcionando una imagen completa de cuándo y cómo implementar cada estrategia. Para cada ambiente y estrategia, proporcionaremos ejemplos de la vida real y estudios de caso, permitiendo a los asistentes ver cómo estas estrategias de despliegue se aplican en situaciones reales y no sólo en teoría. Este enfoque práctico ayudará a los asistentes a comprender cómo pueden adaptar estas tácticas a sus propios desafíos de despliegue.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "DevOps",
+    "language": "es",
+    "tags": ["DevOps"],
+    "complexity": "Intermediate",
+    "speakers": [107]
+  },
+  "108": {
+    "id": 108,
+    "title": "¡50 milisegundos en JavaScript es MUCHO!",
+    "description": "Si, aunque parezca poco tiempo, en el contexto de JavaScript una tarea que tome más de 50 milisegundos en ejecutarse es considerada una tarea larga. Durante mi presentación, me centraré en las técnicas que existen para mejorar el rendimiento de estas tareas y así brindar una experiencia de usuario excepcional. Se exploraran diversas estrategias para optimizarla y reducir drásticamente su tiempo de ejecución. A través de ejemplos prácticos y una explicación paso a paso, utilizaré los Chrome Dev Tools para demostrar cómo implementar mejoras progresivas en el código. Analizaremos cuidadosamente los cuellos de botella y aplicaremos las técnicas de optimización adecuadas para obtener resultados significativos. Mi objetivo final es proporcionar a los asistentes una comprensión sólida de las técnicas de optimización disponibles y cómo aplicarlas de manera efectiva.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "gRPC",
+    "language": "es",
+    "tags": ["gRPC", "Python"],
+    "complexity": "Advanced",
+    "speakers": [108]
+  },
+  "109": {
+    "id": 109,
+    "title": "De tecnólogo a inversionista sofisticado: cómo crear riquezas con bienes raíces",
+    "description": "Nos encontramos en un momento privilegiado, especialmente en un sector con alta demanda como es el sector tecnológico. Contamos con acceso a grandes oportunidades económicas, oportunidades que con la mentalidad y los procesos correctos, puedes aprovechar para hacerte rico y construir un retiro temprano. La elección es tuya: aprovecharlas o dejarlas pasar. En esta charla, exploraremos cómo capitalizar estás oportunidades con inversiones en bienes raíces. Detallaremos los procesos, estrategias y consideraciones clave, que necesitas conocer para construir un patrimonio neto que te permita retirarte joven.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Keynote",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Community",
+    "language": "en",
+    "tags": ["Community"],
+    "complexity": "Introductory",
+    "speakers": [109]
+  },
+  "110": {
+    "id": 110,
+    "title": "Bridging the Gap Between UX and Security",
+    "description": "¿Puede la usabilidad entrar en conflicto con la seguridad de una aplicación? La respuesta rápida es sí, malas prácticas de UX pueden estar afectando la seguridad de tu aplicación y viceversa. Lo cierto es que si se puede crear una aplicación que cumpla con todos los estándares de seguridad y que a su vez sea fácil para el usuario. En esta charla hablaremos sobre las buenas prácticas de crear un sign Up, un Login y de como hacer un proceso de recuperar contraseña mucho más seguro. También veremos que es mejor para los usuarios al momento setear configuraciones de privacidad y de como estas mejoran la experiencia del usuario. En fin veremos dos mundos aparentemente distintos pero que tienen mucho que ver y por tanto tiempo han creado brechas entre ellas.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "UX",
+    "language": "es",
+    "tags": ["UX"],
+    "complexity": "Introductory",
+    "speakers": [110]
+  },
+  "111": {
+    "id": 111,
+    "title": "How to apply Generative AI with Keras and Model Garden",
+    "description": "Google ha liberado herramientas para que podamos crear nuestras propias aplicaciones haciendo uso de todo el potencial de Generative AI de manera sencilla. En esta charla, veremos todo lo necesario para usar y aplicar Gen AI con: Keras y Model Garden (Vertex AI).",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "AI",
+    "language": "es",
+    "tags": ["AI"],
+    "complexity": "Introductory",
+    "speakers": [111]
+  },
+  "112": {
+    "id": 112,
+    "title": "Programando con candao: Guia de como salvaguardar nuestas apps en un mundo inseguro",
+    "description": "En un mundo digital interconectado, la seguridad de las aplicaciones que desarrollamos es esencial. En esta charla exploramos cómo podemos proteger nuestras aplicaciones para un entorno inseguro. Te enseñaremos como adoptar una mentalidad de seguridad desde el inicio y veremos la implementación práctica de medidas de seguridad para ciudar la información de tus usuarios. Únete a nosotros a fortalecer tus aplicaciones y construir un futuro más seguro.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "mobile",
+    "language": "es",
+    "tags": ["mobile"],
+    "complexity": "Intermediate",
+    "speakers": [112]
+  },
+  "113": {
+    "id": 113,
+    "title": "Entrenando tu propio generador de código con I.A.",
+    "description": "En esta propuesta planteo un entrenamiento de un Dataset de Google-Research de nombre 'Mostly Basic Python Problems Dataset' sobre una LLM para obtener un dummy generador de código (de Python). El objetivo es causar curiosidad al espectador y que se empodere en su propia convicción sobre un tema de tendencia, además democratizar el uso de estas tecnologías en la comunidad de devs.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "AI",
+    "language": "es",
+    "tags": ["AI"],
+    "complexity": "Introductory",
+    "speakers": [113]
+  },
+  "114": {
+    "id": 114,
+    "title": "Levantar capital para triunfar desde LATAM",
+    "description": "Revisaremos que tipo de empresa merece recibir inversion de capital de riesgo, donde levantarlo, como hacerlo y de que cuidarse al hacerlo.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Community",
+    "language": "es",
+    "tags": ["Community"],
+    "complexity": "Intermediate",
+    "speakers": [114]
+  },
+  "115": {
+    "id": 115,
+    "title": "DADD - Digital Agencies-Driven Development",
+    "description": "Desde sus inicios las agencias digitales han tenido un impacto poco positivo en los momentos de contrataciones para los desarrolladores, esto dado a que muchas se han dedicado a desarrollar proyectos con tecnologías poco atractivas para nosotros (devs). Pero desde hace un tiempo para acá se viene hablando de JAMstack, Serverless, Headless CMS y Static Site Generators que no son mas que algunos conceptos, alternativas y/o herramientas que nos permiten generar un efecto competitivo para las agencias, pasar de enfoques monolíticos a configuraciones simples para mejorar experiencias en desarrollo, rendimiento y seguridad, orquestando de manera inteligente las tecnologías que ya conocemos para diseñar y construir eficientemente la web. En esta sesión quiero compartir diferentes alternativas para hacer mejor y mas llamativo el trabajo del desarrollo web en las agencias digitales.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Development",
+    "language": "es",
+    "tags": ["Development"],
+    "complexity": "Intermediate",
+    "speakers": [115]
+  },
+  "116": {
+    "id": 116,
+    "title": "Privacidad / protección de datos y la Inteligencia Artificial (IA)",
+    "description": "Actualmente, la IA es un tema popular. Para muchos es una maravilla, para otros es un enigma. Desde la perspectiva legal, este fenómeno ha contraído muchas dudas sobre la afectación de esta a derechos como la privacidad y la propiedad intelectual. A los fines de llevar a conocimiento a la comunidad tecnológica de las legislaciones vigentes –nacional e internacional- sobre datos personales, proponemos esta intervención. Las personas involucradas directamente en la creación y mantenimiento de esta tecnología deben de primera mano saber las implicaciones legales que existen sobre datos y la IA.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "AI",
+    "language": "en",
+    "tags": ["AI"],
+    "complexity": "Intermediate",
+    "speakers": [116]
+  },
+  "117": {
+    "id": 117,
+    "title": "Product Design in the age of AI",
+    "description": "AI has evolved intensively in the last few months and new AI tools are popping up like candy, what does this means for Product and UX Design ? Here is a quick peak at the future.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "AI",
+    "language": "en",
+    "tags": ["AI"],
+    "complexity": "Intermediate",
+    "speakers": [117]
+  },
+  "118": {
+    "id": 118,
+    "title": "Architecture in Flutter: The do's and dont's",
+    "description": "En esta charla informativa y práctica, descubriremos cómo crear aplicaciones robustas, escalables y fáciles de mantener utilizando las estrategias adecuadas de arquitectura, mientras exploramos los \"do's and don'ts\" más importantes en el proceso. Durante esta sesión, abordaremos diversos aspectos clave que te ayudarán a construir aplicaciones Flutter de alta calidad. Comenzaremos con una visión general de las arquitecturas más comunes y sus ventajas, destacando cómo cada una puede adaptarse a diferentes tipos de proyectos.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Flutter",
+    "language": "es",
+    "tags": ["Flutter"],
+    "complexity": "Intermediate",
+    "speakers": [118]
+  },
+  "119": {
+    "id": 119,
+    "title": "Calidad desde adentro: asegurando la calidad como Developer",
+    "description": "1. ¿Por qué las implementaciones de TDD fallan?. 2. Lean Testing: Efectividad & Eficiencia. 3. Técnicas: Equivalence partitioning, Boundary value analysis, Decision tables, State transition diagrams, Negative Testing, Positive Testing. 4. La técnica más importante: Conversación",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Testing",
+    "language": "es",
+    "tags": ["Testing"],
+    "complexity": "Intermediate",
+    "speakers": [119]
+  },
+  "120": {
+    "id": 120,
+    "title": "Experiments at scale",
+    "description": "More than 700 experiments can be running at the same time in an next generation application, users could have different experiences through the use of the app. The talk will cover which are the main challenges what are the solutions that can be better or worse than the expected for users and developers.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Mobile",
+    "language": "es",
+    "tags": ["Mobile"],
+    "complexity": "Intermediate",
+    "speakers": [120]
+  },
+  "121": {
+    "id": 121,
+    "title": "The Ultimate Mobile Debugging Tool",
+    "description": "Como sabemos, existe una herramienta llamada Flipper, donde podemos integrarla con cualquier framework mobile, incluso React Native, Flutter, Native, etc. So, Vamos ha hablar de como se podemos integrarlos en nuestra workflows de trabajo y asi poder mejorar nuestra habilidades de debugging y podes realziarlo mas organizado. Cuenta con una alta gama de funcinalidades las cuales incluyen pluggins system, monitoring, profiles, etc.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Development",
+    "language": "es",
+    "tags": ["Development"],
+    "complexity": "Introductory",
+    "speakers": [121]
+  },
+  "122": {
+    "id": 122,
+    "title": "Navigate with App Actions in Compose",
+    "description": "En este workshop mostraremos una aplicación y el sistema de navegación de jetpack compose y cómo acceder a estas pantallas haciendo uso de App Actions.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Android",
+    "language": "es",
+    "tags": ["Android"],
+    "complexity": "Intermediate",
+    "speakers": [122]
+  },
+  "123": {
+    "id": 123,
+    "title": "¿Cómo facilitar el uso de IA a través del UX?",
+    "description": "En la vida cotidiana, ocurre que nuestras intenciones y palabras pueden ser malinterpretadas por otros, y esta dinámica también se traslada a la interacción con la Inteligencia Artificial (IA) cuando nos comunicamos con ella. A medida que la IA se integra cada vez más en nuestra vida, enfrentamos un desafío crucial: la brecha en la comunicación entre los usuarios y las IA. En la actualidad, la calidad y precisión de las respuestas que los usuarios reciben están intrínsecamente vinculadas a su capacidad para comunicarse de manera efectiva. Esto coloca una carga considerable sobre los usuarios y puede resultar en un esfuerzo cognitivo significativo para lograr una comunicación satisfactoria. Sin embargo, esta situación también representa una oportunidad valiosa desde la perspectiva de la Experiencia de Usuario (UX), para mejorar la forma en que los usuarios interactúan con las IA y reducir la carga cognitiva asociada.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "UX",
+    "language": "es",
+    "tags": ["UX"],
+    "complexity": "Introductory",
+    "speakers": [123, 124]
+  },
+  "124": {
+    "id": 124,
+    "title": "Building an Android app for IOS with KMP and Compose Multiplatform",
+    "description": "As a language, Kotlin has everything that Android developers asked for, It even went further and today allows us to build apps on Android and make them run on other operating systems and especially on IOS, thanks to Kotlin multiplatform and Compose Multiplatform, despite which is still in an alpha stage, this is something that promises a lot and more compared to other technologies that are on the market since one can create new apps or simply migrate and make an Android App run on IOS. In this talk, we will see how to create multiplatform apps with Kotlin multiplatform and Compose Multiplatform and even take our Android app to work on IOS.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Android",
+    "language": "es",
+    "tags": ["Android"],
+    "complexity": "Intermediate",
+    "speakers": [125]
+  },
+  "125": {
+    "id": 125,
+    "title": "Desmitificando ChatGPT en el Testing: Ventajas, Desafíos y Caminos a Seguir",
+    "description": "Esta sesión desmiente las falacias y destaca los beneficios del impacto de ChatGPT en las pruebas de software. Discutiremos cómo ChatGPT mejora la eficiencia de las pruebas y produce nuevos casos de prueba. Se abordarán problemas como la calidad de los resultados y el sesgo. Hablaremos sobre cómo lograr un equilibrio entre la IA y los evaluadores humanos, así como también sobre cómo integrar ChatGPT correctamente. Únase a nosotros mientras deconstruimos el papel de ChatGPT en las pruebas.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "AI",
+    "language": "es",
+    "tags": ["AI"],
+    "complexity": "Advanced",
+    "speakers": [126]
+  },
+  "126": {
+    "id": 126,
+    "title": "Minería de datos, Inteligencia Artificial y Machine Learning",
+    "description": "Con la ayuda de la inteligencia artificial, la nube y el Internet de las cosas, incluso la complejidad de big data puede ser manejada por aquellos que están dispuestos a usarla en beneficio de su organización. El análisis de Big Data ha ido más allá de la etiqueta de tendencia en TI y ahora se ha establecido como una parte vital de las empresas. Ilustraremos acerca de una serie de herramientas utilizadas en la actualidad con la minería de datos, la inteligencia artificial y el machine learning.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "AI",
+    "language": "es",
+    "tags": ["AI"],
+    "complexity": "Intermediate",
+    "speakers": [127]
+  },
+  "127": {
+    "id": 127,
+    "title": "El poder de un prototipo en los negocios",
+    "description": "En esta charla quiero compartir, como creando un prototipo conceptual o funcional, puedes validar tus ideas, mercado y levantar capital de inversión para tu proyecto o equipo. También, como conseguir socios estratégicos en base al prototipo creado y el problema que estás trando de resolver.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Community",
+    "language": "es",
+    "tags": ["Community"],
+    "complexity": "Intermediate",
+    "speakers": [128]
+  },
+  "128": {
+    "id": 128,
+    "title": "Accessibility first development y cómo beneficia a tu producto en desarrollo y economía",
+    "description": "Todos sabemos de mobile first development y desktop first development pero qué es esta nueva rama de desarrollar productos llamada accessibility first development? En esta charla veremos las mejores practicas al momento de desarrollar productos, cómo la accesibilidad te asegura que una mayor audiencia interactúe con tu producto e incluso un mejor ranking de SEO con ejemplos de código para ver las mejoras en acción, al poner a los usuarios que van a consumir tu producto como centro al momento de desarrollar no sólo se beneficia económicamente a la compañía pero también se le facilita la vida a los desarrolladores.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Development",
+    "language": "es",
+    "tags": ["Development"],
+    "complexity": "Intermediate",
+    "speakers": [129]
+  },
+  "129": {
+    "id": 129,
+    "title": "Inversiones Tech-Savvy: Cómo Potenciar tu Dinero como Tecnólogo",
+    "description": "TBD",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Community",
+    "language": "en",
+    "tags": ["Community"],
+    "complexity": "Intermediate",
+    "speakers": [130]
+  },
+  "130": {
+    "id": 130,
+    "title": "Destruyendo tu App con los ojos cerrados.",
+    "description": "La intensión en esta charla es poder explicar cómo funciona la inyección de SQL ciega, de una forma divertida y simple. La misma iniciará hablando de una historia de hacking, una actividad de pentesting realizada por el orador a una empresa de RD y cómo utilizó la inyección de SQL a ciegas para comprometer esa empresa. Luego, tratar de los detalles técnicos de cómo funciona la inyección de SQL a ciegas, mostrar algunos videos de demo y concluirá con recomendaciones para evitar este tipo de vulnerabilidad en sus aplicaciones.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Security",
+    "language": "en",
+    "tags": ["Security"],
+    "complexity": "Intermediate",
+    "speakers": [131]
+  },
+  "131": {
+    "id": 131,
+    "title": "Ética y Seguridad Usando Herramientas de IA Generativa",
+    "description": "Con la popularidad de las herramientas de inteligencia artificial generativa en franco aumento, su uso se vuelve más y más común en proyectos comerciales y de misión crítica. En esta sesión echaremos un vistazo a qué podemos hacer para garantizar la tranquilidad de clientes y stakeholders, evitando el filtrado de información sensitiva y de propiedad intelectual al usar herramientas como Github Copilot, ChatGPT, Midjourney y muchas otras.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 3"
+    },
+    "category": "AI",
+    "language": "es",
+    "tags": ["AI"],
+    "complexity": "Introductory",
+    "speakers": [132]
+  },
+  "132": {
+    "id": 132,
+    "title": "Forjando la Excelencia y Confianza Ágil: Navegando Test-Driven Development en Flutter",
+    "description": "En el ágil campo del desarrollo de software, la entrega de aplicaciones de alta calidad y versátiles es esencial. En este Workshop dedicado a Test Driven Development (TDD) en Flutter, exploramos su proceso, ventajas y los distintos tipos de pruebas que ofrece, como las pruebas unitarias, de widgets y de integración. Conocerás cómo estas herramientas proporcionan seguridad a los desarrolladores para realizar cambios urgentes, innovadores o soluciones a problemas en aplicaciones corriendo en vivo, sin afectar el código de producción; este factor se convierte en una invaluable herramienta para los stakeholders, propietarios de negocios y líderes de equipos, al otorgarles la capacidad de tomar decisiones ágiles con plena confianza en que sus equipos de desarrollo poseen la capacidad de reacción necesaria para lograr resultados precisos y en el momento preciso.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Flutter",
+    "language": "es",
+    "tags": ["Flutter"],
+    "complexity": "Intermediate",
+    "speakers": [133]
+  },
+  "133": {
+    "id": 133,
+    "title": "Healthy Productivity: Using technology to take care of your health and being a kick ass professional",
+    "description": "Last year I weighed 340 lbs, and today I weigh approximately 203 lbs, with a combination of exercise, diet and better sleep I managed to improve not only my health but also my productivity and well-being. This talk will discuss how taking care of your health can improve your productivity and what tools, techniques and strategies can be used to keep track of and improve your health.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Community",
+    "language": "es",
+    "tags": ["Community"],
+    "complexity": "Introductory",
+    "speakers": [134]
+  },
+  "134": {
+    "id": 134,
+    "title": "Arroyo Remote",
+    "description": "In current days the remote job get high importants in the IT business, we are talking about a new paradigm, but how we can succeed in the IT business trough a complete remote work schema? We will evaluate the origins, adventage and constrains of remote job, and we will share a success case, our own story. Arroyo Consulting Remote",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Community",
+    "language": "es",
+    "tags": ["Community"],
+    "complexity": "Advanced",
+    "speakers": [135]
+  },
+  "135": {
+    "id": 135,
+    "title": "20 Años de La Pulga Virtual",
+    "description": "Proyecto del popular portal de compras y ventas dominicano, desarrollado en php y con uso de herramientas nativas.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 2"
+    },
+    "category": "Community",
+    "language": "es",
+    "tags": ["Community"],
+    "complexity": "Intermediate",
+    "speakers": [136]
+  },
+  "136": {
+    "id": 136,
+    "title": "Podcast En Vivo: Mangú Tecnológico",
+    "description": "",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "Community",
+    "language": "es",
+    "tags": ["Community"],
+    "complexity": "Intermediate",
+    "speakers": []
+  },
+  "137": {
+    "id": 137,
+    "title": "Getting Started with DevSecOps",
+    "description": "Con el incremento de nuevos ataques de cyberseguridad dirigidos a entornos de desarrollo y la cadena de suministro de software, desplazar la seguridad hacia la izquierda se convierte en una necesidad. En esta charla aprenderás cómo las organizaciones de hoy en día ofrecen innovación de forma segura, fortaleciendo sus entornos de desarrollo al integrar la seguridad desde las primeras etapas del ciclo de desarrollo y promoviendo la colaboración entre los equipos de DevOps y SecOps. Descubre cómo la solución unificada de DevSecOps de Microsoft, que combina GitHub y Azure, permite a tu equipo entregar aplicaciones innovadoras de manera segura a la velocidad de DevOps.",
+    "presentation": "",
+    "videoId": "JaHsrC7UNeM",
+    "type": "📣 Conference",
+    "track": {
+      "title": "Track 1"
+    },
+    "category": "DevOps",
+    "language": "es",
+    "tags": ["DevOps"],
+    "complexity": "Intermediate",
+    "speakers": [137]
+  },
+  "150": {
+    "title": "Bienvenida",
+    "titleMobile": "Bienvenida",
+    "image": "/images/backgrounds/scenario.jpeg",
+    "type": "break"
+  },
+  "151": {
+    "title": "Receso",
+    "titleMobile": "Receso",
+    "image": "/images/backgrounds/scenario.jpeg",
+    "type": "break"
+  },
+  "152": {
+    "title": "Interacción con reclutadores",
+    "titleMobile": "Interacción con reclutadores",
+    "image": "/images/backgrounds/scenario.jpeg",
+    "type": "break"
+  },
+  "153": {
+    "title": "Cierre",
+    "titleMobile": "Cierre",
+    "image": "/images/backgrounds/scenario.jpeg",
+    "type": "break"
+  }
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Core Team",
+    "members": [
+      {
+        "name": "Eury Perez",
+        "aka": "Coordinador Gral.",
+        "photoUrl": "/images/team/EuryPerez.jpeg",
+        "socials": [
+          {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/euryperez/"
+          },
+          {
+            "icon": "twitter",
+            "name": "Twitter",
+            "link": "http://twitter.com/_euryperez/"
+          },
+          {
+            "icon": "website",
+            "name": "Website",
+            "link": "http://euryperez.dev/"
+          }
+        ],
+        "title": "Senior Android Dev @ Citizen",
+        "title2": "Google Developer Expert"
+      },
+      {
+        "name": "Alexander Vegazo",
+        "aka": "Sponsors & Partners",
+        "photoUrl": "/images/team/Alex_min.png",
+        "socials": [
+          {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/avegazorodriguez/"
+          }
+        ],
+        "title": "Senior QA Engineer",
+        "title2": "GDG Co-organizer"
+      },
+      {
+        "name": "Elaine Guzman",
+        "aka": "Finanzas",
+        "photoUrl": "/images/team/Elaine.png",
+        "socials": [
+          {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/elaineguzman/"
+          }
+        ],
+        "title": "UI/UX Designer"
+      },
+      {
+        "name": "Daviana Núñez",
+        "aka": "Sponsors & Partners",
+        "photoUrl": "/images/team/Daviana_min.png",
+        "socials": [
+          {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/daviana-núñez-384b86112/"
+          }
+        ],
+        "title": "Co-founder @Couple Media"
+      },
+      {
+        "name": "Madelaine Pérez",
+        "aka": "Coordinadora Speakers",
+        "photoUrl": "/images/team/Made_min.png",
+        "socials": [
+         
+        ],
+        "title": ""
+      },
+      {
+        "name": "Julio Alcántara",
+        "aka": "Core Team",
+        "photoUrl": "/images/team/JulioAlcantara.jpeg",
+        "socials": [
+          {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/julio-alcantara/"
+          }
+        ],
+        "title": "DevOps Engineer"
+      },
+      {
+        "name": "Miguel Vásquez",
+        "aka": "Core Team",
+        "photoUrl": "/images/team/Miguel_min.png",
+        "socials": [
+         
+        ],
+        "title": "",
+        "title2": ""
+      },
+      {
+        "name": "Carmelo Cueto",
+        "aka": "Core Team",
+        "photoUrl": "/images/team/Carmelo.jpeg",
+        "socials": [
+          {
+            "icon": "linkedin",
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/carmelo-cueto-507ab9127/"
+          }
+        ],
+        "title": "Senior Developer"
+      }
+    ]
+  }
+]

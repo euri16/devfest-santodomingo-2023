@@ -1,0 +1,21 @@
+## Quelques mots sur notre sponsor vpTech
+
+At vpTech, we love people who love IT.
+
+vpTech is one of the biggest tech communities in the retail industry in Europe.
+
+Since 2018, vente-privee, vente-exclusive, Privalia, Zlote and eBoutic decided to regroup their IT teams in order to create one of the biggest IT departments in European retail industry : <vpTech/>
+
+Because innovation and technology contributes to quality, our goal is to entertain your shopping day after day with several batches in innovation.
+
+Autonomy is key to work at vpTech and as a result, we use a wide variety of languages, systems, and tools (e.g., React, C#, Haskell, Python, Cassandra, Couchbase, MongoDB, and Kubernetes…)
+
+Composed by Lab 42 and Lab Epitech, our R&D department is full of talented students from these two well-known IT schools, to who we both offer internships in our company. Fresh blood, fresh ideas and the power to be disruptive!
+
+Based in Paris (Saint-Denis), Lyon, Nantes, Amsterdam, Warsaw, Barcelona, Brussels, Geneva, Tel Aviv, our working routine goes from Spain to the Netherlands, passed through France and Poland.
+
+Today, we are proud to say that we have more than 800 IT employees who are working on an array of projects, bringing real passion to their work, developing reliable and innovative solutions for web tools.
+
+If you think you are ready to compete with most of the best IT talent in Europe, you’re welcome.
+
+Join us.

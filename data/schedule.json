@@ -1,0 +1,151 @@
+[
+  {
+    "date": "2023-10-6",
+    "dateReadable": "Octubre 6",
+    "tracks": [
+      {
+        "title": "Track 1"
+      },
+      {
+        "title": "Track 2"
+      },
+      {
+        "title": "Track 3"
+      }
+    ],
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "sessions": [[150]]
+      },
+      {
+        "startTime": "10:00",
+        "endTime": "10:45",
+        "sessions": [[104]]
+      },
+      {
+        "startTime": "10:45",
+        "endTime": "11:00",
+        "sessions": [[151]]
+      },
+      {
+        "startTime": "11:00",
+        "endTime": "11:45",
+        "sessions": [[102], [110], [107]]
+      },
+      {
+        "startTime": "11:45",
+        "endTime": "12:30",
+        "sessions": [[134], [135], [123]]
+      },
+      {
+        "startTime": "12:30",
+        "endTime": "13:45",
+        "sessions": [[151]]
+      },
+      {
+        "startTime": "13:45",
+        "endTime": "14:30",
+        "sessions": [[128], [137], [131]]
+      },
+      {
+        "startTime": "14:30",
+        "endTime": "15:15",
+        "sessions": [[133], [121], [116]]
+      },
+      {
+        "startTime": "15:15",
+        "endTime": "15:30",
+        "sessions": [[152]]
+      },
+      {
+        "startTime": "15:30",
+        "endTime": "16:15",
+        "sessions": [[129]]
+      },
+      {
+        "startTime": "16:15",
+        "endTime": "17:00",
+        "sessions": [[127], [124], [111]]
+      },
+      {
+        "startTime": "17:00",
+        "endTime": "17:45",
+        "sessions": [[112], [132], [126]]
+      }
+    ]
+  },
+  {
+    "date": "2023-10-7",
+    "dateReadable": "Octubre 7",
+    "tracks": [
+      {
+        "title": "Track 1"
+      },
+      {
+        "title": "Track 2"
+      },
+      {
+        "title": "Track 3"
+      }
+    ],
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "sessions": [[150]]
+      },
+      {
+        "startTime": "10:00",
+        "endTime": "10:45",
+        "sessions": [[115], [101], [125]]
+      },
+      {
+        "startTime": "10:45",
+        "endTime": "11:00",
+        "sessions": [[151]]
+      },
+      {
+        "startTime": "11:00",
+        "endTime": "11:45",
+        "sessions": [[119], [122], [105]]
+      },
+      {
+        "startTime": "11:45",
+        "endTime": "12:30",
+        "sessions": [[106], [109], [117]]
+      },
+      {
+        "startTime": "12:30",
+        "endTime": "13:45",
+        "sessions": [[151]]
+      },
+      {
+        "startTime": "13:45",
+        "endTime": "14:30",
+        "sessions": [[120], [108], [113]]
+      },
+      {
+        "startTime": "14:30",
+        "endTime": "15:15",
+        "sessions": [[114], [118], [103]]
+      },
+      {
+        "startTime": "15:15",
+        "endTime": "15:30",
+        "sessions": [[152]]
+      },
+      {
+        "startTime": "15:30",
+        "endTime": "16:15",
+        "sessions": [[136]]
+      },
+      {
+        "startTime": "16:45",
+        "endTime": "17:00",
+        "sessions": [[153]]
+      }
+    ]
+  }
+]

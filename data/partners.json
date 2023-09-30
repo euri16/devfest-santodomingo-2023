@@ -1,0 +1,136 @@
+[
+  {
+    "title": "diamond-partner",
+    "logos": [
+      {
+        "name": "Arroyo Consulting",
+        "url": "https://arroyoconsulting.net",
+        "logoUrl": "../images/logos/ArroyoConsulting.png.webp",
+        "height": 150,
+        "width": 200
+      }
+    ]
+  },
+  {
+    "title": "platinum-partner",
+    "logos": [
+     
+      {
+        "name": "EvoPoint",
+        "url": "https://www.evopoint.do/",
+        "logoUrl": "../images/logos/evopoint.svg",
+        "height": 75
+      },
+     
+      {
+        "name": "Smart Testing",
+        "url": "https://www.smarttestingrd.com",
+        "logoUrl": "../images/logos/smart_testing.png",
+        "height": 100,
+        "width": 170
+      },
+      {
+        "name": "GovValue",
+        "url": "https://govvalue.com",
+        "logoUrl": "../images/logos/govvalue.png",
+        "height": 100,
+        "width": 170
+      },
+      {
+        "name": "Blue Coding",
+        "url": "https://www.bluecoding.com/",
+        "logoUrl": "../images/logos/blue_coding.jpeg",
+        "height": 100,
+        "width": 170
+      },
+      {
+        "name": "Kake",
+        "url": "https://kake.co/",
+        "logoUrl": "../images/logos/kake.jpg",
+        "height": 100,
+        "width": 170
+      }
+    ]
+  },
+  {
+    "title": "gold-partner",
+    "logos": [
+      {
+        "name": "Nearsure",
+        "url": "https://nearsure.com",
+        "logoUrl": "../images/logos/nearsure.png",
+        "height": 75
+      },
+      {
+        "name": "Oriontek",
+        "url": "https://www.oriontek.do/",
+        "logoUrl": "../images/logos/oriontek.jpg",
+        "height": 100,
+        "width": 200
+      },
+      {
+        "name": "Solvex",
+        "url": "https://solvex.com.do/",
+        "logoUrl": "../images/logos/solvex.png",
+        "width": 150
+      }
+    ]
+  },
+  {
+    "title": "silver-partner",
+    "logos": [
+      {
+        "name": "Cecomsa",
+        "url": "https://cecomsa.com",
+        "logoUrl": "../images/logos/cecomsa.svg",
+        "width": 200,
+        "height": 85
+
+      }
+     
+    ]
+  },
+  {
+    "title": "other-partner",
+    "logos": [
+      {
+        "name": "JetBrains",
+        "url": "https://www.jetbrains.com/",
+        "logoUrl": "../images/logos/jetbrains.svg",
+        "width": 130,
+        "height": 150
+      },
+      {
+        "name": "Axure",
+        "url": "https://www.axure.com/",
+        "logoUrl": "../images/logos/axure.svg",
+        "height": 85
+      },
+      {
+        "name": "UNPHU",
+        "url": "https://unphu.edu.do",
+        "logoUrl": "../images/logos/unphuLogo.png",
+        "width": 200,
+        "height": 85
+      },
+      {
+        "name": "Google",
+        "url": "https://www.google.com.ua/intl/en/about",
+        "logoUrl": "../images/logos/google.svg",
+        "height": 100
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/",
+        "logoUrl": "../images/logos/github.png",
+        "height": 100
+      },
+      {
+        "name": "Conexión Tecnológica",
+        "url": "https://www.conexiontecnologica.com.do/",
+        "logoUrl": "../images/logos/conexion_tecnologica.jpeg",
+        "height": 100
+      }
+    ]
+  }
+]
