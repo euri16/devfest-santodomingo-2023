@@ -23,7 +23,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Track 1"
+      "title": "Keynote"
     },
     "category": "Testing",
     "language": "es",
@@ -103,7 +103,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Track 3"
+      "title": "Track 1"
     },
     "category": "DevOps",
     "language": "es",
@@ -519,7 +519,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Track 2"
+      "title": "Track 1"
     },
     "category": "Community",
     "language": "es",
@@ -583,7 +583,7 @@
     "videoId": "JaHsrC7UNeM",
     "type": "📣 Conference",
     "track": {
-      "title": "Track 1"
+      "title": "Track 2"
     },
     "category": "DevOps",
     "language": "es",
