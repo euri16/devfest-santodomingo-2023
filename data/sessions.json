@@ -561,7 +561,7 @@
   },
   "136": {
     "id": 136,
-    "title": "Podcast En Vivo: Mangú Tecnológico",
+    "title": "Panel Sobre Comunidades de Software",
     "description": "",
     "presentation": "",
     "videoId": "JaHsrC7UNeM",
@@ -573,7 +573,7 @@
     "language": "es",
     "tags": ["Community"],
     "complexity": "Intermediate",
-    "speakers": []
+    "speakers": [112, 127, 139]
   },
   "137": {
     "id": 137,

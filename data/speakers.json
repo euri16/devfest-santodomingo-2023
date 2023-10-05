@@ -160,7 +160,7 @@
     "featured": true,
     "company": "",
     "companyLogo": "/images/logos/thoughtworks.png",
-    "country": "República Dominicana/Canadá",
+    "country": "República Dominicana / Canadá",
     "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/2023%2FSpeakers%2Fandres-pineda-min.png?alt=media&token=e73ecf4d-aa04-4a5c-92b4-77f1fda72b78",
     "shortBio": "Mobile Application Developer.",
     "bio": "Community-driven tech enthusiast with many years of experience with Software Development and a few years working specifically with Mobile solutions.",
@@ -515,6 +515,20 @@
     "shortBio": "Moneda, CEO, Ex - Apple Software Engineer",
     "bio": "Hector is the CEO at Moneda and a GenAI & Mobile Product Engineering consultant in LatAm. His expertise revolves around building highly accessible, favorable and scalable Mobile software solutions for the global consumer market. Born and raised in Los Minas, Dominican Republic. His interest lies in bridging the technology gap in emerging markets.",
     "tags": ["Mobile"],
+    "badges": [],
+    "socials": []
+  },
+  "139": {
+    "id": 139,
+    "name": "Eury Perez",
+    "featured": true,
+    "company": "",
+    "companyLogo": "/images/logos/thoughtworks.png",
+    "country": "República Dominicana / España",
+    "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-sd-22.appspot.com/o/2023%2FSpeakers%2FEuryP-2.png?alt=media&token=048500c7-1b92-4360-8101-600afc6d9610",
+    "shortBio": "Lead Android Developer, Google Developer Expert, GDG Santo Domingo Organizer and Entrepreneur",
+    "bio": "Lead Android Developer con más de 12 años de experiencia en el desarrollo de software. Google Developer Expert en Android y Organizador principal del DevFest Santo Domingo y el GDG Santo Domingo.",
+    "tags": ["Mobile", "Android"],
     "badges": [],
     "socials": []
   }
